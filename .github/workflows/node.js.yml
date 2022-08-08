@@ -34,8 +34,9 @@ jobs:
   
     - name: install & build
       run: 
-        cd vue
-        npm install
+        cd vue /
+        pwd /
+        npm install /
         npm run build
       
         
