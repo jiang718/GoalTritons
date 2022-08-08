@@ -61,13 +61,6 @@
 
 <script lang="ts">
 
-import {
-  Document,
-  Menu as IconMenu,
-  Location,
-  Setting,
-} from '@element-plus/icons'
-
 export default {
   name: "Aside",
   data() {
