@@ -34,7 +34,6 @@ jobs:
     - name: install & build
       run: |
         cd vue
-        pwd
         npm install
         npm run build
         
@@ -59,7 +58,6 @@ jobs:
 #     - name: install & dev
 #       run: |
 #         cd vue
-#         pwd
 #         npm install
 #         npm run dev
       
