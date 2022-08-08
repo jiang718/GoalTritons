@@ -32,9 +32,11 @@ jobs:
         echo Hello, world!
         echo Goodbye, world!
   
-    - name: install
+    - name: install & build
       run: 
+        cd vue
         npm install
+        npm run build
       
         
     
