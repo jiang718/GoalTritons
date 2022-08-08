@@ -26,11 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        
-    - name: Run a one-line script
-      run: 
-        echo Hello, world!
-        echo Goodbye, world!
   
     - name: install & build
       run: |
@@ -38,6 +33,13 @@ jobs:
         pwd
         npm install
         npm run build
+        
+    - name: install & dev
+      run: |
+        cd vue
+        pwd
+        npm install
+        npm run dev
       
         
     
