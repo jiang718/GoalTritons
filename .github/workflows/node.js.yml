@@ -33,10 +33,10 @@ jobs:
         echo Goodbye, world!
   
     - name: install & build
-      run: 
-        cd vue /
-        pwd /
-        npm install /
+      run: |
+        cd vue
+        pwd
+        npm install
         npm run build
       
         
