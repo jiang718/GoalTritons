@@ -1,7 +1,8 @@
 <template>
   <el-row class="tac">
     <el-col :span="12">
-      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Path to Approach Your Career</h5>
+      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Path to Approach</h5>
+      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Your Career</h5>
       <el-menu
           style="width: 230px; min-height: calc(100vh - 50px)"
           class="el-menu-vertical-demo"

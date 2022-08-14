@@ -1,4 +1,4 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div>
     <h1>Resume / CV & Cover Letter</h1>
     <p>In this section, Go Tritons will walk you through an important step of your job application process- Resume, CV,
@@ -24,7 +24,7 @@
 
         <div>
           <img src="../assets/resumeheader.png" width="493px" alt="header">
-          <p>------> Header: Contact Information</p>
+          <p> ------> Header: Contact Information</p>
         </div>
 
         <div>
@@ -221,4 +221,5 @@ export default {
   background: var(--el-color-primary-light-9);
   color: var(--el-color-primary);
 }
+
 </style>
