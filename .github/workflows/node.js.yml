@@ -5,11 +5,11 @@ name: Node.js CI
 
 on:
   push:
-    branches:    
+    branches:
       - '*'         # matches every branch that doesn't contain a '/'
       - '*/*'       # matches every branch containing a single '/'
       - '**'        # matches every branch
-      - '!master'   # excludes master
+      
   pull_request:
     branches: [ "master" ]
 
@@ -34,16 +34,29 @@ jobs:
     - name: install & build
       run: |
         cd vue
-        pwd
         npm install
         npm run build
         
-    - name: install & dev
-      run: |
-        cd vue
-        pwd
-        npm install
-        npm run dev
-      
-        
+#   run:
+
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 2
+
+#     strategy:
+#       matrix:
+#         node-version: [16.x]
+#         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+#     steps:
+#     - uses: actions/checkout@v3
+#     - name: Use Node.js ${{ matrix.node-version }}
+#       uses: actions/setup-node@v3
+#       with:
+#         node-version: ${{ matrix.node-version }}
+#         cache: 'npm'
     
+#     - name: install & dev
+#       run: |
+#         cd vue
+#         npm install
+#         npm run dev
