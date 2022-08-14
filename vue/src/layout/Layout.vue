@@ -6,7 +6,7 @@
       <!--    主体-->
       <div style="display: flex">
         <!--      侧边栏-->
-        <Aside style="width: 200px; margin-left: 20px; margin-right: 20px"/>
+        <Aside style="width: 200px; margin-left: 5px; margin-right: 20px"/>
         <!--      内容区域-->
         <router-view style="flex: 1"/>
       </div>
