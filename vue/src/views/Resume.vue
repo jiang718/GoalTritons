@@ -22,39 +22,47 @@
       <div>
         <h3>Resume Components</h3>
 
-        <div>
+        <div class="resumecomp">
           <img src="../assets/resumeheader.png" width="493px" alt="header">
-          <p> ------> Header: Contact Information</p>
+          <pre>  ------>  </pre>
+          <p><strong>Header: Contact Information</strong></p>
         </div>
 
-        <div>
+        <div class="resumecomp">
           <img src="../assets/resumesummary.png" width="493px" alt="header">
-          <p>------> Summary<br>
-            Summarize your greatest achievement/character traits to indicate why you are qualified for the position
+          <pre>  ------>  </pre>
+          <p><strong>Summary</strong><br>
+            Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
             you are applying. See examples at the bottom.</p>
         </div>
 
-        <div>
+        <div class="resumecomp">
           <img src="../assets/resumeeducation.png" width="493px" alt="header">
-          <p>------> Education<br>
+          <pre>  ------>  </pre>
+          <p><strong>Education</strong><br>
             Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
         </div>
 
-        <div>
+        <div class="resumecomp">
           <img src="../assets/resumeexperience.png" width="493px" alt="header">
-          <p>------> Experience<br>
-            This part should include any professional experience that can prove your qualifications for the position
-            you are applying. Start with the most relevent one. If you want to include projects, you can start another section by following the same template.</p>
+          <pre>  ------>  </pre>
+          <p><strong>Experience</strong><br>
+            This part should include any professional experience that can <strong>prove your qualifications</strong> for the position
+            you are applying. Start with the <strong>most relevent</strong> one. If you want to include projects, you can start another section by following the same template.</p>
         </div>
 
-        <div>
+        <div class="resumecomp">
           <img src="../assets/resumeskill.png" width="493px" alt="header">
-          <p>------> Skills & Activities <br>
-            Include any relevent soft/hard skills/languages/certification/awards that can add to your competences<br>
+          <pre>  ------>  </pre>
+          <p><strong>Skills & Activities</strong> <br>
+            Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
             See examples at the bottom</p>
         </div>
 
-        <a href="../assets/resumetemplate.docx"><button>Download Template</button></a>
+        <div id="buttondiv">
+          <a href="src/assets/resumetemplate.docx" ><button id="downloadTemplate">Download Template</button></a>
+        </div>
+
       </div>
 
 
@@ -210,16 +218,53 @@ export default {
 </script>
 
 <style scoped>
-.scrollbar-demo-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-  color: var(--el-color-primary);
-}
+  .scrollbar-demo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--el-color-primary-light-9);
+    color: var(--el-color-primary);
+  }
+  #downloadTemplate{
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #1E4460;
+    border: hidden;
+    color: white;
+  }
+  #downloadTemplate:hover{
+    background-color: #F4CE71;
+    color: darkblue;
+    border: hidden;
+  }
+  div{
+    text-align: center;
+  }
+
+  h1,h2,h3{
+    text-align: left;
+  }
+
+  #buttondiv{
+    text-align: right;
+  }
+
+  .resumecomp{
+    display: flex;
+    text-align: left;
+  }
+  .resumecomp > p{
+    padding-top: 1rem;
+  }
+
+  .resumecomp > pre{
+    padding-top: 1rem;
+  }
+
+
 
 </style>
