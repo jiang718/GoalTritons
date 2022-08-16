@@ -45,7 +45,7 @@
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
             Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
-            you are applying. See examples at the bottom.</p>
+            you are applying. See examples under “More Resources”.</p>
         </div>
 
         <div class="resumecomp">
@@ -68,7 +68,7 @@
           <pre>  ------>  </pre>
           <p><strong>Skills & Activities</strong> <br>
             Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
-            See examples at the bottom</p>
+            See examples under “More Resources”.</p>
         </div>
 
         <div class="buttondiv">
@@ -492,7 +492,7 @@
             <li>PROFESSIONAL MEMBERSHIPS OR AFFILIATIONS</li>
             <li>Certifications & Licensure</li>
             <li>SKILLS</li>
-            <li>See formatting examples at the bottom.</li>
+            <li>See formatting examples under “More Resources”.</li>
           </ul>
 
         <div class="buttondiv">
@@ -532,21 +532,24 @@
 
       <p class="ulTitle">Resume:</p>
       <ul>
-        <li>Free Online Resume Builder: Resume Builder</li>
-        <li>Resume Summary Examples: Professional Resume Summary Examples (25+ Statements)</li>
-        <li>Resume Skills Examples: Best Skills for Your Resume (Examples + How to List)</li>
+        <li>Free Online Resume Builder: <a href="//www.resume.com/" target="_blank">Resume Builder</a></li>
+
+        <li>Resume Summary Examples: <a href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">Professional Resume Summary Examples (25+ Statements)</a></li>
+        <li>Resume Skills Examples: <a href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank"> Best Skills for Your Resume (Examples + How to List)</a></li>
         <li>Career Center: Create a Resume</li>
       </ul>
       <p class="ulTitle">CV:</p>
+
       <ul>
-        <li>More examples for CV formatting: Curriculum Vitae (CV) Format: Samples & Formatting Tips</li>
+        <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">Curriculum Vitae (CV) Format: Samples & Formatting Tips</a></li>
         <li>Cover Letter:</li>
-        <li>Paraphrasing Tool: Paraphrasing Tool</li>
+        <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">Paraphrasing Tool</a></li>
       </ul>
       <p class="ulTitle">More Articles for tips:</p>
+
       <ul>
-        <li>Tips on quantifying your accomplishments</li>
-        <li>4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</li>
+        <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">Tips on quantifying your accomplishments</a></li>
+        <li><a href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</a></li>
       </ul>
     </div>
 
