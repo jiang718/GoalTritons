@@ -77,11 +77,8 @@
 
       </div>
 
-
-      <div>
         <h3>Resume Essentials:</h3>
         <img src="../assets/resumeessentials.png" width="949px">
-      </div>
 
       <div id="sampleresume">
         <div class="headerWithLink" id="resumeComponentHeader">
@@ -125,6 +122,7 @@
           </a>
         </div>
       </div>
+
 
       <div>
         <h3>Polish Your Resume</h3>
@@ -560,7 +558,15 @@
 </style>
 <script>
 export default {
-  name: "Resume"
+  name: "Resume",
+  methods: {
+    downloadTemplate() {
+      let a = document.createElement('a')
+      a.href = "../assets/resumetemplate.docx"
+      a.click();
+    }
+  }
+
 }
 </script>
 
