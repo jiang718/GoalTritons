@@ -6,19 +6,19 @@
       specific components for all of them. Let’s start!</p>
 
 
-    <hr>
+
 
 
     <div>
       <h2>Resume vs. CV</h2>
-      <hr>
+
       <img src="../assets/resumeVScv.png" width="859px" alt="resume VS. CV">
 
     </div>
-    <hr>
+
     <div>
       <h2>Resume Breakdown</h2>
-      <hr>
+
       <div>
         <h3>Resume Components</h3>
 
@@ -71,9 +71,20 @@
         <img src="../assets/resumeessentials.png" width="949px">
       </div>
 
-      <div>
+      <div id="sampleresume">
         <h3>Sample Resumes</h3>
-        <img src="../assets/sampleresumes.png" width="950px">
+        <a href="//google.com" target="_blank">
+        <img src="../assets/econresume.png" width="255px">
+        </a>
+        <a href="//google.com" target="_blank">
+          <img src="../assets/informationalresume.png" width="310px">
+        </a>
+        <a href="//google.com" target="_blank">
+          <img src="../assets/engineeringresume.png" width="255px">
+        </a>
+        <a href="//google.com" target="_blank">
+          <img src="../assets/artresume.png" width="255px">
+        </a>
       </div>
 
       <div>
@@ -107,10 +118,10 @@
       </div>
 
     </div>
-    <hr>
+
     <div>
       <h2>CV Breakdown</h2>
-      <hr>
+
       <div>
         <h3>CV Components</h3>
         <div>
@@ -172,20 +183,20 @@
       </div>
     </div>
 
-    <hr>
+
     <div>
       <h2>Cover Letter Breakdown</h2>
-      <hr>
+
       <div>
         <h3>Cover Letter Components</h3>
         <img src="../assets/coverletter.png" width="890px">
       </div>
     </div>
 
-    <hr>
+
     <div>
       <h2>More Resources</h2>
-      <hr>
+
       <p>Resume:</p>
       <ul>
         <li>Free Online Resume Builder: Resume Builder</li>
@@ -263,6 +274,25 @@ export default {
 
   .resumecomp > pre{
     padding-top: 1rem;
+  }
+
+  h3{
+    margin-bottom: 50px;
+  }
+  h1{
+    margin-bottom: 100px;
+    color: #1E4460;
+  }
+
+  h2{
+    margin-bottom: 82px;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  #sampleresume a{
+    margin-right: 50px;
   }
 
 

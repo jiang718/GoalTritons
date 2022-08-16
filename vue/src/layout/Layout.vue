@@ -6,7 +6,7 @@
       <!--    主体-->
       <div style="display: flex">
         <!--      侧边栏-->
-        <Aside style="width: 15%; margin-left: 0.5%; margin-right: 2%; margin-top: 2%"/>
+        <Aside style="width: 15%; margin-left: 0.5%; margin-right: 2%; margin-top: 2%; position: sticky; left: 0"/>
         <!--      内容区域-->
         <router-view style="flex: 1; margin-left: 3%; max-width: 75%; margin-top: 2%"/>
       </div>
@@ -33,5 +33,6 @@ export default {
 </script>
 
 <style scoped>
+
 
 </style>
