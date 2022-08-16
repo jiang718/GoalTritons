@@ -408,7 +408,7 @@
           </div>
 
         </div>
-        <div>
+        <div class="resumecomp">
           <img src="../assets/cvappendix.png">
         </div>
 
