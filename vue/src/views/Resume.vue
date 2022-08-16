@@ -44,7 +44,9 @@
           <img src="../assets/resumeexperience.png" width="493px" alt="header">
           <p>------> Experience<br>
             This part should include any professional experience that can prove your qualifications for the position
-            you are applying. Start with the most relevent one. If you want to include projects, you can start another section by following the same template.</p>
+            you are applying. Start with the most relevent one. If you want to include projects, you can start another
+            section
+            by following the same template.</p>
         </div>
 
         <div>
@@ -54,19 +56,17 @@
             See examples at the bottom</p>
         </div>
 
-        <a href="../assets/resumetemplate.docx"><button>Download Template</button></a>
-      </div>
+        <a href="src/assets/resumetemplate.docx">
+          <button>Download Template</button>
+        </a>
 
-
-      <div>
         <h3>Resume Essentials:</h3>
         <img src="../assets/resumeessentials.png" width="949px">
-      </div>
 
-      <div>
         <h3>Sample Resumes</h3>
         <img src="../assets/sampleresumes.png" width="950px">
       </div>
+
 
       <div>
         <h3>Polish Your Resume</h3>
@@ -205,7 +205,15 @@
 </style>
 <script>
 export default {
-  name: "Resume"
+  name: "Resume",
+  methods: {
+    downloadTemplate() {
+      let a = document.createElement('a')
+      a.href = "../assets/resumetemplate.docx"
+      a.click();
+    }
+  }
+
 }
 </script>
 
