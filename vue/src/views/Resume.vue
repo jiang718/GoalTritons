@@ -82,7 +82,7 @@
 
       <div id="sampleresume">
         <div class="headerWithLink" id="resumeComponentHeader">
-          <h3>Resume Components</h3>
+          <h3>Sample Resume</h3>
           <div style="text-align: right">
             <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none">
               <p style="display: inline">Click to See Samples for More Fields</p>

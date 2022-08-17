@@ -1,27 +1,43 @@
 <template>
   <el-row class="tac">
     <el-col :span="12">
-      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Path to Approach</h5>
-      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Your Career</h5>
+      <h5 class="menu">Path to Approach</h5>
+      <h5 class="menu">Your Career</h5>
       <el-menu
-          style="width: 230px; min-height: calc(100vh - 50px)"
+          style="width: 100%; min-height: calc(100vh - 50px)"
           class="el-menu-vertical-demo"
           default-active="0"
           @open="handleOpen"
           @close="handleClose"
       >
-        <el-menu-item index="1">
-<!--          <el-icon><icon-menu /></el-icon>-->
-          <span>Being F-1 Student</span>
-        </el-menu-item>
-        <el-menu-item index="2">
-<!--          <el-icon><icon-menu /></el-icon>-->
-          <span>Learn about Career</span>
-        </el-menu-item>
+        <el-sub-menu index="1">
+          <template #title>
+            <!--            <el-icon><location /></el-icon>-->
+            <span class="mod">Being F-1 Student</span>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="1-1" class="sub1">F-1 Visa Limitation</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group>
+            <el-menu-item index="1-2" class="sub1">After Graduation</el-menu-item>
+          </el-menu-item-group>
+        </el-sub-menu>
+        <el-sub-menu index="2">
+          <template #title>
+            <!--            <el-icon><location /></el-icon>-->
+            <span class="mod">Learn about Careers</span>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="2-1" class="sub1">New to Career Planning</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group>
+            <el-menu-item index="2-2" class="sub1">Learn about Your Career</el-menu-item>
+          </el-menu-item-group>
+        </el-sub-menu>
         <el-sub-menu index="3">
           <template #title>
 <!--            <el-icon><location /></el-icon>-->
-            <span>Networking</span>
+            <span class="mod">Networking</span>
           </template>
           <el-menu-item-group>
             <el-menu-item index="3-1" class="sub1">Why Networking</el-menu-item>
@@ -38,12 +54,12 @@
         </el-sub-menu>
         <el-menu-item index="4">
 <!--          <el-icon><setting /></el-icon>-->
-          <span>Internship & Jobs</span>
+          <span class="mod">Internship & Jobs</span>
         </el-menu-item>
         <el-sub-menu index="5">
           <template #title>
             <!--            <el-icon><location /></el-icon>-->
-            <span @click="$router.push('/resume')">Resume/CV & Cover Letter</span>
+            <span class="mod" @click="$router.push('/resume')">Resume/CV & Cover Letter</span>
           </template>
           <el-menu-item-group>
             <el-menu-item index="5-1" class="sub1">Resume vs. CV</el-menu-item>
@@ -67,11 +83,11 @@
         </el-sub-menu>
         <el-menu-item index="6">
 <!--          <el-icon><setting /></el-icon>-->
-          <span>Internship Prep</span>
+          <span class="mod">Internship Prep</span>
         </el-menu-item>
         <el-menu-item index="7">
 <!--          <el-icon><setting /></el-icon>-->
-          <span>Applying for CPT/OPT</span>
+          <span class="mod">Applying for CPT/OPT</span>
         </el-menu-item>
       </el-menu>
     </el-col>
@@ -96,11 +112,17 @@ const handleClose = (key: string, keyPath: string[]) => {
 </script>
 
 <style scoped>
-.sub1{
+.mod {
   font-size: 15px;
+  color: #1E4460;
+}
+.sub1{
+  font-size: 13px;
+  color: #1E4460;
 }
 .sub2{
   font-size: 12px;
+  color: #1E4460;
 }
 .el-menu-item{
   text-align: left;
@@ -108,8 +130,15 @@ const handleClose = (key: string, keyPath: string[]) => {
 .el-sub-menu__title{
   text-size: 12px;
 }
-.el-col-12 {
+.el-col {
   max-width: 100%;
   flex: 0 0 50%;
+}
+.menu {
+  font-size: 20px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+  color: #1E4460;
 }
 </style>

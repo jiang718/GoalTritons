@@ -39,10 +39,11 @@ export default {
 
 .wrapper__aside {
   position: fixed;
-  width: 15%;
+  width: 34%;
   margin-left: 0.5%;
   margin-right: 2%;
-  margin-top: 5%
+  margin-top: 5%;
+  overflow-y: hidden;
 }
 
 .wrapper__body {
