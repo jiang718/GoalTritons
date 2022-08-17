@@ -718,6 +718,7 @@ export default {
     display: flex;
     text-align: center;
     margin: auto;
+    width: 68vw;
   }
 
   #polishVerbs dl{
