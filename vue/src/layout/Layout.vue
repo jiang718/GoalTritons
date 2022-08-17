@@ -47,7 +47,7 @@ export default {
 
 .wrapper__body {
   flex: 1;
-  margin-left: 25%;
+  margin-left: 20%;
   max-width: 75%;
   margin-top: 5%
 }
