@@ -4,7 +4,7 @@
       <h5 class="menu">Path to Approach</h5>
       <h5 class="menu">Your Career</h5>
       <el-menu
-          style="width: 100%; min-height: calc(100vh - 50px)"
+          style="width: 100%; min-height: calc(100vh - 50px); max-width: 240px"
           class="el-menu-vertical-demo"
           default-active="0"
           @open="handleOpen"

@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div>
     <h1>Resume / CV & Cover Letter</h1>
-    <p id="opening">In this section, Go Tritons will walk you through an important step of your job application process- Resume, CV,
+    <p id="opening">In this section, Go Tritons will walk you through an important step of your job application process—Resume, CV,
       and Cover Letter building. For resume and the CV, we will explain the differences. And then we will break down the
       specific components for all of them. Let’s start!</p>
 
@@ -12,7 +12,7 @@
     <div>
       <h2>Resume vs. CV</h2>
 
-      <img src="../assets/resumeVScv.png" width="859px" alt="resume VS. CV">
+      <img src="../assets/resumeVScv.svg" width="80%" alt="resume VS. CV">
 
     </div>
 
@@ -24,7 +24,7 @@
         <div class="headerWithLink">
           <h3>Resume Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none">
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p style="display: inline">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
@@ -35,13 +35,13 @@
 
 
         <div class="resumecomp">
-          <img src="../assets/resumeheader.png" width="493px" alt="header">
+          <img src="../assets/resumeHeader.svg" width="493px" alt="header">
           <pre>  ------>  </pre>
           <p><strong>Header: Contact Information</strong></p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumesummary.png" width="493px" alt="summary">
+          <img src="../assets/resumeSummary.svg" width="493px" height="53px" alt="summary">
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
             Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
@@ -49,14 +49,14 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeeducation.png" width="493px" alt="education">
+          <img src="../assets/resumeEducation.svg" width="493px" height="110px" alt="education">
           <pre>  ------>  </pre>
           <p><strong>Education</strong><br>
             Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeexperience.png" width="493px" alt="experience">
+          <img src="../assets/resumerExperience.svg" width="493px" height="240px" alt="experience">
           <pre>  ------>  </pre>
           <p><strong>Experience</strong><br>
             This part should include any professional experience that can <strong>prove your qualifications</strong> for the position
@@ -64,7 +64,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeskill.png" width="493px" alt="skill">
+          <img src="../assets/resumeSkill.svg" width="493px" height="66px" alt="skill">
           <pre>  ------>  </pre>
           <p><strong>Skills & Activities</strong> <br>
             Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
@@ -78,13 +78,13 @@
       </div>
 
         <h3>Resume Essentials:</h3>
-        <img src="../assets/resumeessentials.png" width="949px">
+        <img src="../assets/resumeEssentials.svg" width="86%">
 
       <div id="sampleresume">
         <div class="headerWithLink" id="resumeComponentHeader">
           <h3>Sample Resume</h3>
           <div style="text-align: right">
-            <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none">
+            <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
               <p style="display: inline">Click to See Samples for More Fields</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
@@ -95,30 +95,30 @@
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Econ/Business</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/business-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="367px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="367px">
+            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
 
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Informational Technology</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/information-technology-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="367px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="367px">
+            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Engineering</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/engineering-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="367px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="367px">
+            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Art/Design</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/arts-resumes" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="367px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="367px">
+            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
       </div>
@@ -349,7 +349,7 @@
             <dd>Represented</dd>
           </dl>
 
-          <dl>
+          <dl style="width: 105px">
             <dt>Demonstrating<br>
               Accomplishment</dt>
             <dd>Achieved</dd>
@@ -367,7 +367,7 @@
         <br>
 
         <p class="inlinePara" style="text-align: left">Accomplishment/Impact Statements</p>
-        <img src="../assets/impactStatement.png" width="965px">
+        <img src="../assets/impactStatement.svg" width="86%">
 
 
         <p class="ulTitle" style="margin-top: 50px">Example:</p>
@@ -398,7 +398,7 @@
         <div class="headerWithLink">
           <h3>CV Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none">
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p style="display: inline">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
@@ -406,75 +406,73 @@
           </div>
 
         </div>
-        <div class="resumecomp">
-          <img src="../assets/cvappendix.png">
-        </div>
+        <h3 class="resumecomp">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
-          <img src="../assets/cvheader.png">
+          <img src="../assets/cvHeader.svg">
           <pre>  ------>  </pre>
           <p><strong>Header</strong><br>
             Besides your contact information, you can include your website or profile if you have one.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cveducation.png">
+        <div class="resumecomp" >
+          <img src="../assets/cvEducation.svg">
           <pre>  ------>  </pre>
           <p><strong>Education</strong><br>
             Besides any general information, you can include the title and the names of your thesis advisers if you are writing a department thesis. </p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvresearchinterst.png">
+        <div class="resumecomp" style="margin-bottom: 10px">
+          <img src="../assets/cvResearchInterest.svg">
           <pre>  ------>  </pre>
           <p><strong>Research Interest</strong><br>
             Briefly elaborate on your research interest/goal.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvresearchappointment.png">
+        <div class="resumecomp" style="margin-bottom: 10px">
+          <img src="../assets/cvResearchAppointment.svg">
           <pre>  ------>  </pre>
           <p><strong>Research Appointments</strong><br>
             Include the position you held, the name of the lab/department/institution/director, the location, and the time.</p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvscholarship.png">
+          <img src="../assets/cvScholarships.svg">
           <pre>  ------>  </pre>
           <p><strong>Grants/Awards/Academic Honors/Scholarships</strong><br>
             Include the award name, award-granting institution, and year of the award.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvarticle.png">
+        <div class="resumecomp" >
+          <img src="../assets/cvArticle.svg">
           <pre>  ------>  </pre>
           <p><strong>Popular Articles or Publications</strong><br>
             Include scholarly publications such as journal articles & book chapters. Include publication status—e.g., in preparation, under review, forthcoming.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvresearchskill.png">
+        <div class="resumecomp" style="margin-bottom: 10px">
+          <img src="../assets/cvResearchSkill.svg">
           <pre>  ------>  </pre>
           <p><strong>Research Skills/Experience</strong><br>
             Briefly describe your role, the primary methods used, and key findings.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvservice.png">
+        <div class="resumecomp" style="margin-bottom: 10px">
+          <img src="../assets/cvService.svg">
           <pre>  ------>  </pre>
           <p><strong>Leadership/Activities/Service/Volunteer</strong><br>
             Briefly describe your role and accomplishments. Include the organization, your position title, the location, and the timeline.</p>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/cvinportantcourse.png">
+        <div class="resumecomp" style="margin-bottom: 10px">
+          <img src="../assets/cvImprotantCourse.svg">
           <pre>  ------>  </pre>
           <p><strong>Courses Taken</strong><br>
             Include relevent courseworks and you GPA.</p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvreference.png">
+          <img src="../assets/cvReferences.svg">
           <pre>  ------>  </pre>
           <p><strong>Reference</strong><br>
             Include relevent references, their name, title, institution, and contact information.</p>
@@ -507,7 +505,7 @@
         <div class="headerWithLink">
           <h3>Cover Letter Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none">
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p style="display: inline">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
@@ -515,7 +513,7 @@
           </div>
 
         </div>
-        <img src="../assets/coverletter.png" width="890px">
+        <img src="../assets/coverLetter.svg" width="890px">
 
         <div class="buttondiv">
           <a href="src/assets/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
@@ -595,6 +593,10 @@ export default {
     color: darkblue;
     border: hidden;
   }
+
+  a{
+    color: #1E4460;
+  }
   div{
     text-align: center;
   }
@@ -650,8 +652,8 @@ export default {
 
   #opening{
     text-align: left;
-    margin-right: 20vw;
-    margin-left: 20vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
   }
   .inlinePara{
     margin-bottom: 20px;
@@ -661,7 +663,7 @@ export default {
     text-align: left;
     margin-left: 18vw;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: ;
   }
 
   .headerWithLink{
@@ -724,17 +726,19 @@ export default {
   #polishVerbs dl{
     border: 1px solid #e0ac79;
     margin-right: 10px;
-    width: 120px;
+    width: 100px;
     text-align: left;
   }
   #polishVerbs dt{
     text-align: center;
+    font-size: 13px;
     border-bottom: 1px solid black;
     background-color: #F4CE71;
   }
 
   #polishVerbs dd{
     padding-left: 2px;
+    font-size: 12px;
   }
 
 </style>
