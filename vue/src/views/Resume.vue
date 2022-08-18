@@ -41,7 +41,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeSummary.svg" width="493px" height="53px" alt="summary">
+          <img src="../assets/resumeSummary.svg" width="493px" alt="summary">
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
             Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
@@ -126,7 +126,7 @@
 
       <div>
         <h3>Polish Your Resume</h3>
-        <p class="inlinePara">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
+        <p class="inlinePara" style="text-align: left; padding-left: 3.5vw;">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
         <div id="polishVerbs">
           <dl>
             <dt>Management<br>

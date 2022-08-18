@@ -39,11 +39,12 @@ export default {
 
 .wrapper__aside {
   position: fixed;
-  width: 34%;
+  width: 250px;
   margin-left: 0.5%;
   margin-right: 2%;
   margin-top: 5%;
-  overflow-y: hidden;
+  overflow-y: auto;
+  height: 760px;
 }
 
 .wrapper__body {
