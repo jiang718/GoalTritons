@@ -27,7 +27,7 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px>
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
           </div>
 
@@ -87,7 +87,7 @@
             <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px>
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
           </div>
 
@@ -401,7 +401,7 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px>
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
           </div>
 
@@ -509,7 +509,7 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px>
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
           </div>
 
@@ -609,6 +609,7 @@ export default {
   .link:hover {
     text-decoration: underline;
   }
+
 
   .moreRes {
     color: #116FFC;
