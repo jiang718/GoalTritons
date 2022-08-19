@@ -35,22 +35,25 @@ export default {
 <style scoped>
 .wrapper {
   position: relative;
+  background-color: #F9F9F9;
 }
 
 .wrapper__aside {
   position: fixed;
-  width: 250px;
+  width: 240px;
   margin-left: 0.5%;
-  margin-right: 2%;
-  margin-top: 5%;
+  margin-right: 0%;
+  padding-top: 5%;
   overflow-y: auto;
-  height: 760px;
+  height: 800px;
+  background-color: white;
 }
 
 .wrapper__body {
   flex: 1;
-  margin-left: 20%;
+  /*margin-left: 21.5%;*/
+  margin-left: 300px;
   max-width: 75%;
-  margin-top: 5%
+  margin-top: 5%;
 }
 </style>

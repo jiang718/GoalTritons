@@ -25,7 +25,7 @@
           <h3>Resume Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p style="display: inline">Click to Schedule an Edit Appointment</p>
+              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
             </a>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeEducation.svg" width="493px" height="110px" alt="education">
+          <img src="../assets/resumeEducation.svg" width="493px" alt="education">
           <pre>  ------>  </pre>
           <p><strong>Education</strong><br>
             Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
@@ -77,7 +77,7 @@
 
       </div>
 
-        <h3>Resume Essentials:</h3>
+        <h3>Resume Essentials</h3>
         <img src="../assets/resumeEssentials.svg" width="86%">
 
       <div id="sampleresume">
@@ -85,7 +85,7 @@
           <h3>Sample Resume</h3>
           <div style="text-align: right">
             <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p style="display: inline">Click to See Samples for More Fields</p>
+              <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
             </a>
@@ -95,7 +95,7 @@
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Econ/Business</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/business-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
@@ -103,21 +103,21 @@
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Informational Technology</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/information-technology-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Engineering</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/engineering-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Art/Design</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/arts-resumes" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" alt="resume template" height="255px">
+            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
@@ -375,7 +375,7 @@
           <li>Led (verb) a team of 10 volunteers in planning, preparing, and promoting a charity table quiz (description
             of the work) which raised 15% (quantified impact) of the total revenue.</li>
         </ul>
-
+        <br>
         <p class="ulTitle">Sample Sentence Structures:</p>
         <ul>
           <li>Launched xx in xxx, resulting in xx</li>
@@ -399,7 +399,7 @@
           <h3>CV Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p style="display: inline">Click to Schedule an Edit Appointment</p>
+              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
             </a>
@@ -479,6 +479,7 @@
         </div>
 
           <p class="ulTitle" style="margin-top: 50px">Optional Sections to Include (if you have one)</p>
+          <br>
           <ul>
             <li>Presentations: include the author(s) and the title of presentation, the conference/symposium name,
               the location and the date. </li>
@@ -506,7 +507,7 @@
           <h3>Cover Letter Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p style="display: inline">Click to Schedule an Edit Appointment</p>
+              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px>
             </a>
@@ -528,24 +529,24 @@
 
       <p class="ulTitle">Resume:</p>
       <ul>
-        <li>Free Online Resume Builder: <a href="//www.resume.com/" target="_blank">Resume Builder</a></li>
+        <li>Free Online Resume Builder: <a class="moreRes" href="//www.resume.com/" target="_blank">Resume Builder</a></li>
 
-        <li>Resume Summary Examples: <a href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">Professional Resume Summary Examples (25+ Statements)</a></li>
-        <li>Resume Skills Examples: <a href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank"> Best Skills for Your Resume (Examples + How to List)</a></li>
+        <li>Resume Summary Examples: <a class="moreRes" href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">Professional Resume Summary Examples (25+ Statements)</a></li>
+        <li>Resume Skills Examples: <a class="moreRes" href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank"> Best Skills for Your Resume (Examples + How to List)</a></li>
         <li>Career Center: Create a Resume</li>
       </ul>
       <p class="ulTitle">CV:</p>
 
       <ul>
-        <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">Curriculum Vitae (CV) Format: Samples & Formatting Tips</a></li>
+        <li>More examples for CV formatting: <a class="moreRes" href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">Curriculum Vitae (CV) Format: Samples & Formatting Tips</a></li>
         <li>Cover Letter:</li>
-        <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">Paraphrasing Tool</a></li>
+        <li>Paraphrasing Tool: <a class="moreRes" href="//quillbot.com/" target="_blank">Paraphrasing Tool</a></li>
       </ul>
       <p class="ulTitle">More Articles for tips:</p>
 
       <ul>
-        <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">Tips on quantifying your accomplishments</a></li>
-        <li><a href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</a></li>
+        <li><a class="moreRes" href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">Tips on quantifying your accomplishments</a></li>
+        <li><a class="moreRes" href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</a></li>
       </ul>
     </div>
 
@@ -581,12 +582,19 @@ export default {
     color: var(--el-color-primary);
   }
   .downloadTemplate{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: 220px;
+    height: 40px;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: #1E4460;
     border: hidden;
-    margin-top: 50px;
+    margin-top: 5%;
     color: white;
+    box-shadow: 0 4px 4px rgb(30 68 96 / 0.25);
   }
   .downloadTemplate:hover{
     background-color: #F4CE71;
@@ -597,11 +605,19 @@ export default {
   a{
     color: #1E4460;
   }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+
+  .moreRes {
+    color: #116FFC;
+  }
   div{
     text-align: center;
   }
 
-  h1,h2,h3{
+  h1, h2, h3{
     text-align: left;
   }
 
@@ -624,13 +640,25 @@ export default {
 
   h3{
     margin-bottom: 50px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
   }
   h1{
     margin-bottom: 100px;
     color: #1E4460;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Work Sans";
   }
 
   h2{
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #182B49;
     margin-bottom: 82px;
     margin-top: 95px;
     border-top: 1px solid black;
@@ -646,11 +674,20 @@ export default {
 
   ul{
     text-align: left;
-    margin-right: 20vw;
-    margin-left: 20vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
   }
 
   #opening{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
     text-align: left;
     margin-right: 13vw;
     margin-left: 13vw;
@@ -660,10 +697,13 @@ export default {
     margin-top: 50px;
   }
   .ulTitle{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
     text-align: left;
-    margin-left: 18vw;
+    margin-left: 13vw;
     margin-bottom: 0;
-    margin-top: ;
   }
 
   .headerWithLink{
@@ -689,6 +729,10 @@ export default {
     display: inline;
   }
 
+  .img-bot {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
+  }
+
   #sampleresume{
     display: grid;
     grid-auto-rows: auto auto;
@@ -706,7 +750,10 @@ export default {
   }
 
   .sampleResumeTitle{
-
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 550;
+    font-style: normal;
     border-radius: 1rem;
     border: 1px solid black;
     width: auto;
