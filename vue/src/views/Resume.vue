@@ -35,13 +35,13 @@
 
 
         <div class="resumecomp">
-          <img src="../assets/resumeHeader.svg" width="493px" alt="header">
+          <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
           <pre>  ------>  </pre>
           <p><strong>Header: Contact Information</strong></p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeSummary.svg" width="493px" alt="summary">
+          <img src="../assets/resumeCompSummary.png" width="493px" height="auto" alt="summary">
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
             Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
@@ -49,14 +49,14 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeEducation.svg" width="493px" alt="education">
+          <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
           <pre>  ------>  </pre>
           <p><strong>Education</strong><br>
             Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumerExperience.svg" width="493px" height="240px" alt="experience">
+          <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
           <pre>  ------>  </pre>
           <p><strong>Experience</strong><br>
             This part should include any professional experience that can <strong>prove your qualifications</strong> for the position
@@ -64,7 +64,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeSkill.svg" width="493px" height="66px" alt="skill">
+          <img src="../assets/resumeCompSkill.png" width="493px" height="66px" alt="skill">
           <pre>  ------>  </pre>
           <p><strong>Skills & Activities</strong> <br>
             Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
@@ -582,7 +582,6 @@ export default {
     color: var(--el-color-primary);
   }
   .downloadTemplate{
-    font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -592,7 +591,7 @@ export default {
     padding: 0.5rem 1rem;
     background-color: #1E4460;
     border: hidden;
-    margin-top: 5%;
+    margin-top: 50px;
     color: white;
     box-shadow: 0 4px 4px rgb(30 68 96 / 0.25);
   }
@@ -618,7 +617,7 @@ export default {
     text-align: center;
   }
 
-  h1, h2, h3{
+  h1,h2,h3{
     text-align: left;
   }
 
@@ -641,7 +640,6 @@ export default {
 
   h3{
     margin-bottom: 50px;
-    font-family: Inter;
     font-weight: 700;
     font-size: 16px;
     font-style: normal;
@@ -677,14 +675,12 @@ export default {
     text-align: left;
     margin-right: 15vw;
     margin-left: 15vw;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
   }
 
   #opening{
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -698,7 +694,6 @@ export default {
     margin-top: 50px;
   }
   .ulTitle{
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -751,7 +746,6 @@ export default {
   }
 
   .sampleResumeTitle{
-    font-family: Inter;
     font-size: 16px;
     font-weight: 550;
     font-style: normal;
