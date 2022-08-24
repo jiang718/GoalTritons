@@ -65,7 +65,7 @@
             <el-menu-item index="5-1" class="sub1">Resume vs. CV</el-menu-item>
           </el-menu-item-group>
           <el-sub-menu index="5-2">
-            <template #title>Resume Breakdown</template>
+            <template #title><span class="sub1">Resume Breakdown</span></template>
             <el-menu-item index="5-2-1" class="sub2">Resume Components</el-menu-item>
             <el-menu-item index="5-2-2" class="sub2">Resume Essentials</el-menu-item>
             <el-menu-item index="5-2-3" class="sub2">Sample Resumes</el-menu-item>
@@ -81,10 +81,27 @@
               <el-menu-item index="5-5" class="sub1">More Resources</el-menu-item>
           </el-menu-item-group>
         </el-sub-menu>
-        <el-menu-item index="6">
-<!--          <el-icon><setting /></el-icon>-->
-          <span class="mod">Internship Prep</span>
-        </el-menu-item>
+        <el-sub-menu index="6">
+          <template #title>
+            <!--            <el-icon><location /></el-icon>-->
+            <span class="mod" @click="$router.push('/interview')">Interview Prep</span>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="6-1" class="sub1">Why Interview</el-menu-item>
+          </el-menu-item-group>
+          <el-sub-menu index="6-2">
+            <template #title><span class="sub1">Interview Questions</span></template>
+            <el-menu-item index="6-2-1" class="sub2">Define Yourself</el-menu-item>
+            <el-menu-item index="6-2-2" class="sub2">Behavioral</el-menu-item>
+            <el-menu-item index="6-2-3" class="sub2">Technical</el-menu-item>
+          </el-sub-menu>
+          <el-menu-item-group>
+            <el-menu-item index="6-3" class="sub1">Interview Steps</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group>
+            <el-menu-item index="6-4" class="sub1">How to Master</el-menu-item>
+          </el-menu-item-group>
+        </el-sub-menu>
         <el-menu-item index="7">
 <!--          <el-icon><setting /></el-icon>-->
           <span class="mod">Applying for CPT/OPT</span>
