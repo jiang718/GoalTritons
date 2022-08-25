@@ -9,19 +9,19 @@
 
 
 
-    <div>
+    <div id="resume-vs-cv">
       <h2>Resume vs. CV</h2>
 
       <img src="../assets/resumeVScv.svg" width="80%" alt="resume VS. CV">
 
     </div>
 
-    <div>
+    <div id="resume-breakdown">
       <h2>Resume Breakdown</h2>
 
       <div>
 
-        <div class="headerWithLink">
+        <div id="resume-components" class="headerWithLink">
           <h3>Resume Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
@@ -77,12 +77,12 @@
 
       </div>
 
-        <h3>Resume Essentials</h3>
+        <h3 id="resume-essentials">Resume Essentials</h3>
         <img src="../assets/resumeEssentials.svg" width="86%">
 
-      <div id="sampleresume">
+      <div id="sample-resumes">
         <div class="headerWithLink" id="resumeComponentHeader">
-          <h3>Sample Resume</h3>
+          <h3>Sample Resumes</h3>
           <div style="text-align: right">
             <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
@@ -124,7 +124,7 @@
       </div>
 
 
-      <div>
+      <div id="polish-resume">
         <h3>Polish Your Resume</h3>
         <p class="inlinePara" style="text-align: left; padding-left: 3.5vw;">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
         <div id="polishVerbs">
@@ -391,12 +391,12 @@
 
     </div>
 
-    <div>
+    <div id="cv-breakdown">
       <h2>CV Breakdown</h2>
 
       <div>
         <div class="headerWithLink">
-          <h3>CV Components</h3>
+          <h3 id="cv-components">CV Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
               <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
@@ -499,7 +499,7 @@
     </div>
 
 
-    <div>
+    <div id="cover-letter">
       <h2>Cover Letter Breakdown</h2>
 
       <div>
@@ -524,7 +524,7 @@
     </div>
 
 
-    <div>
+    <div id="more-resources">
       <h2>More Resources</h2>
 
       <p class="ulTitle">Resume:</p>
@@ -666,7 +666,7 @@ export default {
     padding-bottom: 15px;
   }
 
-  #sampleresume a{
+  #sample-resumes a{
     margin-right: 50px;
   }
 
@@ -729,7 +729,7 @@ export default {
     box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
   }
 
-  #sampleresume{
+  #sample-resumes{
     display: grid;
     grid-auto-rows: auto auto;
     grid-template-columns: repeat(4, 1fr);
