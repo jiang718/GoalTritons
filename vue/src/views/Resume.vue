@@ -84,15 +84,8 @@
       <div id="sample-resumes">
         <div class="headerWithLink" id="resumeComponentHeader">
           <h3>Sample Resumes</h3>
-          <div style="text-align: right">
-            <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
-              &nbsp;
-              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
-            </a>
-          </div>
-
         </div>
+
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Econ/Business</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/business-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
@@ -124,6 +117,13 @@
         </div>
       </div>
 
+      <div style="text-align: right">
+        <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
+          <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
+          &nbsp;
+          <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+        </a>
+      </div>
 
       <div id="polish-resume">
         <h3>Polish Your Resume</h3>
