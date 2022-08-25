@@ -2,7 +2,6 @@
   <div>
       <!--    头部-->
       <Header :user="user" style="position: fixed; width: 100vw; z-index: 20; height: 7%; background-color: #1E4460"/>
-
       <!--    主体-->
       <el-container style="display: flex" class="wrapper">
         <!--      侧边栏-->
@@ -15,7 +14,6 @@
 
 <script>
 import Header from "../components/Header.vue";
-import request from "../utils/request";
 import Aside from "../components/Aside.vue";
 
 export default {
@@ -37,12 +35,10 @@ export default {
   position: relative;
   background-color: #F9F9F9;
 }
-
 .wrapper__aside {
   position: fixed;
   width: 240px;
   margin-left: 0.5%;
-  margin-right: 0%;
   padding-top: 5%;
   overflow-y: auto;
   height: 800px;
@@ -54,6 +50,6 @@ export default {
   /*margin-left: 21.5%;*/
   margin-left: 300px;
   max-width: 75%;
-  margin-top: 5%;
+  padding-top: 5%;
 }
 </style>
