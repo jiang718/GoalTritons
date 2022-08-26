@@ -50,8 +50,9 @@
           </div>
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
-            Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
-            you are applying. See examples under “More Resources”.</p>
+            Summarize your <strong class="semi">greatest achievement/character traits</strong> to indicate
+            <strong class="semi">why you are qualified</strong> for the position you are applying. <i>See examples under
+              “More Resources”</i>.</p>
         </div>
 
         <div class="resumecomp">
@@ -65,8 +66,9 @@
           <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
           <pre>  ------>  </pre>
           <p><strong>Experience</strong><br>
-            This part should include any professional experience that can <strong>prove your qualifications</strong> for the position
-            you are applying. Start with the <strong>most relevent</strong> one. If you want to include projects, you can start another section by following the same template.</p>
+            include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
+            position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
+            to include projects, you can start another section by following the same template.</p>
         </div>
 
         <div class="resumecomp">
@@ -75,8 +77,8 @@
           </div>
           <pre>  ------>  </pre>
           <p><strong>Skills & Activities</strong> <br>
-            Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
-            See examples under “More Resources”.</p>
+            Include any relevant <strong class="semi">soft/hard skills/languages/certification/awards</strong> that can
+            add to your competences.<br><i>See examples under “More Resources”</i>.</p>
         </div>
 
         <div class="buttondiv">
@@ -95,14 +97,6 @@
       <div id="sample-resumes">
         <div class="headerWithLink" id="resumeComponentHeader">
           <h3>Sample Resumes</h3>
-          <div style="text-align: right">
-            <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
-              &nbsp;
-              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
-            </a>
-          </div>
-
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Econ/Business</p>
@@ -134,7 +128,6 @@
           </a>
           <a id="polish-resume" style="display: inline"></a>
         </div>
-
       </div>
 
       <div style="text-align: right">
@@ -387,7 +380,7 @@
         </div>
         <br>
 
-        <p class="inlinePara" style="text-align: left">Accomplishment/Impact Statements</p>
+        <p class="inlinePara" style="text-align: left">Make sure you have impact statements to show your accomplishments:</p>
         <img src="../assets/impactStatement.svg" width="86%">
 
 
@@ -490,14 +483,14 @@
           <img src="../assets/cvImprotantCourse.svg">
           <pre>  ------>  </pre>
           <p><strong>Courses Taken</strong><br>
-            Include relevent courseworks and you GPA.</p>
+            Include relevant coursework and you GPA.</p>
         </div>
 
         <div class="resumecomp">
           <img src="../assets/cvReferences.svg">
           <pre>  ------>  </pre>
           <p><strong>Reference</strong><br>
-            Include relevent references, their name, title, institution, and contact information.</p>
+            Include relevant references, their name, title, institution, and contact information.</p>
         </div>
 
           <p class="ulTitle" style="margin-top: 50px">Optional Sections to Include (if you have one)</p>
@@ -505,14 +498,15 @@
           <ul>
             <li>Presentations: include the author(s) and the title of presentation, the conference/symposium name,
               the location and the date. </li>
-            <li>TEACHING EXPERIENCE: describe your role; include the name of the course and institution, the position
+            <li>Teaching Experience: describe your role; include the name of the course and institution, the position
               you held (e.g., Teaching Assistant, Instructor of Record), the location, and month-year range of the
               teaching engagement.</li>
-            <li>PROFESSIONAL MEMBERSHIPS OR AFFILIATIONS</li>
+            <li>Professional Memberships or Affiliations</li>
             <li>Certifications & Licensure</li>
-            <li>SKILLS</li>
-            <li>See formatting examples under “More Resources”.</li>
+            <li>Skills</li>
           </ul>
+
+        <p class="ulTitle" style="margin-top: 20px"><i>See formatting examples under “More Resources”</i>.</p>
 
         <div class="buttondiv">
           <a href="src/assets/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
@@ -560,11 +554,14 @@
         <li>Resume Skills Examples: <a class="moreRes" href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank"> Best Skills for Your Resume (Examples + How to List)</a></li>
         <li>Career Center: Create a Resume</li>
       </ul>
-      <p class="ulTitle">CV:</p>
 
+      <p class="ulTitle">CV:</p>
       <ul>
         <li>More examples for CV formatting: <a class="moreRes" href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">Curriculum Vitae (CV) Format: Samples & Formatting Tips</a></li>
-        <li>Cover Letter:</li>
+      </ul>
+
+      <p class="ulTitle">Cover Letter:</p>
+      <ul>
         <li>Paraphrasing Tool: <a class="moreRes" href="//quillbot.com/" target="_blank">Paraphrasing Tool</a></li>
       </ul>
       <p class="ulTitle">More Articles for tips:</p>
@@ -718,7 +715,7 @@ export default {
   .inlinePara{
     margin-bottom: 20px;
     margin-top: 50px;
-    padding-left: 3.6vw;
+    padding-left: 4.5vw;
   }
   .ulTitle{
     font-size: 16px;
@@ -808,6 +805,10 @@ export default {
   #polishVerbs dd{
     padding-left: 2px;
     font-size: 12px;
+  }
+
+  .semi {
+    font-weight: 600;
   }
 
 </style>

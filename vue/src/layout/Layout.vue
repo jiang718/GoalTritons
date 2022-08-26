@@ -48,15 +48,17 @@ export default {
   margin-left: 0.5%;
   padding-top: 5%;
   overflow-y: auto;
-  height: 800px;
+  height: auto;
+  max-height: 100vh;
   background-color: white;
 }
 
 .wrapper__body {
   flex: 1;
   /*margin-left: 21.5%;*/
-  margin-left: 300px;
-  max-width: 75%;
+  width: auto;
+  margin-left: 275px;
+  max-width: 77%;
   padding-top: 5%;
   margin-bottom: 12%;
 }
