@@ -121,13 +121,15 @@
           </a>
         </div>
         <div class="resumeTemplate">
-          <p class="sampleResumeTitle">Art/Design</p>
-          <a class="card" href="//www.indeed.com/career-advice/resume-samples/arts-resumes" target="_blank" style="margin-top: 5px">
+          <p class="sampleResumeTitle" >Art/Design</p>
+          <a class="card" href="//www.indeed.com/career-advice/resume-samples/arts-resumes" target="_blank" style="margin-top: 5px" >
             <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
+            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px" >
+            <p id="polish-resume" style="display:inline;"></p>
           </a>
-          <a id="polish-resume" style="display: inline"></a>
+
         </div>
+
       </div>
 
       <div style="text-align: right">
