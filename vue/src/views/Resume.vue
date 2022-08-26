@@ -7,18 +7,18 @@
 
 
 
-    <p id="resume-vs-cv"></p>
+    <a id="resume-vs-cv"></a>
 
     <div>
       <h2>Resume vs. CV</h2>
 
       <img src="../assets/resumeVScv.svg" alt="resume VS. CV">
 
-      <p id="resume-breakdown"></p>
+      <a id="resume-breakdown"></a>
     </div>
 
     <div >
-      <p id="resume-components"></p>
+      <a id="resume-components"></a>
       <h2>Resume Breakdown</h2>
 
 
@@ -80,7 +80,7 @@
         </div>
 
         <div class="buttondiv">
-          <p id="resume-essentials"></p>
+          <a id="resume-essentials"></a>
           <a href="src/assets/resumetemplate.docx" download=""><button class="downloadTemplate">Download Template</button></a>
 
         </div>
@@ -91,7 +91,7 @@
 
         <img src="../assets/resumeEssentials.svg" width="86%">
 
-      <p id="sample-resumes-anchor" style="display: inline"></p>
+      <a id="sample-resumes-anchor" style="display: inline"></a>
       <div id="sample-resumes">
         <div class="headerWithLink" id="resumeComponentHeader">
           <h3>Sample Resumes</h3>
@@ -132,7 +132,7 @@
             <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
-          <p id="polish-resume" style="display: inline"></p>
+          <a id="polish-resume" style="display: inline"></a>
         </div>
 
       </div>
@@ -408,7 +408,7 @@
           <li>Coordinated with the xx team to form a xx group for xx that resulted in xx</li>
         </ul>
 
-        <p id="cv-breakdown"></p>
+        <a id="cv-breakdown"></a>
       </div>
 
     </div>
@@ -516,7 +516,7 @@
 
         <div class="buttondiv">
           <a href="src/assets/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
-          <p id="cover-letter"></p>
+          <a id="cover-letter"></a>
         </div>
 
       </div>
@@ -542,7 +542,7 @@
 
         <div class="buttondiv">
           <a href="src/assets/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
-          <p id="more-resources"></p>
+          <a id="more-resources"></a>
         </div>
 
       </div>
