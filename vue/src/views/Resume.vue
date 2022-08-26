@@ -12,7 +12,7 @@
     <div>
       <h2>Resume vs. CV</h2>
 
-      <img src="../assets/resumeVScv.svg" width="80%" alt="resume VS. CV">
+      <img src="../assets/resumeVScv.svg" alt="resume VS. CV">
 
       <p id="resume-breakdown"></p>
     </div>
@@ -25,7 +25,7 @@
 
       <div>
 
-        <div  class="headerWithLink">
+        <div id="resume-components" class="headerWithLink">
           <h3>Resume Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
@@ -45,7 +45,9 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeCompSummary.png" width="493px" height="auto" alt="summary">
+          <div>
+            <img src="../assets/resumeCompSummary.png" width="493px" alt="summary" style="vertical-align: center">
+          </div>
           <pre>  ------>  </pre>
           <p><strong>Summary</strong><br>
             Summarize your <strong>greatest achievement/character traits</strong> to indicate <strong>why you are qualified</strong> for the position
@@ -68,7 +70,9 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/resumeCompSkill.png" width="493px" height="66px" alt="skill">
+          <div>
+            <img src="../assets/resumeCompSkill.png" width="493px" height="auto" alt="skill">
+          </div>
           <pre>  ------>  </pre>
           <p><strong>Skills & Activities</strong> <br>
             Include any relevent <strong>soft/hard skills/languages/certification/awards</strong> that can add to your competences<br>
@@ -109,7 +113,7 @@
         </div>
 
         <div class="resumeTemplate">
-          <p class="sampleResumeTitle">Informational Technology</p>
+          <p class="sampleResumeTitle">Info Tech (IT)</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/information-technology-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
             <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
@@ -133,6 +137,13 @@
 
       </div>
 
+      <div style="text-align: right">
+        <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
+          <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
+          &nbsp;
+          <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+        </a>
+      </div>
 
       <div >
         <h3>Polish Your Resume</h3>
@@ -382,8 +393,9 @@
 
         <p class="ulTitle" style="margin-top: 50px">Example:</p>
         <ul>
-          <li>Led (verb) a team of 10 volunteers in planning, preparing, and promoting a charity table quiz (description
-            of the work) which raised 15% (quantified impact) of the total revenue.</li>
+          <li> <strong>Led (verb) </strong> a team of 10 volunteers in <Strong>planning, preparing, and promoting a
+            charity table quiz (description of the work)</Strong> which <strong>raised 15% (quantified impact)</strong>
+            of the total revenue.</li>
         </ul>
         <br>
         <p class="ulTitle">Sample Sentence Structures:</p>
@@ -642,6 +654,7 @@ export default {
   .resumecomp{
     display: flex;
     text-align: left;
+    margin-bottom: 7px;
   }
   .resumecomp > p{
     padding-top: 1rem;
@@ -686,8 +699,8 @@ export default {
 
   ul{
     text-align: left;
-    margin-right: 15vw;
-    margin-left: 15vw;
+    margin-right: 12vw;
+    margin-left: 12vw;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -705,13 +718,14 @@ export default {
   .inlinePara{
     margin-bottom: 20px;
     margin-top: 50px;
+    padding-left: 3.6vw;
   }
   .ulTitle{
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     text-align: left;
-    margin-left: 13vw;
+    margin-left: 10vw;
     margin-bottom: 0;
   }
 
@@ -732,7 +746,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 2;
   }
   .card:hover .img-top {
     display: inline;
