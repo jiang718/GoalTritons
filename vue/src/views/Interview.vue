@@ -101,7 +101,8 @@
         <div>
           <h3>Tips</h3>
           <p>Point 1</p>
-          <span></span>
+
+          <span>Search online or read some interview guides for your specific professions.</span>
         </div>
       </div>
     </div>
