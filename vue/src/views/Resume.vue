@@ -1,5 +1,5 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <div>
+  <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
     <p id="opening">In this section, Go Tritons will walk you through an important step of your job application process—Resume, CV,
       and Cover Letter building. For resume and the CV, we will explain the differences. And then we will break down the
@@ -7,21 +7,25 @@
 
 
 
+    <p id="resume-vs-cv"></p>
 
-
-    <div id="resume-vs-cv">
+    <div>
       <h2>Resume vs. CV</h2>
 
       <img src="../assets/resumeVScv.svg" width="80%" alt="resume VS. CV">
 
+      <p id="resume-breakdown"></p>
     </div>
 
-    <div id="resume-breakdown">
+    <div >
+      <p id="resume-components"></p>
       <h2>Resume Breakdown</h2>
+
+
 
       <div>
 
-        <div id="resume-components" class="headerWithLink">
+        <div  class="headerWithLink">
           <h3>Resume Components</h3>
           <div style="text-align: right">
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
@@ -72,14 +76,18 @@
         </div>
 
         <div class="buttondiv">
+          <p id="resume-essentials"></p>
           <a href="src/assets/resumetemplate.docx" download=""><button class="downloadTemplate">Download Template</button></a>
+
         </div>
 
       </div>
 
-        <h3 id="resume-essentials">Resume Essentials</h3>
+        <h3 >Resume Essentials</h3>
+
         <img src="../assets/resumeEssentials.svg" width="86%">
 
+      <p id="sample-resumes-anchor" style="display: inline"></p>
       <div id="sample-resumes">
         <div class="headerWithLink" id="resumeComponentHeader">
           <h3>Sample Resumes</h3>
@@ -120,11 +128,13 @@
             <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
             <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
+          <p id="polish-resume" style="display: inline"></p>
         </div>
+
       </div>
 
 
-      <div id="polish-resume">
+      <div >
         <h3>Polish Your Resume</h3>
         <p class="inlinePara" style="text-align: left; padding-left: 3.5vw;">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
         <div id="polishVerbs">
@@ -386,12 +396,12 @@
           <li>Coordinated with the xx team to form a xx group for xx that resulted in xx</li>
         </ul>
 
-
+        <p id="cv-breakdown"></p>
       </div>
 
     </div>
 
-    <div id="cv-breakdown">
+    <div >
       <h2>CV Breakdown</h2>
 
       <div>
@@ -494,12 +504,14 @@
 
         <div class="buttondiv">
           <a href="src/assets/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
+          <p id="cover-letter"></p>
         </div>
+
       </div>
     </div>
 
 
-    <div id="cover-letter">
+    <div >
       <h2>Cover Letter Breakdown</h2>
 
       <div>
@@ -518,13 +530,14 @@
 
         <div class="buttondiv">
           <a href="src/assets/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
+          <p id="more-resources"></p>
         </div>
 
       </div>
     </div>
 
 
-    <div id="more-resources">
+    <div >
       <h2>More Resources</h2>
 
       <p class="ulTitle">Resume:</p>

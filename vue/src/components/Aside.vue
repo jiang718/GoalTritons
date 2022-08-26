@@ -59,7 +59,7 @@
         <el-sub-menu index="5">
           <template #title>
             <!--            <el-icon><location /></el-icon>-->
-            <span class="mod" @click="$router.push('/resume#opening')">Resume/CV & Cover Letter</span>
+            <span class="mod" @click="$router.push('/resume#resumeTop')">Resume/CV & Cover Letter</span>
           </template>
           <el-menu-item-group>
             <el-menu-item index="5-1" class="sub1" @click="$router.push('/resume#resume-vs-cv')">Resume vs. CV</el-menu-item>
@@ -68,7 +68,7 @@
             <template #title ><span class="sub1" @click="$router.push('/resume#resume-breakdown')">Resume Breakdown</span></template>
             <el-menu-item index="5-2-1" class="sub2" @click="$router.push('/resume#resume-components')">Resume Components</el-menu-item>
             <el-menu-item index="5-2-2" class="sub2" @click="$router.push('/resume#resume-essentials')">Resume Essentials</el-menu-item>
-            <el-menu-item index="5-2-3" class="sub2" @click="$router.push('/resume#sample-resumes')">Sample Resumes</el-menu-item>
+            <el-menu-item index="5-2-3" class="sub2" @click="$router.push('/resume#sample-resumes-anchor')">Sample Resumes</el-menu-item>
             <el-menu-item index="5-2-4" class="sub2" @click="$router.push('/resume#polish-resume')">Polish Your Resume</el-menu-item>
           </el-sub-menu>
           <el-menu-item-group>
