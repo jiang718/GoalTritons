@@ -40,31 +40,27 @@
 
         <div class="resumecomp">
           <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Header: Contact Information</strong></p>
         </div>
 
         <div class="resumecomp">
-          <div>
-            <img src="../assets/resumeCompSummary.png" width="493px" alt="summary" style="vertical-align: center">
-          </div>
-          <pre>  ------>  </pre>
+          <img src="../assets/resumeCompSummary.png" width="493px" alt="summary">
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Summary</strong><br>
-            Summarize your <strong class="semi">greatest achievement/character traits</strong> to indicate
-            <strong class="semi">why you are qualified</strong> for the position you are applying. <i>See examples under
-              “More Resources”</i>.</p>
+            Summarize your <strong class="semi">greatest achievement/character traits</strong>.</p>
         </div>
 
         <div class="resumecomp">
           <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Education</strong><br>
             Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
         </div>
 
         <div class="resumecomp">
           <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Experience</strong><br>
             include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
             position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
@@ -75,7 +71,7 @@
           <div>
             <img src="../assets/resumeCompSkill.png" width="493px" height="auto" alt="skill">
           </div>
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Skills & Activities</strong> <br>
             Include any relevant <strong class="semi">soft/hard skills/languages/certification/awards</strong> that can
             add to your competences.<br><i>See examples under “More Resources”</i>.</p>
@@ -427,70 +423,76 @@
 
         <div class="resumecomp">
           <img src="../assets/cvHeader.svg">
-          <pre>  ------>  </pre>
-          <p><strong>Header</strong><br>
-            Besides your contact information, you can include your website or profile if you have one.</p>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
+          <div style="text-align: left">
+            <b>Header</b>
+            <p style="line-height: 22px">Besides your contact information, you can include your website or profile if you have one.</p>
+          </div>
         </div>
 
         <div class="resumecomp" >
           <img src="../assets/cvEducation.svg">
-          <pre>  ------>  </pre>
-          <p><strong>Education</strong><br>
-            Besides any general information, you can include the title and the names of your thesis advisers if you are writing a department thesis. </p>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
+          <div style="text-align: left">
+            <b>Education</b>
+            <p style="line-height: 22px">Besides any general information, you can include the title and the names of your thesis advisers if you are writing a department thesis. </p>
+          </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvResearchInterest.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Research Interest</strong><br>
             Briefly elaborate on your research interest/goal.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvResearchAppointment.svg">
-          <pre>  ------>  </pre>
-          <p><strong>Research Appointments</strong><br>
-            Include the position you held, the name of the lab/department/institution/director, the location, and the time.</p>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
+          <div style="text-align: left">
+            <b>Research Appointments</b>
+            <p style="line-height: 22px">Include the position you held, the name of the lab/department/institution/director, the location, and the time.</p>
+          </div>
         </div>
 
         <div class="resumecomp">
           <img src="../assets/cvScholarships.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Grants/Awards/Academic Honors/Scholarships</strong><br>
             Include the award name, award-granting institution, and year of the award.</p>
         </div>
 
         <div class="resumecomp" >
           <img src="../assets/cvArticle.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Popular Articles or Publications</strong><br>
             Include scholarly publications such as journal articles & book chapters. Include publication status—e.g., in preparation, under review, forthcoming.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvResearchSkill.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Research Skills/Experience</strong><br>
             Briefly describe your role, the primary methods used, and key findings.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvService.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Leadership/Activities/Service/Volunteer</strong><br>
             Briefly describe your role and accomplishments. Include the organization, your position title, the location, and the timeline.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvImprotantCourse.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Courses Taken</strong><br>
             Include relevant coursework and you GPA.</p>
         </div>
 
         <div class="resumecomp">
           <img src="../assets/cvReferences.svg">
-          <pre>  ------>  </pre>
+          <pre>  ——————</pre><p style="padding-top: 0.5px; margin-right: 17.4px"> ></p>
           <p><strong>Reference</strong><br>
             Include relevant references, their name, title, institution, and contact information.</p>
         </div>
@@ -594,7 +596,11 @@ export default {
 </script>
 
 <style scoped>
-  .scrollbar-demo-item {
+@font-face { font-family: work-sans;
+  src: url('../assets/WorkSans/WorkSans-Bold.woff');
+}
+
+.scrollbar-demo-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -655,13 +661,13 @@ export default {
     text-align: left;
     margin-bottom: 7px;
   }
-  .resumecomp > p{
-    padding-top: 1rem;
-  }
+  /*.resumecomp > p{*/
+  /*  padding-top: 1rem;*/
+  /*}*/
 
-  .resumecomp > pre{
-    padding-top: 1rem;
-  }
+  /*.resumecomp > pre{*/
+  /*  padding-top: 1rem;*/
+  /*}*/
 
   h3{
     margin-bottom: 50px;
@@ -673,14 +679,14 @@ export default {
     margin-bottom: 100px;
     color: #1E4460;
     font-weight: 700;
-    font-size: 26px;
-    font-family: "Work Sans";
+    font-size: 28px;
+    font-family: work-sans;
   }
 
   h2{
-    font-family: "Work Sans";
+    font-family: work-sans;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #182B49;
     margin-bottom: 82px;
