@@ -58,6 +58,7 @@ export default {
   /*margin-left: 21.5%;*/
   width: auto;
   margin-left: 275px;
+  padding-left: 26px;
   max-width: 77%;
   padding-top: 5%;
   margin-bottom: 12%;
