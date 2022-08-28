@@ -422,7 +422,7 @@
         <h3 class="resumecomp">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
-          <img src="../assets/cvHeader.png" width="483px">
+          <img src="../assets/cvHeader.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Header</b>
@@ -431,7 +431,7 @@
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvEducation.png" width="483px">
+          <img src="../assets/cvEducation.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Education</b>
@@ -440,14 +440,14 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchInterests.png" width="483px">
+          <img src="../assets/cvResearchInterests.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Research Interest</strong><br>
             Briefly elaborate on your research interest/goal.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchAppointments.png" width="483px">
+          <img src="../assets/cvResearchAppointments.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Research Appointments</b>
@@ -456,42 +456,42 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvScholarships.png" width="483px">
+          <img src="../assets/cvScholarships.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Grants/Awards/Academic Honors/Scholarships</strong><br>
             Include the award name, award-granting institution, and year of the award.</p>
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvPopularArticles.png" width="483px">
+          <img src="../assets/cvPopularArticles.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Popular Articles or Publications</strong><br>
             Include scholarly publications such as journal articles & book chapters. Include publication status—e.g., in preparation, under review, forthcoming.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchSkills.png" width="483px">
+          <img src="../assets/cvResearchSkills.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Research Skills/Experience</strong><br>
             Briefly describe your role, the primary methods used, and key findings.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvService.png" width="483px">
+          <img src="../assets/cvService.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Leadership/Activities/Service/Volunteer</strong><br>
             Briefly describe your role and accomplishments. Include the organization, your position title, the location, and the timeline.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvImportantCoursesTaken.png" width="483px">
+          <img src="../assets/cvImportantCoursesTaken.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Courses Taken</strong><br>
             Include relevant coursework and you GPA.</p>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvReferences.png" width="483px">
+          <img src="../assets/cvReferences.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Reference</strong><br>
             Include relevant references, their name, title, institution, and contact information.</p>
