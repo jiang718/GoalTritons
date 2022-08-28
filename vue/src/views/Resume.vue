@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
-    <p id="opening">In this section, Go Tritons will walk you through an important step of your job application process—Resume, CV,
+    <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—Resume, CV,
       and Cover Letter building. For resume and the CV, we will explain the differences. And then we will break down the
       specific components for all of them. Let’s start!</p>
 
@@ -85,7 +85,7 @@
 
       </div>
 
-        <h3 >Resume Essentials</h3>
+        <h3>Resume Essentials</h3>
 
         <img src="../assets/resumeEssentials.svg" width="80%">
 
@@ -137,7 +137,7 @@
       </div>
 
       <div >
-        <h3>Polish Your Resume</h3>
+        <h3 style="margin-top: 80px">Polish Your Resume</h3>
         <p class="inlinePara" style="text-align: left">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
         <div id="polishVerbs">
           <dl>
@@ -422,7 +422,7 @@
         <h3 class="resumecomp">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
-          <img src="../assets/cvHeader.svg">
+          <img src="../assets/cvHeader.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Header</b>
@@ -431,7 +431,7 @@
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvEducation.svg">
+          <img src="../assets/cvEducation.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Education</b>
@@ -440,14 +440,14 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchInterest.svg">
+          <img src="../assets/cvResearchInterests.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Research Interest</strong><br>
             Briefly elaborate on your research interest/goal.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchAppointment.svg">
+          <img src="../assets/cvResearchAppointments.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
             <b>Research Appointments</b>
@@ -463,21 +463,21 @@
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvArticle.svg">
+          <img src="../assets/cvPopularArticles.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Popular Articles or Publications</strong><br>
             Include scholarly publications such as journal articles & book chapters. Include publication status—e.g., in preparation, under review, forthcoming.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchSkill.svg">
+          <img src="../assets/cvResearchSkills.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Research Skills/Experience</strong><br>
             Briefly describe your role, the primary methods used, and key findings.</p>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvService.svg">
+          <img src="../assets/cvService.png" width="483px">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Leadership/Activities/Service/Volunteer</strong><br>
             Briefly describe your role and accomplishments. Include the organization, your position title, the location, and the timeline.</p>
