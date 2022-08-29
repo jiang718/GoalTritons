@@ -1,3 +1,5 @@
+
+
 <template xmlns="http://www.w3.org/1999/html">
   <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
@@ -85,9 +87,9 @@
 
       </div>
 
-        <h3>Resume Essentials</h3>
+      <h3>Resume Essentials</h3>
 
-        <img src="../assets/resumeEssentials.svg" width="80%">
+      <img src="../assets/resumeEssentials.svg" width="80%">
 
       <a id="sample-resumes-anchor" style="display: inline"></a>
       <div id="sample-resumes">
@@ -497,18 +499,18 @@
             Include relevant references, their name, title, institution, and contact information.</p>
         </div>
 
-          <p class="ulTitle" style="margin-top: 50px">Optional Sections to Include (if you have one)</p>
-          <br>
-          <ul>
-            <li>Presentations: include the author(s) and the title of presentation, the conference/symposium name,
-              the location and the date. </li>
-            <li>Teaching Experience: describe your role; include the name of the course and institution, the position
-              you held (e.g., Teaching Assistant, Instructor of Record), the location, and month-year range of the
-              teaching engagement.</li>
-            <li>Professional Memberships or Affiliations</li>
-            <li>Certifications & Licensure</li>
-            <li>Skills</li>
-          </ul>
+        <p class="ulTitle" style="margin-top: 50px">Optional Sections to Include (if you have one)</p>
+        <br>
+        <ul>
+          <li>Presentations: include the author(s) and the title of presentation, the conference/symposium name,
+            the location and the date. </li>
+          <li>Teaching Experience: describe your role; include the name of the course and institution, the position
+            you held (e.g., Teaching Assistant, Instructor of Record), the location, and month-year range of the
+            teaching engagement.</li>
+          <li>Professional Memberships or Affiliations</li>
+          <li>Certifications & Licensure</li>
+          <li>Skills</li>
+        </ul>
 
         <p class="ulTitle" style="margin-top: 20px"><i>See formatting examples under “More Resources”</i>.</p>
 
@@ -595,7 +597,6 @@
   </div>
 </template>
 <style>
-
 </style>
 <script>
 export default {
@@ -607,7 +608,6 @@ export default {
       a.click();
     }
   }
-
 }
 </script>
 
@@ -615,246 +615,217 @@ export default {
 @font-face { font-family: work-sans;
   src: url('../assets/WorkSans/WorkSans-Bold.woff');
 }
-
 .scrollbar-demo-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 4px;
-    background: var(--el-color-primary-light-9);
-    color: var(--el-color-primary);
-  }
-  .downloadTemplate{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    width: 220px;
-    height: 40px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #1E4460;
-    border: hidden;
-    margin-top: 50px;
-    color: white;
-    box-shadow: 0 4px 4px rgb(30 68 96 / 0.25);
-  }
-  .downloadTemplate:hover{
-    background-color: #F4CE71;
-    color: darkblue;
-    border: hidden;
-  }
-
-  a{
-    color: #1E4460;
-    text-decoration: none;
-  }
-
-  .link:hover {
-    text-decoration: underline;
-  }
-
-  .moreRec{
-    text-decoration: none;
-    position: relative;
-    color: black;
-  }
-  .moreRec::before {
-    content: '';
-    background-color: hsla(196, 61%, 58%, .75);
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-    height: 5px;
-    z-index: -1;
-    transition: all .3s ease-in-out;
-  }
-  .moreRec:hover::before {
-    bottom: 0;
-    height: 100%;
-  }
-
-
-  .moreRes {
-    color: #116FFC;
-  }
-  div{
-    text-align: center;
-  }
-
-  h1,h2,h3{
-    text-align: left;
-  }
-
-  .buttondiv{
-    text-align: right;
-    margin-bottom: 82px;
-  }
-
-  .resumecomp{
-    display: flex;
-    text-align: left;
-    margin-bottom: 7px;
-  }
-  /*.resumecomp > p{*/
-  /*  padding-top: 1rem;*/
-  /*}*/
-
-  /*.resumecomp > pre{*/
-  /*  padding-top: 1rem;*/
-  /*}*/
-
-  h3{
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    font-style: normal;
-  }
-  h1{
-    margin-bottom: 100px;
-    color: #1E4460;
-    font-weight: 700;
-    font-size: 28px;
-    font-family: work-sans;
-  }
-
-  h2{
-    font-family: work-sans;
-    font-style: normal;
-    font-size: 20px;
-    font-weight: 700;
-    color: #182B49;
-    margin-bottom: 82px;
-    margin-top: 95px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  #sample-resumes a{
-    margin-right: 50px;
-  }
-
-
-  ul{
-    text-align: left;
-    margin-right: 12vw;
-    margin-left: 12vw;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  #opening{
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: left;
-    margin-right: 13vw;
-    margin-left: 13vw;
-  }
-  .inlinePara{
-    margin-bottom: 20px;
-    margin-top: 50px;
-    padding-left: 3.6vw;
-  }
-  .ulTitle{
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    margin-left: 10vw;
-    margin-bottom: 0;
-  }
-
-  .headerWithLink{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: right;
-  }
-
-
-  .card {
-    position: relative;
-    display: inline-block;
-    margin: 50px;
-  }
-  .card .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-  }
-  .card:hover .img-top {
-    display: inline;
-  }
-
-  .img-bot {
-    box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
-  }
-
-  #sample-resumes{
-    display: grid;
-    grid-auto-rows: auto auto;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .resumeTemplate{
-    grid-row: 2;
-  }
-
-  #resumeComponentHeader{
-    grid-column-start: 1;
-    grid-column-end: span 4;
-    margin-top: 82px;
-  }
-
-  .sampleResumeTitle{
-    font-size: 16px;
-    font-weight: 550;
-    font-style: normal;
-    border-radius: 1rem;
-    border: 1px solid black;
-    width: auto;
-    margin: auto;
-    width: 185px;
-    background-color: #1E4460;
-    color: #F4CE71;
-  }
-
-  #polishVerbs{
-    display: flex;
-    text-align: center;
-    margin: auto;
-    width: 68vw;
-  }
-
-  #polishVerbs dl{
-    border: 1px solid #e0ac79;
-    margin-right: 10px;
-    width: 100px;
-    text-align: left;
-  }
-  #polishVerbs dt{
-    text-align: center;
-    font-size: 13px;
-    border-bottom: 1px solid black;
-    background-color: #F4CE71;
-  }
-
-  #polishVerbs dd{
-    padding-left: 2px;
-    font-size: 12px;
-  }
-
-  .semi {
-    font-weight: 600;
-  }
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--el-color-primary-light-9);
+  color: var(--el-color-primary);
+}
+.downloadTemplate{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 220px;
+  height: 40px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #1E4460;
+  border: hidden;
+  margin-top: 50px;
+  color: white;
+  box-shadow: 0 4px 4px rgb(30 68 96 / 0.25);
+}
+.downloadTemplate:hover{
+  background-color: #F4CE71;
+  color: darkblue;
+  border: hidden;
+}
+a{
+  color: #1E4460;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.moreRec{
+  text-decoration: none;
+  position: relative;
+  color: black;
+}
+.moreRec::before {
+  content: '';
+  background-color: hsla(196, 61%, 58%, .75);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+.moreRec:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+.moreRes {
+  color: #116FFC;
+}
+div{
+  text-align: center;
+}
+h1,h2,h3{
+  text-align: left;
+}
+.buttondiv{
+  text-align: right;
+  margin-bottom: 82px;
+}
+.resumecomp{
+  display: flex;
+  text-align: left;
+  margin-bottom: 7px;
+}
+/*.resumecomp > p{*/
+/*  padding-top: 1rem;*/
+/*}*/
+/*.resumecomp > pre{*/
+/*  padding-top: 1rem;*/
+/*}*/
+h3{
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
+h1{
+  margin-bottom: 100px;
+  color: #1E4460;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: work-sans;
+}
+h2{
+  font-family: work-sans;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  color: #182B49;
+  margin-bottom: 82px;
+  margin-top: 95px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#sample-resumes a{
+  margin-right: 50px;
+}
+ul{
+  text-align: left;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+#opening{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  margin-right: 13vw;
+  margin-left: 13vw;
+}
+.inlinePara{
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-left: 3.6vw;
+}
+.ulTitle{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin-left: 10vw;
+  margin-bottom: 0;
+}
+.headerWithLink{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: right;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.card:hover .img-top {
+  display: inline;
+}
+.img-bot {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
+}
+#sample-resumes{
+  display: grid;
+  grid-auto-rows: auto auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+.resumeTemplate{
+  grid-row: 2;
+}
+#resumeComponentHeader{
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  margin-top: 82px;
+}
+.sampleResumeTitle{
+  font-size: 16px;
+  font-weight: 550;
+  font-style: normal;
+  border-radius: 1rem;
+  border: 1px solid black;
+  width: auto;
+  margin: auto;
+  width: 185px;
+  background-color: #1E4460;
+  color: #F4CE71;
+}
+#polishVerbs{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 68vw;
+}
+#polishVerbs dl{
+  border: 1px solid #e0ac79;
+  margin-right: 10px;
+  width: 100px;
+  text-align: left;
+}
+#polishVerbs dt{
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid black;
+  background-color: #F4CE71;
+}
+#polishVerbs dd{
+  padding-left: 2px;
+  font-size: 12px;
+}
+.semi {
+  font-weight: 600;
+}
 </style>
