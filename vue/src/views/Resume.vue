@@ -555,41 +555,41 @@
       <p class="ulTitle">Resume:</p>
       <ul>
         <li>Free Online Resume Builder: <a href="//www.resume.com/" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Resume Builder</p>
+          <p class="moreRec" style="display: inline">Resume Builder</p>
         </a>
         </li>
         <li>Resume Summary Examples: <a href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%"> Professional Resume Summary Examples (25+ Statements)</p></a>
+          <p class="moreRec" style="display: inline"> Professional Resume Summary Examples (25+ Statements)</p></a>
         </li>
         <li>Resume Skills Examples: <a href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Best Skills for Your Resume (Examples + How to List)</p></a>
+          <p class="moreRec" style="display: inline">Best Skills for Your Resume (Examples + How to List)</p></a>
         </li>
         <li>Career Center: <a href="https://career.ucsd.edu/succeed-search/resume/index.html" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Create a Resume</p></a>
+          <p class="moreRec" style="display: inline">Create a Resume</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">CV:</p>
       <ul>
         <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
+          <p class="moreRec" style="display: inline">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">Cover Letter:</p>
       <ul>
         <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Paraphrasing Tool</p></a>
+          <p class="moreRec" style="display: inline">Paraphrasing Tool</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">More Articles for tips:</p>
       <ul>
         <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">Tips on quantifying your accomplishments</p></a>
+          <p class="moreRec" style="display: inline">Tips on quantifying your accomplishments</p></a>
         </li>
         <li><a href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">
-          <p class="moreRec" style="display: inline; opacity: 80%">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</p></a>
+          <p class="moreRec">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</p></a>
         </li>
       </ul>
     </div>
@@ -653,27 +653,37 @@ a{
   text-decoration: underline;
 }
 .moreRec{
-  text-decoration: none;
+  background-image: linear-gradient(
+      to right,
+      orange,
+      orange 50%,
+      #116FFC 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 2px 0;
   position: relative;
-  color: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 .moreRec::before {
   content: '';
-  background-color: hsla(196, 61%, 58%, .75);
+  background: orange;
+  display: block;
   position: absolute;
+  bottom: -3px;
   left: 0;
-  bottom: 0px;
-  width: 100%;
-  height: 5px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.moreRec:hover {
+  background-position: 0;
 }
 .moreRec:hover::before {
-  bottom: 0;
-  height: 100%;
-}
-.moreRes {
-  color: #116FFC;
+  width: 100%;
 }
 div{
   text-align: center;
