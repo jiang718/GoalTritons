@@ -20,118 +20,314 @@
     <div id="resume-breakdown">
       <h2>Interview Question Types</h2>
 
-      <div>
+      <div id="QTdiv">
 
-        <p>Question Types</p>
+        <h3 id="questionType">Question Types</h3>
 
-        <span>Define Yourself</span>
-        <span>Behavioral</span>
-        <span>Technical</span>
+
+        <div style="margin-bottom: 82px">
+          <span class="QTspan">Define Yourself</span>
+          <span class="QTspan">Behavioral</span>
+          <span class="QTspan">Technical</span>
+        </div>
+
 
       </div>
 
-      <hr>
+      <hr style="margin-bottom: 82px">
 
       <div>
         <h3>Define Yourself</h3>
 
-        <p>“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
+        <p style="margin-bottom: 50px">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
 
         <img src="../assets/sampleQ1.svg">
+
+        <h3 style="margin-top: 50px">Tips</h3>
         <div>
-          <h3>Tips</h3>
-          <p>Point 1</p>
-          <span>Research about the company/position</span>
           <div>
-            <img src="../assets/researchEmoji.png">
-            <dl>
-              <dt>What to research?</dt>
-              <dd>The company’s missions, recent challenges, products, customers, and your intended position’s responsibilities, etc.</dd>
-            </dl>
+            <div style="text-align: left; margin-left: 10vw">
+              <p class="DYp">Point 1</p>
+              <span class="DYspan"><strong>Research about the company/position</strong></span>
+            </div>
+
+            <div class="DYdiv">
+
+              <img class="DYimg" src="../assets/researchEmoji.png">
+              <div >
+                <p class="DYulTitle">What to research?</p>
+                <ul class="DYul">
+                  <li>The company’s missions, recent challenges, products, customers, and your intended position’s responsibilities, etc.</li>
+                </ul>
+
+                <p class="DYulTitle">How to research?</p>
+                <ul class="DYul">
+                  <li>Navigate through the company’s website, LinkedIn page, other social media page, news, employers, etc.</li>
+                </ul>
+              </div>
+
+            </div>
           </div>
 
-          <p>Point 2</p>
-          <span>Practice on pitching yourself</span>
-          <div>
-            <img src="../assets/speachEmoji.png">
-            <dl>
-              <dt>What to pitch?</dt>
-              <dd>Your background/accomplishments/interests/passion (refer to your Resume)</dd>
-            </dl>
-            <p>How to pitch? </p>
-            <ul>
-              <li>Reflect on what you are excel at and why you want to apply for this position in this company.</li>
-              <li>Design a cohesive story of you in a past-present-future structure (your career trajectory & your career goal?)</li>
-              <li>Connect your past experiences with what the company is looking for in the position.</li>
-            </ul>
+          <div class="DYtips">
+            <div style="text-align: left; margin-left: 10vw">
+              <p class="DYp">Point 2</p>
+              <span class="DYspan"><strong>Practice on pitching yourself</strong></span>
+            </div>
+
+            <div  class="DYdiv">
+              <img class="DYimg" src="../assets/speachEmoji.png">
+
+              <div>
+                <p class="DYulTitle">What to pitch?</p>
+                <ul class="DYul">
+                  <li>Your background/accomplishments/interests/passion (refer to your Resume)</li>
+                </ul>
+                <p class="DYulTitle">How to pitch? </p>
+                <ul class="DYul">
+                  <li>Reflect on what you are excel at and why you want to apply for this position in this company.</li>
+                  <li>Design a cohesive story of you in a past-present-future structure (your career trajectory & your career goal?)</li>
+                  <li>Connect your past experiences with what the company is looking for in the position.</li>
+                </ul>
+              </div>
+
+            </div>
+
           </div>
 
 
         </div>
-      </div>
 
-      <hr>
-
-      <div>
-        <h3>Behavioral Questions</h3>
-        <p>Bevaioral questions help the company to learn about how you would behave and deal with tough situations in
-          the real workplace so that they can anticipate your performance. These are usually about soft skills
-          (e.g. leadership) and personal attributes (e.g. persistency).</p>
-
-        <img src="../assets/behaviorQ.svg">
-
-        <div style="text-align: right">
+        <div style="text-align: right; margin-bottom: 82px">
           <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-            <p class ="link" style="display: inline; opacity: 80%">See More Sample Q&A under “More Resources”</p>
+            <p class ="link" style="display: inline; opacity: 80%">See More Sample Q&A under <span style="color: #B27224;">More Resources</span></p>
             &nbsp;
             <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
           </a>
         </div>
       </div>
 
-      <hr>
+      <hr style="margin-bottom: 82px">
 
       <div>
-        <h3>Technical Questions:</h3>
-        <p>This part can vary a lot by different professions. Technical questions are usually specific to the topics in
-          your fields. They help the company to evaluate your ability, skillset, professional level, and your potential
-          to contribute to this specific position. </p>
+        <h3>Behavioral Questions</h3>
+        <p id="BQp">Bevaioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
+          the real workplace so that they can anticipate your performance. These are usually about <strong>soft skills</strong>
+          (e.g. leadership) and <strong>personal attributes</strong> (e.g. persistency).</p>
+
+        <img src="../assets/behaviorQ.svg" style="margin-bottom: 50px">
+
+        <div style="text-align: right; margin-bottom: 82px">
+          <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
+            <p class ="link" style="display: inline; opacity: 80%">See More Sample Q&A under <span style="color: #B27224;">More Resources</span></p>
+            &nbsp;
+            <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+          </a>
+        </div>
+      </div>
+
+      <hr style="margin-bottom: 82px">
+
+      <div>
+        <h3 style="margin-bottom: 100px">Technical Questions:</h3>
+
 
         <img src="../assets/sampleQ2.svg">
         <div>
           <h3>Tips</h3>
-          <p>Point 1</p>
+          <div id="TQtips">
+            <p class="DYp">Point 1</p>
 
-          <span>Search online or read some interview guides for your specific professions.</span>
+            <span>Search online or read some interview guides for your specific professions.</span>
+
+            <ul><li>E.g. For software engineers, enter “software engineers interview cheat sheet”.</li></ul>
+
+            <p class="DYp">Point 2</p>
+            <span>Search for interview tips specific to the company you have applied.</span>
+          </div>
+
         </div>
       </div>
     </div>
 
 
+    <div>
+      <h2>Interview Steps</h2>
+
+      <div id="ITdiv">
+        <div>
+          <p id="ITstep1">Step 1</p>
+          <p>Initial Screening</p>
+          <img class="ITimg" src="../assets/interview/initialScreening.png">
+
+          <ul>
+            <li>Purpose: to evaluate your qualifications/skills in order to narrow the pool of applicants</li>
+            <li>Form: typically over the phone </li>
+          </ul>
+
+
+        </div>
+
+        <div>
+          <p id="ITstep2">Step 2</p>
+          <p>Official Interview</p>
+          <img class="ITimg" src="../assets/interview/officialInterview.png">
+          <ul>
+            <li>Purpose: an in-depth examination of your skills/experience/work history/availability</li>
+            <li>Form: typically 2-4 rounds; in-person or video conferencing; one-on-one or group interview</li>
+          </ul>
+          <div id="additionalTip">
+            <p>Additional: Casual Interview</p>
+            <ul>
+              <li>Purpose: for the company to get to know you & for you to get to know the potential working environment; team match usually happens here</li>
+              <li>Form: more chat-based; likely talks about company culture vs. your value</li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div>
+          <p id="ITstep3">Step 3</p>
+          <p>Final Decision</p>
+          <img class="ITimg" src="../assets/interview/finalDecision.png">
+          <ul>
+            <li>Form: hiring committee reviews all the feedback from the official interviews
+              <br>
+
+              &nbsp —> Decision made: if hired, you will receive an offer letter often by email</li>
+
+          </ul>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>How to Master an Interview?</h2>
+
+      <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
+        <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
+          <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Interview Prep Appointment</p>
+          &nbsp;
+          <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+        </a>
+      </div>
+
+      <div id="HTMAIdiv">
+        <div>
+          <img src="../assets/interview/beforeTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+
+          <img src="../assets/interview/reportEmoji.svg" class="HTMAIemoji" >
+          <p>Prepare for common Q&A</p>
+          <ul>
+            <li>Have a list of common qs & answer them by yourself.
+              <ul>
+                <li>Use the S.A.R. answer structure when needed.</li>
+                <li>Keep the answers short & releveant.</li>
+                <li>MEMORIZE your stories/answers</li>
+              </ul>
+            </li>
+            <li>Click to see common questions.</li>
+          </ul>
+
+          <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Prepare a brief self-introduction</p>
+          <ul><li>Click to see tips.</li></ul>
+
+          <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Practice, practice, and practice!</p>
+          <ul><li>Find peers to do mock interviews using the Big Interview.</li></ul>
+        </div>
+
+        <div>
+          <img src="../assets/interview/atTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+
+          <img src="../assets/interview/smileEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Be open, polite, and honest</p>
+          <ul>
+            <li>Make a good first impression by providing big smile, handshake, and proper greetings, etc.</li>
+            <li>Click to see common questions.</li>
+          </ul>
+
+          <img src="../assets/interview/clothesEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Dress appropriately</p>
+          <ul>
+            <li>Dress by company culture</li>
+            <li>Dress comfortably</li>
+          </ul>
+
+          <img src="../assets/interview/eyeEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Express confidence through body language.</p>
+          <ul>
+            <li>Maintain eye-contacts with your interviewers.</li>
+            <li>Nod at appropriate times to show that you are paying attention.</li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="../assets/interview/afterTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+
+          <img src="../assets/interview/questionEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Ask questions at the end</p>
+          <ul>
+            <li>Click to see sample questions to ask employers by Career Center. (scroll to the bottom of the page)</li>
+          </ul>
+
+          <img src="../assets/interview/emailEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <p>Send a thank you note/email within 24 hours.</p>
+          <ul>
+            <li>Click to see sample thank you emails.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
     <div id="more-resources">
       <h2>More Resources</h2>
 
-      <p class="ulTitle">Resume:</p>
-      <ul>
-        <li>Free Online Resume Builder: <a class="moreRes" href="//www.resume.com/" target="_blank">Resume Builder</a></li>
 
-        <li>Resume Summary Examples: <a class="moreRes" href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">Professional Resume Summary Examples (25+ Statements)</a></li>
-        <li>Resume Skills Examples: <a class="moreRes" href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank"> Best Skills for Your Resume (Examples + How to List)</a></li>
-        <li>Career Center: Create a Resume</li>
-      </ul>
-      <p class="ulTitle">CV:</p>
+      <p>“Define Yourself” Q&A: 10 Common Job Interview Questions and How to Answer Them</p>
 
-      <ul>
-        <li>More examples for CV formatting: <a class="moreRes" href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">Curriculum Vitae (CV) Format: Samples & Formatting Tips</a></li>
-        <li>Cover Letter:</li>
-        <li>Paraphrasing Tool: <a class="moreRes" href="//quillbot.com/" target="_blank">Paraphrasing Tool</a></li>
-      </ul>
-      <p class="ulTitle">More Articles for tips:</p>
+      <br>
 
+      <p>Behavioral Q&A:</p>
       <ul>
-        <li><a class="moreRes" href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">Tips on quantifying your accomplishments</a></li>
-        <li><a class="moreRes" href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</a></li>
+        <li>Situational Q&A: 20+ Top Situational Interview Questions and Answers</li>
+        <li>Hypothetical Q&A: 7 Hypothetical Interview Questions & Answers</li>
       </ul>
+
+      <br>
+
+      <p>Behavioral Q&A:</p>
+      <ul>
+        <li>Situational Q&A: 20+ Top Situational Interview Questions and Answers</li>
+        <li>Hypothetical Q&A: 7 Hypothetical Interview Questions & Answers</li>
+      </ul>
+
+      <br>
+
+      <p>Common Interview Q&A:</p>
+      <ul>
+        <li>12 Tough Interview Questions and Answers</li>
+        <li>35+ Interview Questions and Answer</li>
+      </ul>
+
+      <br>
+
+      <p>Career Center Resources:</p>
+      <ul>
+        <li>Interview Tips</li>
+        <li>Sample Interview Questions</li>
+        <li>Sample Questions to Ask Employers</li>
+        <li>Mock Interview: Big Interview for hands-on interview practice</li>
+      </ul>
+
+      <br>
+
+      <p>Sample Questions Based on Competency: Interview Template</p>
+
     </div>
 
   </div>
@@ -144,37 +340,6 @@ export default {
 </script>
 
 <style scoped>
-  .scrollbar-demo-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 4px;
-    background: var(--el-color-primary-light-9);
-    color: var(--el-color-primary);
-  }
-  .downloadTemplate{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    width: 220px;
-    height: 40px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #1E4460;
-    border: hidden;
-    margin-top: 5%;
-    color: white;
-    box-shadow: 0 4px 4px rgb(30 68 96 / 0.25);
-  }
-  .downloadTemplate:hover{
-    background-color: #F4CE71;
-    color: darkblue;
-    border: hidden;
-  }
 
   a{
     color: #1E4460;
@@ -185,26 +350,22 @@ export default {
   }
 
 
-  .moreRes {
-    color: #116FFC;
-  }
+
   div{
     text-align: center;
   }
+  #more-resources{
+    text-align: left;
+  }
+  #more-resources p{
+    margin-left: 13vw;
 
+  }
   h1, h2, h3{
     text-align: left;
   }
 
-  .buttondiv{
-    text-align: right;
-    margin-bottom: 82px;
-  }
 
-  .resumecomp{
-    display: flex;
-    text-align: left;
-  }
   .resumecomp > p{
     padding-top: 1rem;
   }
@@ -257,7 +418,7 @@ export default {
     font-style: normal;
   }
 
-  #opening{
+  #opening, #BQp{
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -266,100 +427,178 @@ export default {
     text-align: left;
     margin-right: 13vw;
     margin-left: 13vw;
+
   }
-  .inlinePara{
-    margin-bottom: 20px;
-    margin-top: 50px;
+
+  #BQp{
+    margin-bottom: 50px;
   }
-  .ulTitle{
+
+  #questionType{
+    background-color: #1E4460;;
+
+    text-align: center;
+    color: #F4CE71;;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    margin-left: 13vw;
-    margin-bottom: 0;
-  }
-
-  .headerWithLink{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: right;
-  }
-
-
-  .card {
-    position: relative;
-    display: inline-block;
-    margin: 50px;
-  }
-  .card .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-  }
-  .card:hover .img-top {
-    display: inline;
-  }
-
-  .img-bot {
-    box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
-  }
-
-  #sample-resumes{
-    display: grid;
-    grid-auto-rows: auto auto;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .resumeTemplate{
-    grid-row: 2;
-  }
-
-  #resumeComponentHeader{
-    grid-column-start: 1;
-    grid-column-end: span 4;
-    margin-top: 82px;
-  }
-
-  .sampleResumeTitle{
-    font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 550;
     font-style: normal;
-    border-radius: 1rem;
+    border-radius: 30px;
     border: 1px solid black;
-    width: auto;
+    width: 10vw;
     margin: auto;
-    width: 185px;
-    background-color: #1E4460;
-    color: #F4CE71;
+    margin-bottom: 50px;
   }
 
-  #polishVerbs{
-    display: flex;
+  #QTdiv{
     text-align: center;
-    margin: auto;
-    width: 68vw;
+    align-items: center;
   }
 
-  #polishVerbs dl{
-    border: 1px solid #e0ac79;
-    margin-right: 10px;
-    width: 100px;
-    text-align: left;
+  .QTspan{
+    border-radius: 20px;
+    color: #1E4460;
+    border: 2px solid #1E4460;
+    padding: 2px 30px;
+    width: 200px;
+    margin: 50px;
   }
-  #polishVerbs dt{
-    text-align: center;
-    font-size: 13px;
-    border-bottom: 1px solid black;
+
+
+
+  .DYp{
+    display: inline;
+    border-radius: 30px;
     background-color: #F4CE71;
+    color: black;
+    margin-right: 10px;
+    padding: 3px 10px;
+
   }
 
-  #polishVerbs dd{
-    padding-left: 2px;
-    font-size: 12px;
+  .DYimg{
+    width: 10vw;
+    margin-right: 50px;
+  }
+
+  .DYdiv{
+    display: flex;
+    margin: 20px 10vw;
+  }
+
+  .DYulTitle{
+
+    text-align: left;
+
+  }
+  .DYul{
+    margin: 0;
+  }
+
+  #TQtips{
+    text-align: left;
+    margin: 20px 10vw;
+  }
+
+  #TQtips ul{
+    text-align: left;
+    margin: 0;
+    margin-left: 7rem;
+  }
+
+  .ITimg{
+    width: 10vw;
+  }
+
+  #ITdiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+
+  #ITdiv *{
+    margin: 0;
+  }
+
+  #ITdiv ul{
+    border: 4px dotted #1E4460;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: hidden;
+
+
+  }
+
+  #ITstep1{
+    background-color: #F8EFDA;
+    border-radius: 10px;
+    margin: auto;
+    width: 5rem;
+  }
+
+
+  #ITstep2{
+    background-color: #F6E0AA;
+    border-radius: 10px;
+    margin: auto;
+    width: 5rem;
+  }
+
+  #ITstep3{
+    background-color: #F4CE71;
+    border-radius: 10px;
+    margin: auto;
+    width: 5rem;
+  }
+
+  #additionalTip ul{
+    border: hidden;
+  }
+
+  #additionalTip{
+    border: 4px dotted #F4CE71;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  #HTMAIdiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #HTMAIdiv *{
+    margin: 0;
+
+
+  }
+
+  .HTMAIimg{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #HTMAIdiv div{
+    text-align: left;
+
+  }
+
+  #HTMAIdiv ul{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+  #HTMAIdiv p{
+    display: inline;
+
+  }
+
+  .HTMAIemoji{
+    vertical-align: middle;
+    margin-right: 3.5rem;
   }
 </style>
