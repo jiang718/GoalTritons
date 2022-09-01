@@ -3,9 +3,9 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
-    <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—Resume, CV,
-      and Cover Letter building. For resume and the CV, we will explain the differences. And then we will break down the
-      specific components for all of them. Let’s start!</p>
+    <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—
+      Resume, CV, and Cover Letter building. For resume and the CV, we will explain the differences. And then we will
+      break down the specific components for all of them. Let’s start!</p>
 
 
 
@@ -30,8 +30,8 @@
         <div id="resume-components" class="headerWithLink">
           <h3>Resume Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
+              <p class ="link">Schedule Resume Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
@@ -43,7 +43,8 @@
         <div class="resumecomp">
           <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Header:</strong> Contact Information</p>
+          <p><strong>Header:</strong> <br>
+            Contact Information <i>(e.g. email, phone ##, LinkedIn)</i></p>
         </div>
 
         <div class="resumecomp">
@@ -64,7 +65,7 @@
           <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Experience</strong><br>
-            include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
+            Include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
             position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
             to include projects, you can start another section by following the same template.</p>
         </div>
@@ -76,7 +77,7 @@
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Skills & Activities</strong> <br>
             Include any relevant <strong class="semi">soft/hard skills/languages/certification/awards</strong> that can
-            add to your competences.<br><i>See examples under “More Resources”</i>.</p>
+            add to your competences.<br><i>See examples under</i> <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.</p>
         </div>
 
         <div class="buttondiv">
@@ -131,8 +132,8 @@
       </div>
 
       <div style="text-align: right">
-        <a href="//zety.com/resume-examples" target="_blank" style="text-decoration: none; color: #1E4460">
-          <p class ="link" style="display: inline; opacity: 80%">Click to See Samples for More Fields</p>
+        <a href="//zety.com/resume-examples" target="_blank">
+          <p class ="link">See Samples for More Fields</p>
           &nbsp;
           <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
         </a>
@@ -413,8 +414,8 @@
         <div class="headerWithLink">
           <h3 id="cv-components">CV Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
+              <p class ="link">Schedule CV Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
@@ -512,7 +513,9 @@
           <li>Skills</li>
         </ul>
 
-        <p class="ulTitle" style="margin-top: 20px"><i>See formatting examples under “More Resources”</i>.</p>
+        <p class="ulTitle" style="margin-top: 20px"><i>See more CV formatting examples under </i>
+          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
+        </p>
 
         <div class="buttondiv">
           <a href="src/assets/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
@@ -523,15 +526,15 @@
     </div>
 
 
-    <div >
+    <div>
       <h2>Cover Letter Breakdown</h2>
 
       <div>
         <div class="headerWithLink">
           <h3>Cover Letter Components</h3>
           <div style="text-align: right">
-            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-              <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Edit Appointment</p>
+            <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
+              <p class ="link">Schedule Cover Letter Edit Appointment</p>
               &nbsp;
               <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
             </a>
@@ -555,41 +558,41 @@
       <p class="ulTitle">Resume:</p>
       <ul>
         <li>Free Online Resume Builder: <a href="//www.resume.com/" target="_blank">
-          <p class="moreRec" style="display: inline">Resume Builder</p>
+          <p class="moreRes" style="display: inline">Resume Builder</p>
         </a>
         </li>
         <li>Resume Summary Examples: <a href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">
-          <p class="moreRec" style="display: inline"> Professional Resume Summary Examples (25+ Statements)</p></a>
+          <p class="moreRes" style="display: inline"> Professional Resume Summary Examples (25+ Statements)</p></a>
         </li>
         <li>Resume Skills Examples: <a href="//resumegenius.com/blog/resume-help/skills-for-resume" target="_blank">
-          <p class="moreRec" style="display: inline">Best Skills for Your Resume (Examples + How to List)</p></a>
+          <p class="moreRes" style="display: inline">Best Skills for Your Resume (Examples + How to List)</p></a>
         </li>
         <li>Career Center: <a href="https://career.ucsd.edu/succeed-search/resume/index.html" target="_blank">
-          <p class="moreRec" style="display: inline">Create a Resume</p></a>
+          <p class="moreRes" style="display: inline">Create a Resume</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">CV:</p>
       <ul>
         <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">
-          <p class="moreRec" style="display: inline">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
+          <p class="moreRes" style="display: inline">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">Cover Letter:</p>
       <ul>
         <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">
-          <p class="moreRec" style="display: inline">Paraphrasing Tool</p></a>
+          <p class="moreRes" style="display: inline">Paraphrasing Tool</p></a>
         </li>
       </ul>
 
       <p class="ulTitle" style="margin-top: 20px;">More Articles for tips:</p>
       <ul>
         <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">
-          <p class="moreRec" style="display: inline">Tips on quantifying your accomplishments</p></a>
+          <p class="moreRes" style="display: inline">Tips on quantifying your accomplishments</p></a>
         </li>
         <li><a href="//www.themuse.com/advice/4-ways-to-make-sure-your-resume-is-selling-you-as-the-one-for-the-job" target="_blank">
-          <p class="moreRec">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</p></a>
+          <p class="moreRes">4 Ways to Make Sure Your Resume Is Selling You as the One for the Job</p></a>
         </li>
       </ul>
     </div>
@@ -600,14 +603,7 @@
 </style>
 <script>
 export default {
-  name: "Resume",
-  methods: {
-    downloadTemplate() {
-      let a = document.createElement('a')
-      a.href = "../assets/resumetemplate.docx"
-      a.click();
-    }
-  }
+  name: "Resume"
 }
 </script>
 
@@ -649,10 +645,18 @@ a{
   color: #1E4460;
   text-decoration: none;
 }
+.link {
+  display: inline;
+  opacity: 80%;
+  text-decoration: none;
+  color: #1E4460;
+  font-weight: 500;
+}
 .link:hover {
   text-decoration: underline;
+  font-weight: 600;
 }
-.moreRec{
+.moreRes{
   background-image: linear-gradient(
       to right,
       orange,
@@ -668,7 +672,7 @@ a{
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-.moreRec::before {
+.moreRes::before {
   content: '';
   background: orange;
   display: block;
@@ -679,11 +683,19 @@ a{
   height: 2px;
   transition: all 0.3s ease-in-out;
 }
-.moreRec:hover {
+.moreRes:hover {
   background-position: 0;
 }
-.moreRec:hover::before {
+.moreRes:hover::before {
   width: 100%;
+}
+.moreResLink {
+  color: #B27224;
+  font-weight: 500;
+}
+.moreResLink:hover {
+  font-weight: 600;
+  text-decoration: underline;
 }
 div{
   text-align: center;
