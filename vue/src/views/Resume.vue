@@ -70,14 +70,17 @@
             to include projects, you can start another section by following the same template.</p>
         </div>
 
-        <div class="resumecomp">
-          <div>
-            <img src="../assets/resumeCompSkill.png" width="493px" height="auto" alt="skill">
-          </div>
+        <div class="resumecomp" style="margin-bottom: 0px">
+          <img src="../assets/resumeCompSkill.png" width="493px" alt="skill">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Skills & Activities</strong> <br>
+          <p class="compTitle"><strong>Skills & Activities</strong> <br>
             Include any relevant <strong class="semi">soft/hard skills/languages/certification/awards</strong> that can
-            add to your competences.<br><i>See examples under</i> <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.</p>
+            add to your competences.</p>
+        </div>
+<!--        Unfortunately, 此行超出了图片高度，待resume板块正式确认后再决定如何排版-->
+        <div style="padding-left:calc(493px + 17px + 66px + 16px); text-align:left; margin-bottom:7px; margin-top:-1px">
+          <i>See examples under </i>
+          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>
         </div>
 
         <div class="buttondiv">
@@ -659,9 +662,8 @@ a{
 .moreRes{
   background-image: linear-gradient(
       to right,
-      orange,
-      orange 50%,
-      #116FFC 50%
+      #0467B0,
+      #0467B0
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -671,10 +673,11 @@ a{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+  font-weight: 500;
 }
 .moreRes::before {
   content: '';
-  background: orange;
+  background: #0467B0;
   display: block;
   position: absolute;
   bottom: -3px;
@@ -685,6 +688,7 @@ a{
 }
 .moreRes:hover {
   background-position: 0;
+  font-weight: 600;
 }
 .moreRes:hover::before {
   width: 100%;
@@ -754,6 +758,7 @@ ul{
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
+  line-height: 141%;    /* list里的行间宽度为141%，其他为default */
 }
 #opening{
   font-size: 16px;
