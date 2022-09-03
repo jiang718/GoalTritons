@@ -17,7 +17,7 @@
 
     </div>
 
-    <div id="resume-breakdown">
+    <div id="question-type">
       <h2>Interview Question Types</h2>
 
       <div id="QTdiv">
@@ -26,15 +26,15 @@
 
 
         <div style="margin-bottom: 82px">
-          <span class="QTspan">Define Yourself</span>
-          <span class="QTspan">Behavioral</span>
-          <span class="QTspan">Technical</span>
+          <p id="QTspan1">Define Yourself</p>
+          <p id="QTspan2">Behavioral</p>
+          <p id="QTspan3">Technical</p>
         </div>
 
 
       </div>
 
-      <hr style="margin-bottom: 82px">
+
 
       <div>
         <h3>Define Yourself</h3>
@@ -43,7 +43,7 @@
 
         <img src="../assets/sampleQ1.svg">
 
-        <h3 style="margin-top: 50px">Tips</h3>
+        <h3 style="margin-top: 3rem; margin-left: 4rem">Tips</h3>
         <div>
           <div>
             <div style="text-align: left; margin-left: 10vw">
@@ -59,6 +59,8 @@
                 <ul class="DYul">
                   <li>The company’s missions, recent challenges, products, customers, and your intended position’s responsibilities, etc.</li>
                 </ul>
+
+                <br>
 
                 <p class="DYulTitle">How to research?</p>
                 <ul class="DYul">
@@ -83,6 +85,7 @@
                 <ul class="DYul">
                   <li>Your background/accomplishments/interests/passion (refer to your Resume)</li>
                 </ul>
+                <br>
                 <p class="DYulTitle">How to pitch? </p>
                 <ul class="DYul">
                   <li>Reflect on what you are excel at and why you want to apply for this position in this company.</li>
@@ -107,7 +110,7 @@
         </div>
       </div>
 
-      <hr style="margin-bottom: 82px">
+
 
       <div>
         <h3>Behavioral Questions</h3>
@@ -126,22 +129,24 @@
         </div>
       </div>
 
-      <hr style="margin-bottom: 82px">
+
 
       <div>
         <h3 style="margin-bottom: 100px">Technical Questions:</h3>
 
-
+        <p id="TQp">This part can vary a lot by different professions. Technical questions are usually specific to the topics
+          in your fields. They help the company to evaluate your ability, skillset, professional level, and your
+          potential to contribute to this specific position. </p>
         <img src="../assets/sampleQ2.svg">
         <div>
-          <h3>Tips</h3>
+          <h3 style="margin-left: 4rem">Tips:</h3>
           <div id="TQtips">
             <p class="DYp">Point 1</p>
 
             <span>Search online or read some interview guides for your specific professions.</span>
 
             <ul><li>E.g. For software engineers, enter “software engineers interview cheat sheet”.</li></ul>
-
+            <br>
             <p class="DYp">Point 2</p>
             <span>Search for interview tips specific to the company you have applied.</span>
           </div>
@@ -418,7 +423,7 @@ export default {
     font-style: normal;
   }
 
-  #opening, #BQp{
+  #opening, #BQp, #TQp{
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -430,8 +435,16 @@ export default {
 
   }
 
+  #TQp{
+    margin-bottom: 2rem;
+  }
+
   #BQp{
     margin-bottom: 50px;
+  }
+
+  #question-type{
+    text-align: center;
   }
 
   #questionType{
@@ -449,22 +462,52 @@ export default {
     border-radius: 30px;
     border: 1px solid black;
     width: 10vw;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #QTdiv{
     text-align: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .QTspan{
+  #QTspan1{
+    display: inline-block;
+    text-align: center;
     border-radius: 20px;
     color: #1E4460;
     border: 2px solid #1E4460;
     padding: 2px 30px;
     width: 200px;
-    margin: 50px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  #QTspan2{
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: #1E4460;
+    border: 2px solid #1E4460;
+    padding: 2px 30px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
+  #QTspan3{
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: #1E4460;
+    border: 2px solid #1E4460;
+    padding: 2px 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 50px;
   }
 
 
@@ -481,7 +524,8 @@ export default {
 
   .DYimg{
     width: 10vw;
-    margin-right: 50px;
+    margin-right: 4rem;
+    margin-left: 7rem;
   }
 
   .DYdiv{
@@ -495,7 +539,8 @@ export default {
 
   }
   .DYul{
-    margin: 0;
+    margin-right: auto;
+    margin-left: 2rem;
   }
 
   #TQtips{
