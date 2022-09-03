@@ -39,54 +39,112 @@
 
         </div>
 
-
-        <div class="resumecomp">
-          <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
-          <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Header:</strong> <br>
+        <div class="wrapper">
+          <div class="one1">
+            <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
+          </div>
+          <div class="one2">
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
+          </div>
+          <div class="one3">
+            <p><strong>Header:</strong> <br>
             Contact Information <i>(e.g. email, phone ##, LinkedIn)</i></p>
+          </div>
+
+          <div class="two1">
+            <img src="../assets/resumeCompSummary.png" width="493px" alt="summary">
+          </div>
+          <div class="two2">
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
+          </div>
+          <div class="two3">
+            <p><strong>Summary</strong><br>
+            Summarize your greatest achievement/character traits.</p>
+          </div>
+
+          <div class="three1">
+            <img src="../assets/resumeCompSkill.png" width="493px" alt="skill"> <br>
+            <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
+          </div>
+          <div class="three2">
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 2px"> <br>
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 118px">
+          </div>
+          <div class="three3">
+            <p class="compTitle"><strong>Skills</strong> <br>
+              Include any <strong class="semi">position-related</strong> soft/hard skills/languages/certification that
+              can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i>
+              <i>See examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
+            </p>
+            <p>
+              <br><br> <strong>Experience</strong><br>
+              Include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
+              position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
+              to include projects, you can start another section by following the same template.
+            </p>
+          </div>
+
+          <div class="four1">
+            <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
+          </div>
+          <div class="four2">
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
+          </div>
+          <div class="four3">
+            <p><strong>Education</strong><br>
+              Include school name/majors & minors/expected graduation date/awards or honors; include
+              <strong class="semi"> GPA only if >=3.5  </strong>. </p>
+          </div>
         </div>
 
-        <div class="resumecomp">
-          <img src="../assets/resumeCompSummary.png" width="493px" alt="summary">
-          <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Summary</strong><br>
-            Summarize your <strong class="semi">greatest achievement/character traits</strong>.</p>
-        </div>
+<!--        <div class="resumecomp">-->
+<!--          <img src="../assets/resumeCompHeader.png" width="493px" alt="header">-->
+<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <p><strong>Header:</strong> <br>-->
+<!--            Contact Information <i>(e.g. email, phone ##, LinkedIn)</i></p>-->
+<!--        </div>-->
 
-        <div class="resumecomp">
-          <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
-          <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Education</strong><br>
-            Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>
-        </div>
+<!--        <div class="resumecomp">-->
+<!--          <img src="../assets/resumeCompSummary.png" width="493px" alt="summary">-->
+<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <p><strong>Summary</strong><br>-->
+<!--            Summarize your greatest achievement/character traits.</p>-->
+<!--        </div>-->
 
-        <div class="resumecomp">
-          <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
-          <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Experience</strong><br>
-            Include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
-            position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
-            to include projects, you can start another section by following the same template.</p>
-        </div>
+<!--        <div class="resumecomp">-->
+<!--          <img src="../assets/resumeCompEducation.png" width="493px" alt="education">-->
+<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <p><strong>Education</strong><br>-->
+<!--            Include your School Name, Majors & Minors, Timeline, Expected Graduation Date, and GPA. </p>-->
+<!--        </div>-->
 
-        <div class="resumecomp" style="margin-bottom: 0px">
-          <img src="../assets/resumeCompSkill.png" width="493px" alt="skill">
-          <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p class="compTitle"><strong>Skills & Activities</strong> <br>
-            Include any relevant <strong class="semi">soft/hard skills/languages/certification/awards</strong> that can
-            add to your competences.</p>
-        </div>
-<!--        Unfortunately, 此行超出了图片高度，待resume板块正式确认后再决定如何排版-->
-        <div style="padding-left:calc(493px + 17px + 66px + 16px); text-align:left; margin-bottom:7px; margin-top:-1px">
-          <i>See examples under </i>
-          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>
-        </div>
+<!--        <div class="resumecomp">-->
+<!--          <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">-->
+<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <p><strong>Experience</strong><br>-->
+<!--            Include any professional experience that can <strong class="semi">prove your qualifications</strong> for the-->
+<!--            position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want-->
+<!--            to include projects, you can start another section by following the same template.</p>-->
+<!--        </div>-->
+
+<!--        <div class="resumecomp" style="margin-bottom: 0px">-->
+<!--          <img src="../assets/resumeCompSkill.png" width="493px" alt="skill">-->
+<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <p class="compTitle"><strong>Skills & Activities</strong> <br>-->
+<!--            Include any <strong class="semi">position-related</strong> soft/hard skills/languages/certification that-->
+<!--            can add to your competencies. </p>-->
+<!--        </div>-->
+<!--&lt;!&ndash;        Unfortunately, 此行超出了图片高度，待resume板块正式确认后再决定如何排版&ndash;&gt;-->
+<!--        <div style="padding-left:calc(493px + 17px + 66px + 16px); text-align:left; margin-bottom:7px; margin-top:-1px">-->
+<!--          <i>See examples under </i>-->
+<!--          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>-->
+<!--        </div>-->
 
         <div class="buttondiv">
           <a id="resume-essentials"></a>
           <a href="src/assets/resumetemplate.docx" download=""><button class="downloadTemplate">Download Template</button></a>
-
         </div>
 
       </div>
@@ -94,6 +152,7 @@
       <h3>Resume Essentials</h3>
 
       <img src="../assets/resumeEssentials.svg" width="80%">
+      <img src="../assets/resumeFormatTip.svg" width="55%" style="margin-top: 40px">
 
       <a id="sample-resumes-anchor" style="display: inline"></a>
       <div id="sample-resumes">
@@ -144,7 +203,8 @@
 
       <div >
         <h3 style="margin-top: 80px">Polish Your Resume</h3>
-        <p class="inlinePara" style="text-align: left">Now that you have built your Resume, let’s use some Action Verbs to show your skills! </p>
+        <p class="inlinePara" style="text-align: left">Now we are ready to use some
+          <storng class="semi">Action Verbs</storng>.</p>
         <div id="polishVerbs">
           <dl>
             <dt>Management<br>
@@ -384,25 +444,27 @@
         </div>
         <br>
 
-        <p class="inlinePara" style="text-align: left">Make sure you have impact statements to show your accomplishments:</p>
+        <p class="inlinePara" style="text-align: left">Make sure you have <strong class="semi">Impact Statements</strong>
+          to show your accomplishments:</p>
         <img src="../assets/impactStatement.svg" width="80%">
 
 
         <p class="ulTitle" style="margin-top: 50px">Example:</p>
         <ul>
-          <li> <strong>Led (verb) </strong> a team of 10 volunteers in <Strong>planning, preparing, and promoting a
-            charity table quiz (description of the work)</Strong> which <strong>raised 15% (quantified impact)</strong>
-            of the total revenue.</li>
+          <li> <i>Oversaw <strong class="semi" style="color: #1E4460">(verb in past tense)</strong> a team of 10
+            volunteers in planning, preparing, and promoting a charity table quiz <strong class="semi" style="color: #1E4460">
+              (description of the work)</strong> which raised 15% <strong class="semi" style="color: #1E4460">
+              (quantified impact)</strong>of the total revenue.</i></li>
         </ul>
         <br>
         <p class="ulTitle">Sample Sentence Structures:</p>
         <ul>
-          <li>Launched xx in xxx, resulting in xx</li>
-          <li>Developed xx in xxx, helped/raised/changed xxx</li>
+          <li>Launched xx in xxx, resulting in xx.</li>
+          <li>Developed xx in xxx, helped/raised/changed xxx.</li>
           <li>Analyzed xx and created xx to present to xx at weekly meetings.</li>
-          <li>Launched xx in xxx, resulting in xx</li>
+          <li>Launched xx in xxx, resulting in xx.</li>
           <li>Implemented a new xx system that streamlined the xx and allowed xx more efficiently.</li>
-          <li>Coordinated with the xx team to form a xx group for xx that resulted in xx</li>
+          <li>Coordinated with the xx team to form a xx group for xx that resulted in xx.</li>
         </ul>
 
         <a id="cv-breakdown"></a>
@@ -425,13 +487,13 @@
           </div>
 
         </div>
-        <h3 class="resumecomp">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
+        <h3 class="resumecomp" style="margin-bottom: 20px">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
           <img src="../assets/cvHeader.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
-            <b>Header</b>
+            <b class="semi">Header</b>
             <p style="line-height: 22px">Besides your contact information, you can include your website or profile if you have one.</p>
           </div>
         </div>
@@ -440,7 +502,7 @@
           <img src="../assets/cvEducation.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left">
-            <b>Education</b>
+            <b class="semi">Education</b>
             <p style="line-height: 22px">Besides any general information, you can include the title and the names of your thesis advisers if you are writing a department thesis. </p>
           </div>
         </div>
@@ -448,7 +510,7 @@
         <div class="resumecomp" style="margin-bottom: 10px">
           <img src="../assets/cvResearchInterests.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Research Interest</strong><br>
+          <p><strong class="semi">Research Interest</strong><br>
             Briefly elaborate on your research interest/goal.</p>
         </div>
 
@@ -503,20 +565,21 @@
             Include relevant references, their name, title, institution, and contact information.</p>
         </div>
 
-        <p class="ulTitle" style="margin-top: 50px">Optional Sections to Include (if you have one)</p>
+        <p class="ulTitle" style="margin-top: 50px">More Sections to Include (if you have one & relevant to your
+          respective field)</p>
         <br>
         <ul>
-          <li>Presentations: include the author(s) and the title of presentation, the conference/symposium name,
+          <li><span style="font-weight: 500">Presentations</span>: include the author(s) and the title of presentation, the conference/symposium name,
             the location and the date. </li>
-          <li>Teaching Experience: describe your role; include the name of the course and institution, the position
+          <li><span style="font-weight: 500">Teaching Experience</span>: describe your role; include the name of the course and institution, the position
             you held (e.g., Teaching Assistant, Instructor of Record), the location, and month-year range of the
             teaching engagement.</li>
-          <li>Professional Memberships or Affiliations</li>
-          <li>Certifications & Licensure</li>
-          <li>Skills</li>
+          <li style="font-weight: 500">Professional Memberships or Affiliations</li>
+          <li style="font-weight: 500">Certifications & Licensure</li>
+          <li style="font-weight: 500">Skills</li>
         </ul>
 
-        <p class="ulTitle" style="margin-top: 20px"><i>See more CV formatting examples under </i>
+        <p class="ulTitle" style="margin-top: 20px; font-weight: 400"><i>See more CV formatting examples under </i>
           <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
         </p>
 
@@ -558,11 +621,15 @@
     <div >
       <h2>More Resources</h2>
 
-      <p class="ulTitle">Resume:</p>
+      <p class="ulTitle" style="font-weight: 400">Resume:</p>
       <ul>
-        <li>Free Online Resume Builder: <a href="//www.resume.com/" target="_blank">
-          <p class="moreRes" style="display: inline">Resume Builder</p>
-        </a>
+        <li> Free Online Resume Builder:
+          <ul style="margin-left: 23px">
+            <li><a href="//www.resume.com/" target="_blank"><p class="moreRes">
+              Free Resume Builder | Resume.com</p></a></li>
+            <li><a href="https://www.rezi.ai/" target="_blank"><p class="moreRes">
+              The AI Resume Builder | Rezi</p></a></li>
+          </ul>
         </li>
         <li>Resume Summary Examples: <a href="//zety.com/blog/resume-summary#:~:text=Here's%20how%20to%20write%20a,can%20deliver%20results%20when%20hired" target="_blank">
           <p class="moreRes" style="display: inline"> Professional Resume Summary Examples (25+ Statements)</p></a>
@@ -575,21 +642,21 @@
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;">CV:</p>
+      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">CV:</p>
       <ul>
         <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">
           <p class="moreRes" style="display: inline">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;">Cover Letter:</p>
+      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">Cover Letter:</p>
       <ul>
         <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">
           <p class="moreRes" style="display: inline">Paraphrasing Tool</p></a>
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;">More Articles for tips:</p>
+      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">More Articles for tips:</p>
       <ul>
         <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">
           <p class="moreRes" style="display: inline">Tips on quantifying your accomplishments</p></a>
@@ -776,7 +843,7 @@ ul{
 }
 .ulTitle{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   text-align: left;
   margin-left: 10vw;
@@ -855,4 +922,73 @@ ul{
 .semi {
   font-weight: 600;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  height: fit-content;
+  width: min-content;
+}
+.one1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.one2 {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100px;
+}
+.one3 {
+  grid-column: 3;
+  grid-row: 1;
+  width: calc(77vw - 600px);
+  text-align: left;
+}
+.two1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.two2 {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100px;
+}
+.two3 {
+  grid-column: 3;
+  grid-row: 2;
+  width: calc(77vw - 600px);
+  text-align: left;
+}
+.three1 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.three2 {
+  grid-column: 2;
+  grid-row: 3;
+  width: 100px;
+}
+.three3 {
+  grid-column: 3;
+  grid-row: 3;
+  width: calc(77vw - 600px);
+  text-align: left;
+}
+.four1 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.four2 {
+  grid-column: 2;
+  grid-row: 4;
+  width: 100px;
+}
+.four3 {
+  grid-column: 3;
+  grid-row: 4;
+  width: calc(77vw - 600px);
+  text-align: left;
+}
+
 </style>
