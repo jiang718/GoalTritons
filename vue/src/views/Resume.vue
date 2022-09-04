@@ -75,11 +75,11 @@
           <div class="three3">
             <p class="compTitle"><strong>Skills</strong> <br>
               Include any <strong class="medium">position-related</strong> soft/hard skills/languages/certification that
-              can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i>
+              can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i><br>
               <i>See more examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
             </p>
             <p>
-              <br><br> <strong>Experience</strong><br>
+              <br> <strong>Experience</strong><br>
               Include any professional experience that can <strong class="medium">prove your qualifications</strong> for
               the position you are applying for. Start with the <strong class="medium">most relevant</strong> one. If
               you want to include projects, you can start another section by following the same template.
@@ -922,7 +922,7 @@ ul{
 .semi {
   font-weight: 600;
 }
-.semi {
+.medium {
   font-weight: 500;
 }
 
@@ -945,7 +945,8 @@ ul{
 .one3 {
   grid-column: 3;
   grid-row: 1;
-  width: calc(77vw - 600px);
+  /*width: calc(77vw - 600px);*/
+  width: 500px;
   text-align: left;
 }
 .two1 {
@@ -960,7 +961,8 @@ ul{
 .two3 {
   grid-column: 3;
   grid-row: 2;
-  width: calc(77vw - 600px);
+  /*width: calc(77vw - 600px);*/
+  width: 500px;
   text-align: left;
 }
 .three1 {
@@ -975,7 +977,8 @@ ul{
 .three3 {
   grid-column: 3;
   grid-row: 3;
-  width: calc(77vw - 600px);
+  /*width: calc(77vw - 600px);*/
+  width: 500px;
   text-align: left;
 }
 .four1 {
@@ -990,7 +993,8 @@ ul{
 .four3 {
   grid-column: 3;
   grid-row: 4;
-  width: calc(77vw - 600px);
+  /*width: calc(77vw - 600px);*/
+  width: 500px;
   text-align: left;
 }
 
