@@ -74,15 +74,15 @@
           </div>
           <div class="three3">
             <p class="compTitle"><strong>Skills</strong> <br>
-              Include any <strong class="semi">position-related</strong> soft/hard skills/languages/certification that
+              Include any <strong class="medium">position-related</strong> soft/hard skills/languages/certification that
               can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i>
-              <i>See examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
+              <i>See more examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
             </p>
             <p>
               <br><br> <strong>Experience</strong><br>
-              Include any professional experience that can <strong class="semi">prove your qualifications</strong> for the
-              position you are applying for. Start with the <strong class="semi">most relevant</strong> one. If you want
-              to include projects, you can start another section by following the same template.
+              Include any professional experience that can <strong class="medium">prove your qualifications</strong> for
+              the position you are applying for. Start with the <strong class="medium">most relevant</strong> one. If
+              you want to include projects, you can start another section by following the same template.
             </p>
           </div>
 
@@ -95,7 +95,7 @@
           <div class="four3">
             <p><strong>Education</strong><br>
               Include school name/majors & minors/expected graduation date/awards or honors; include
-              <strong class="semi"> GPA only if >=3.5  </strong>. </p>
+              <strong class="medium"> GPA only if ≥ 3.5  </strong>. </p>
           </div>
         </div>
 
@@ -204,7 +204,7 @@
       <div >
         <h3 style="margin-top: 80px">Polish Your Resume</h3>
         <p class="inlinePara" style="text-align: left">Now we are ready to use some
-          <storng class="semi">Action Verbs</storng>.</p>
+          <storng class="semi">Action Verbs</storng> to show your skills.</p>
         <div id="polishVerbs">
           <dl>
             <dt>Management<br>
@@ -459,12 +459,12 @@
         <br>
         <p class="ulTitle">Sample Sentence Structures:</p>
         <ul>
-          <li>Launched xx in xxx, resulting in xx.</li>
-          <li>Developed xx in xxx, helped/raised/changed xxx.</li>
-          <li>Analyzed xx and created xx to present to xx at weekly meetings.</li>
-          <li>Launched xx in xxx, resulting in xx.</li>
-          <li>Implemented a new xx system that streamlined the xx and allowed xx more efficiently.</li>
-          <li>Coordinated with the xx team to form a xx group for xx that resulted in xx.</li>
+          <li>Launched xxx in xxx, resulting in xxx.</li>
+          <li>Developed xxx in xxx, helped/raised/changed xxx.</li>
+          <li>Analyzed xxx and created xxx to present to xxx at weekly meetings.</li>
+          <li>Launched xxx in xxx, resulting in xxx.</li>
+          <li>Implemented a new xxx system that streamlined the xxx and allowed xxx more efficiently.</li>
+          <li>Coordinated with the xxx team to form a xxx group for xxx that resulted in xxx.</li>
         </ul>
 
         <a id="cv-breakdown"></a>
@@ -555,7 +555,7 @@
           <img src="../assets/cvImportantCoursesTaken.png" width="483px" alt="------>">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <p><strong>Courses Taken</strong><br>
-            Include relevant coursework and you GPA.</p>
+            Include relevant coursework and your GPA if ≥ 3.5.</p>
         </div>
 
         <div class="resumecomp">
@@ -569,18 +569,18 @@
           respective field)</p>
         <br>
         <ul>
-          <li><span style="font-weight: 500">Presentations</span>: include the author(s) and the title of presentation, the conference/symposium name,
+          <li><span class="medium">Presentations</span>: include the author(s) and the title of presentation, the conference/symposium name,
             the location and the date. </li>
-          <li><span style="font-weight: 500">Teaching Experience</span>: describe your role; include the name of the course and institution, the position
+          <li><span class="medium">Teaching Experience</span>: describe your role; include the name of the course and institution, the position
             you held (e.g., Teaching Assistant, Instructor of Record), the location, and month-year range of the
             teaching engagement.</li>
-          <li style="font-weight: 500">Professional Memberships or Affiliations</li>
-          <li style="font-weight: 500">Certifications & Licensure</li>
-          <li style="font-weight: 500">Skills</li>
+          <li class="medium">Professional Memberships or Affiliations</li>
+          <li class="medium">Certifications & Licensure</li>
+          <li class="medium">Skills</li>
         </ul>
 
         <p class="ulTitle" style="margin-top: 20px; font-weight: 400"><i>See more CV formatting examples under </i>
-          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
+          <i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>
         </p>
 
         <div class="buttondiv">
@@ -921,6 +921,9 @@ ul{
 }
 .semi {
   font-weight: 600;
+}
+.semi {
+  font-weight: 500;
 }
 
 .wrapper {
