@@ -55,10 +55,11 @@ export default {
 
 .wrapper__body {
   flex: 1;
-  /*margin-left: 21.5%;*/
+  margin-left: 19%;
+  padding-left: 1%;
   width: auto;
-  margin-left: 275px;
-  padding-left: 26px;
+  /*margin-left: 275px;*/
+  /*padding-left: 26px;*/
   max-width: 77%;
   padding-top: 5%;
   margin-bottom: 12%;

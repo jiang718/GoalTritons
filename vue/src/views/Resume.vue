@@ -78,7 +78,7 @@
               can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i><br>
               <i>See more examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
             </p>
-            <p>
+            <p style="line-height: 141%">
               <br> <strong>Experience</strong><br>
               Include any professional experience that can <strong class="medium">prove your qualifications</strong> for
               the position you are applying for. Start with the <strong class="medium">most relevant</strong> one. If
@@ -151,8 +151,23 @@
 
       <h3>Resume Essentials</h3>
 
-      <img src="../assets/resumeEssentials.svg" width="80%">
-      <img src="../assets/resumeFormatTip.svg" width="55%" style="margin-top: 40px">
+      <img src="../assets/resumeEssentials.svg"  style="margin-bottom: 60px">
+<!--      <img src="../assets/resumeFormatTip.svg" width="" style="margin-top: 40px">-->
+      <div style="background-color: rgba(244,206,113,0.21); border-radius: 1rem;border: 3px dashed #F4CE71; width:625px;
+      font-size: 16px; margin-left: 18%">
+        <p style="padding-top: 10px; color: #1E4460">Limit formatting of your resume to be
+          <a class="link" href="https://www.topresume.com/career-advice/what-is-an-ats-resume" target="_blank" style="color: #0467B0">
+            ATS (Applicant Tracking System)
+          </a>
+          friendly.
+        </p>
+        <ul style="margin-left: 4vw; margin-right: 0px;padding-bottom: 10px; color: #1E4460">
+          <li>Fonts should be simple & readable</li>
+          <li>Sections should be easily identified</li>
+          <li>Titles and bodies should be distinguished with different weights</li>
+        </ul>
+      </div>
+      <img class="top" src="../assets/light-bulb.svg" >
 
       <a id="sample-resumes-anchor" style="display: inline"></a>
       <div id="sample-resumes">
@@ -926,6 +941,12 @@ ul{
   font-weight: 500;
 }
 
+.top {
+  position: absolute;
+  left: 75%;
+  top: 29.5%;
+  z-index: 1;
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
