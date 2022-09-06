@@ -12,7 +12,7 @@
           width="415px"
       >
         <template #reference>
-          <el-avatar :size="30" style="position: relative; top: 10px; background-color: transparent; margin-right: 75px" shape="square">
+          <el-avatar :size="30" style="position: relative; top: 10px; background-color: transparent; margin-right: 40px" shape="square">
             <img src="../assets/calendar.svg" alt="calendar"/>
           </el-avatar>
         </template>
@@ -20,29 +20,53 @@
           <Calendar />
         </template>
       </el-popover>
-      <el-dropdown>
-        <span class="el-dropdown-link">
-          <el-avatar :size="30" style="position: relative; top: 10px">
-            <img src="../assets/avatar.png" alt="err" />
-          </el-avatar>
-           {{ user.username }}
-          <i class="el-icon-arrow-down el-icon--right"></i>
-        </span>
-        <template #dropdown>
-          <el-dropdown-menu>
-            <el-dropdown-item>Your Profile</el-dropdown-item>
-            <el-dropdown-item>Change Password</el-dropdown-item>
-            <el-dropdown-item @click="$router.push('/login')"> {{ getStatus(user.username) }} </el-dropdown-item>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
+
+<!--      <el-button text @click="showDialogForm(true)" style="background-color: #F4CE71; font-family: work-sans; font-size: 14px">Subscribe</el-button>-->
+
+<!--      <el-dialog v-model="dialogFormVisible" title="Subscription" @closed="showDialogForm(false)">-->
+<!--        <div>Get notifications right after each update</div>-->
+<!--        <el-form ref="form" :model="form" size="normal" >-->
+<!--          <el-form-item prop="username">-->
+<!--            <p>Username</p>-->
+<!--            <el-input prefix-icon="el-icon-user-solid" v-model="form.username"></el-input>-->
+<!--          </el-form-item>-->
+<!--          <el-form-item prop="email">-->
+<!--            <p>Email</p>-->
+<!--            <el-input prefix-icon="el-icon-user-solid" v-model="form.email"></el-input>-->
+<!--          </el-form-item>-->
+<!--        </el-form>-->
+<!--        <template #footer>-->
+<!--          <span class="dialog-footer">-->
+<!--            <el-button @click="showDialogForm(false)" style="font-size: 15px; font-weight: 600">Cancel</el-button>-->
+<!--            <el-button type="primary" @click="subscribe" style="font-size: 15px; font-weight: 600">Subscribe</el-button>-->
+<!--          </span>-->
+<!--        </template>-->
+<!--      </el-dialog>-->
+<!--      <el-dropdown>-->
+<!--        <span class="el-dropdown-link">-->
+<!--          <el-avatar :size="30" style="position: relative; top: 10px">-->
+<!--            <img src="../assets/avatar.png" alt="err" />-->
+<!--          </el-avatar>-->
+<!--           {{ user.username }}-->
+<!--          <i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
+<!--        </span>-->
+<!--        <template #dropdown>-->
+<!--          <el-dropdown-menu>-->
+<!--            <el-dropdown-item>Your Profile</el-dropdown-item>-->
+<!--            <el-dropdown-item>Change Password</el-dropdown-item>-->
+<!--            <el-dropdown-item @click="$router.push('/login')"> {{ getStatus(user.username) }} </el-dropdown-item>-->
+<!--          </el-dropdown-menu>-->
+<!--        </template>-->
+<!--      </el-dropdown>-->
     </div>
   </div>
 </template>
 
-<script>
-
+<script lang="ts">
 import Calendar from "../views/Calendar.vue";
+import request from "../utils/request";
+
+
 export default {
   name: "Header",
   components: {
@@ -51,22 +75,15 @@ export default {
   props: ['user'],
   data() {
     return {
-      user: {},
+      // user: {},
+      // dialogFormVisible: false,
+      // form: {}
     }
-  },
-  methods: {
-    getStatus(name) {
-      if (name == null || "") {
-        return "Login"
-      } else {
-        return "Logout"
-      }
-    }
-  },
-  created() {
-    let str = sessionStorage.getItem("user") || "{}"
-    this.user = JSON.parse(str)
   }
+  // created() {
+  //   let str = sessionStorage.getItem("user") || "{}"
+  //   this.user = JSON.parse(str)
+  // }
 
 }
 </script>
