@@ -21,27 +21,27 @@
         </template>
       </el-popover>
 
-      <el-button text @click="showDialogForm(true)" style="background-color: #F4CE71; font-family: work-sans; font-size: 14px">Subscribe</el-button>
+<!--      <el-button text @click="showDialogForm(true)" style="background-color: #F4CE71; font-family: work-sans; font-size: 14px">Subscribe</el-button>-->
 
-      <el-dialog v-model="dialogFormVisible" title="Subscription" @closed="showDialogForm(false)">
-        <div>Get notifications right after each update</div>
-        <el-form ref="form" :model="form" size="normal" >
-          <el-form-item prop="username">
-            <p>Username</p>
-            <el-input prefix-icon="el-icon-user-solid" v-model="form.username"></el-input>
-          </el-form-item>
-          <el-form-item prop="email">
-            <p>Email</p>
-            <el-input prefix-icon="el-icon-user-solid" v-model="form.email"></el-input>
-          </el-form-item>
-        </el-form>
-        <template #footer>
-          <span class="dialog-footer">
-            <el-button @click="showDialogForm(false)" style="font-size: 15px; font-weight: 600">Cancel</el-button>
-            <el-button type="primary" @click="subscribe" style="font-size: 15px; font-weight: 600">Subscribe</el-button>
-          </span>
-        </template>
-      </el-dialog>
+<!--      <el-dialog v-model="dialogFormVisible" title="Subscription" @closed="showDialogForm(false)">-->
+<!--        <div>Get notifications right after each update</div>-->
+<!--        <el-form ref="form" :model="form" size="normal" >-->
+<!--          <el-form-item prop="username">-->
+<!--            <p>Username</p>-->
+<!--            <el-input prefix-icon="el-icon-user-solid" v-model="form.username"></el-input>-->
+<!--          </el-form-item>-->
+<!--          <el-form-item prop="email">-->
+<!--            <p>Email</p>-->
+<!--            <el-input prefix-icon="el-icon-user-solid" v-model="form.email"></el-input>-->
+<!--          </el-form-item>-->
+<!--        </el-form>-->
+<!--        <template #footer>-->
+<!--          <span class="dialog-footer">-->
+<!--            <el-button @click="showDialogForm(false)" style="font-size: 15px; font-weight: 600">Cancel</el-button>-->
+<!--            <el-button type="primary" @click="subscribe" style="font-size: 15px; font-weight: 600">Subscribe</el-button>-->
+<!--          </span>-->
+<!--        </template>-->
+<!--      </el-dialog>-->
 <!--      <el-dropdown>-->
 <!--        <span class="el-dropdown-link">-->
 <!--          <el-avatar :size="30" style="position: relative; top: 10px">-->
@@ -76,55 +76,10 @@ export default {
   data() {
     return {
       // user: {},
-      dialogFormVisible: false,
-      form: {}
+      // dialogFormVisible: false,
+      // form: {}
     }
-  },
-  methods: {
-    // getStatus(name) {
-    //   if (name == null || "") {
-    //     return "Login"
-    //   } else {
-    //     return "Logout"
-    //   }
-    // },
-    showDialogForm(cond) {
-      if (cond) {
-        this.dialogFormVisible = true;
-      } else {
-        this.dialogFormVisible = false;
-        this.form.username = ""
-        this.form.email = ""
-      }
-    },
-    subscribe() {
-      this.dialogFormVisible = false;
-      if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.form.email))) {
-        this.$message({
-          type: "error",
-          message: "Not a valid email address"
-        })
-        return
-      }
-      this.$refs['form'].validate((valid) => {
-        if (valid) {
-          request.post("/user/subscribe", this.form).then(res => {
-            if (res.code === '0') {
-              this.$message({
-                type: "success",
-                message: "success"
-              })
-            } else {
-              this.$message({
-                type: "error",
-                message: res.msg
-              })
-            }
-          })
-        }
-      })
-    }
-  },
+  }
   // created() {
   //   let str = sessionStorage.getItem("user") || "{}"
   //   this.user = JSON.parse(str)
