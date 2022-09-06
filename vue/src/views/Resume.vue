@@ -3,9 +3,9 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
-    <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—
-      Resume, CV, and Cover Letter building. For resume and the CV, we will explain the differences. And then we will
-      break down the specific components for all of them. Let’s start!</p>
+    <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—Resume,
+      CV, and Cover Letter building. For resume and the CV, we will explain the differences, and then we will break down
+      the specific components for all of them. Let’s start!</p>
 
 
 
@@ -153,21 +153,23 @@
 
       <img src="../assets/resumeEssentials.svg"  style="margin-bottom: 60px">
 <!--      <img src="../assets/resumeFormatTip.svg" width="" style="margin-top: 40px">-->
-      <div style="background-color: rgba(244,206,113,0.21); border-radius: 1rem;border: 3px dashed #F4CE71; width:625px;
-      font-size: 16px; margin-left: 18%">
-        <p style="padding-top: 10px; color: #1E4460">Limit formatting of your resume to be
-          <a class="link" href="https://www.topresume.com/career-advice/what-is-an-ats-resume" target="_blank" style="color: #0467B0">
-            ATS (Applicant Tracking System)
-          </a>
-          friendly.
-        </p>
-        <ul style="margin-left: 4vw; margin-right: 0px;padding-bottom: 10px; color: #1E4460">
-          <li>Fonts should be simple & readable</li>
-          <li>Sections should be easily identified</li>
-          <li>Titles and bodies should be distinguished with different weights</li>
-        </ul>
+      <div style="position: relative; display: inline-block">
+        <div style="background-color: rgba(244,206,113,0.21); border-radius: 1rem;border: 3px dashed #F4CE71; width:625px;
+                    font-size: 16px; margin-left: -3%">
+          <p style="padding-top: 10px; color: #1E4460">Limit formatting of your resume to be
+            <a class="link" href="https://www.topresume.com/career-advice/what-is-an-ats-resume" target="_blank" style="color: #0467B0">
+              ATS (Applicant Tracking System)
+            </a>
+            friendly.
+          </p>
+          <ul style="margin-left: 4vw; margin-right: 0px;padding-bottom: 10px; color: #1E4460">
+            <li>Fonts should be simple & readable</li>
+            <li>Sections should be easily identified</li>
+            <li>Titles and bodies should be distinguished with different weights</li>
+          </ul>
+        </div>
+        <img style="position: absolute; top: -28px; left: 570px; z-index: 2; display: inline" src="../assets/light-bulb.svg" >
       </div>
-      <img class="top" src="../assets/light-bulb.svg" >
 
       <a id="sample-resumes-anchor" style="display: inline"></a>
       <div id="sample-resumes">
@@ -218,8 +220,10 @@
 
       <div >
         <h3 style="margin-top: 80px">Polish Your Resume</h3>
-        <p class="inlinePara" style="text-align: left">Now we are ready to use some
-          <storng class="semi">Action Verbs</storng> to show your skills.</p>
+        <p class="inlinePara" style="text-align: left">Carefully select a
+          <storng class="semi">strong Action Verbs</storng> per bullet point to demonstrate your accomplishments & skills.
+          <br> &nbsp; &nbsp; <b style="font-weight: 900">•</b> e.g. <i class="semi">managed</i> the cross-functional team
+        </p>
         <div id="polishVerbs">
           <dl>
             <dt>Management<br>
@@ -732,7 +736,6 @@ a{
 }
 .link {
   display: inline;
-  opacity: 80%;
   text-decoration: none;
   color: #1E4460;
   font-weight: 500;
@@ -846,10 +849,10 @@ ul{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 141%;
   text-align: left;
-  margin-right: 13vw;
-  margin-left: 13vw;
+  margin-right: 11vw;
+  margin-left: 11vw;
 }
 .inlinePara{
   margin-bottom: 20px;
