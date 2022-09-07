@@ -52,8 +52,10 @@
             </div>
 
             <div class="DYdiv">
+              <div>
+                <img class="DYimg" src="../assets/researchEmoji.png">
+              </div>
 
-              <img class="DYimg" src="../assets/researchEmoji.png">
               <div >
                 <p class="DYulTitle">What to research?</p>
                 <ul class="DYul">
@@ -78,7 +80,10 @@
             </div>
 
             <div  class="DYdiv">
-              <img class="DYimg" src="../assets/speachEmoji.png">
+              <div>
+                <img class="DYimg" src="../assets/speachEmoji.png">
+              </div>
+
 
               <div>
                 <p class="DYulTitle">What to pitch?</p>
@@ -165,10 +170,10 @@
           <p>Initial Screening</p>
           <img class="ITimg" src="../assets/interview/initialScreening.png">
 
-          <ul>
-            <li>Purpose: to evaluate your qualifications/skills in order to narrow the pool of applicants</li>
-            <li>Form: typically over the phone </li>
-          </ul>
+<!--          <ul>-->
+<!--            <li>Purpose: to evaluate your qualifications/skills in order to narrow the pool of applicants</li>-->
+<!--            <li>Form: typically over the phone </li>-->
+<!--          </ul>-->
 
 
         </div>
@@ -177,17 +182,17 @@
           <p id="ITstep2">Step 2</p>
           <p>Official Interview</p>
           <img class="ITimg" src="../assets/interview/officialInterview.png">
-          <ul>
-            <li>Purpose: an in-depth examination of your skills/experience/work history/availability</li>
-            <li>Form: typically 2-4 rounds; in-person or video conferencing; one-on-one or group interview</li>
-          </ul>
-          <div id="additionalTip">
-            <p>Additional: Casual Interview</p>
-            <ul>
-              <li>Purpose: for the company to get to know you & for you to get to know the potential working environment; team match usually happens here</li>
-              <li>Form: more chat-based; likely talks about company culture vs. your value</li>
-            </ul>
-          </div>
+<!--          <ul>-->
+<!--            <li>Purpose: an in-depth examination of your skills/experience/work history/availability</li>-->
+<!--            <li>Form: typically 2-4 rounds; in-person or video conferencing; one-on-one or group interview</li>-->
+<!--          </ul>-->
+<!--          <div id="additionalTip">-->
+<!--            <p>Additional: Casual Interview</p>-->
+<!--            <ul>-->
+<!--              <li>Purpose: for the company to get to know you & for you to get to know the potential working environment; team match usually happens here</li>-->
+<!--              <li>Form: more chat-based; likely talks about company culture vs. your value</li>-->
+<!--            </ul>-->
+<!--          </div>-->
 
         </div>
 
@@ -196,17 +201,20 @@
           <p id="ITstep3">Step 3</p>
           <p>Final Decision</p>
           <img class="ITimg" src="../assets/interview/finalDecision.png">
-          <ul>
-            <li>Form: hiring committee reviews all the feedback from the official interviews
-              <br>
+<!--          <ul>-->
+<!--            <li>Form: hiring committee reviews all the feedback from the official interviews-->
+<!--              <br>-->
 
-              &nbsp —> Decision made: if hired, you will receive an offer letter often by email</li>
+<!--              &nbsp —> Decision made: if hired, you will receive an offer letter often by email</li>-->
 
-          </ul>
-          <p></p>
+<!--          </ul>-->
+<!--          <p></p>-->
         </div>
       </div>
+      <img id="ITimg" src="../assets/interview/interviewSteps.png">
     </div>
+
+
 
     <div>
       <h2>How to Master an Interview?</h2>
@@ -223,51 +231,59 @@
         <div>
           <img src="../assets/interview/beforeTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
 
-          <img src="../assets/interview/reportEmoji.svg" class="HTMAIemoji" >
-          <p>Prepare for common Q&A</p>
-          <ul>
-            <li>Have a list of common qs & answer them by yourself.
-              <ul>
-                <li>Use the S.A.R. answer structure when needed.</li>
-                <li>Keep the answers short & releveant.</li>
-                <li>MEMORIZE your stories/answers</li>
-              </ul>
-            </li>
-            <li>Click to see common questions.</li>
-          </ul>
+          <div class="HTMAIsubdiv" style="margin-right: 20px; padding-right: 4px">
+            <img src="../assets/interview/reportEmoji.svg" class="HTMAIemoji" >
+            <p>Prepare for common Q&A</p>
+            <ul>
+              <li>Have a list of common qs & answer them by yourself.
+                <ul>
+                  <li>Use the S.A.R. answer structure when needed.</li>
+                  <li>Keep the answers short & releveant.</li>
+                  <li>MEMORIZE your stories/answers</li>
+                </ul>
+              </li>
+              <li>Click to see common questions.</li>
+            </ul>
 
-          <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
-          <p>Prepare a brief self-introduction</p>
-          <ul><li>Click to see tips.</li></ul>
+            <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <p>Prepare a brief self-introduction</p>
+            <ul><li>Click to see tips.</li></ul>
 
-          <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
-          <p>Practice, practice, and practice!</p>
-          <ul><li>Find peers to do mock interviews using the Big Interview.</li></ul>
+            <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <p>Practice, practice, and practice!</p>
+            <ul><li>Find peers to do mock interviews using the Big Interview.</li></ul>
+          </div>
+
+
         </div>
 
-        <div>
+        <div >
           <img src="../assets/interview/atTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
 
-          <img src="../assets/interview/smileEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
-          <p>Be open, polite, and honest</p>
-          <ul>
-            <li>Make a good first impression by providing big smile, handshake, and proper greetings, etc.</li>
-            <li>Click to see common questions.</li>
-          </ul>
+          <div class="HTMAIsubdiv" style="margin-right: 20px; padding-right: 5px">
+            <img src="../assets/interview/smileEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <p>Be open, polite, and honest</p>
+            <ul>
+              <li>Make a good first impression by providing big smile, handshake, and proper greetings, etc.</li>
+              <li>Click to see common questions.</li>
+            </ul>
 
-          <img src="../assets/interview/clothesEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
-          <p>Dress appropriately</p>
-          <ul>
-            <li>Dress by company culture</li>
-            <li>Dress comfortably</li>
-          </ul>
+            <img src="../assets/interview/clothesEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <p>Dress appropriately</p>
+            <ul>
+              <li>Dress by company culture</li>
+              <li>Dress comfortably</li>
+            </ul>
 
-          <img src="../assets/interview/eyeEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
-          <p>Express confidence through body language.</p>
-          <ul>
-            <li>Maintain eye-contacts with your interviewers.</li>
-            <li>Nod at appropriate times to show that you are paying attention.</li>
-          </ul>
+            <img src="../assets/interview/eyeEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <p>Express confidence through body language.</p>
+            <ul>
+              <li>Maintain eye-contacts with your interviewers.</li>
+              <li>Nod at appropriate times to show that you are paying attention.</li>
+            </ul>
+          </div>
+
+
         </div>
 
         <div>
@@ -561,7 +577,7 @@ export default {
   #ITdiv{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 10px;
   }
 
   #ITdiv *{
@@ -575,6 +591,11 @@ export default {
     border-left: hidden;
 
 
+  }
+
+  #ITimg{
+    width: auto;
+    max-width: 70vw;
   }
 
   #ITstep1{
@@ -614,9 +635,16 @@ export default {
     grid-template-columns: repeat(3, 1fr);
   }
 
+
+
   #HTMAIdiv *{
     margin: 0;
+  }
 
+  .HTMAIsubdiv{
+    border-right: 1px solid rgba(30, 68, 96, .35);
+
+    height: 90%;
 
   }
 
