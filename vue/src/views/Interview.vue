@@ -45,7 +45,7 @@
 
         <img src="../assets/sampleQ1.svg">
 
-        <h3 style="margin-top: 3rem; margin-left: 4rem">Tips</h3>
+        <h3 style="margin-top: 3rem; margin-left: 8vw; margin-bottom: 1.5vh">Tips:</h3>
         <div>
           <div>
             <div style="text-align: left; margin-left: 10vw">
