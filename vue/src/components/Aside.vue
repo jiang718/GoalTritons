@@ -1,14 +1,12 @@
 <template>
   <el-row class="tac">
     <el-col :span="12">
-      <b class="mb-2" style="font-size: 20px; margin-left: 3px">Career Path</b>
+      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Path to Approach</h5>
+      <h5 style="font-size: 20px; margin-left: 3px; margin-bottom: 3px; text-align: center">Your Career</h5>
       <el-menu
-          style="width: 210px; min-height: calc(100vh - 50px)"
-          active-text-color="#ffd04b"
-          background-color="#545c64"
+          style="width: 230px; min-height: calc(100vh - 50px)"
           class="el-menu-vertical-demo"
-          default-active="1"
-          text-color="#fff"
+          default-active="0"
           @open="handleOpen"
           @close="handleClose"
       >
@@ -20,10 +18,11 @@
 <!--          <el-icon><icon-menu /></el-icon>-->
           <span>Learn about Career</span>
         </el-menu-item>
+
         <el-sub-menu index="3">
           <template #title>
 <!--            <el-icon><location /></el-icon>-->
-            <span>Networking</span>
+            <span class="mod" @click="$router.push('/networking')">Networking</span>
           </template>
           <el-menu-item-group>
             <el-menu-item index="3-1" class="sub1">Why Networking</el-menu-item>
@@ -42,10 +41,31 @@
 <!--          <el-icon><setting /></el-icon>-->
           <span>Internship & Jobs</span>
         </el-menu-item>
-        <el-menu-item index="5">
-<!--          <el-icon><setting /></el-icon>-->
-          <span>Resume & Cover Letter</span>
-        </el-menu-item>
+        <el-sub-menu index="5">
+          <template #title>
+            <!--            <el-icon><location /></el-icon>-->
+            <span @click="$router.push('/resume')">Resume/CV & Cover Letter</span>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="5-1" class="sub1">Resume vs. CV</el-menu-item>
+          </el-menu-item-group>
+          <el-sub-menu index="5-2">
+            <template #title>Resume Breakdown</template>
+            <el-menu-item index="5-2-1" class="sub2">Resume Components</el-menu-item>
+            <el-menu-item index="5-2-2" class="sub2">Resume Essentials</el-menu-item>
+            <el-menu-item index="5-2-3" class="sub2">Sample Resumes</el-menu-item>
+            <el-menu-item index="5-2-4" class="sub2">Polish Your Resume</el-menu-item>
+          </el-sub-menu>
+          <el-menu-item-group>
+            <el-menu-item index="5-3" class="sub1">CV Breakdown</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group>
+            <el-menu-item index="5-4" class="sub1">Cover Letter</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group>
+              <el-menu-item index="5-5" class="sub1">More Resources</el-menu-item>
+          </el-menu-item-group>
+        </el-sub-menu>
         <el-menu-item index="6">
 <!--          <el-icon><setting /></el-icon>-->
           <span>Internship Prep</span>
