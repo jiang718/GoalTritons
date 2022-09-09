@@ -1,13 +1,9 @@
-
-
 <template xmlns="http://www.w3.org/1999/html">
   <div id="resumeTop">
     <h1>Resume / CV & Cover Letter</h1>
     <p id="opening">In this page, Go Tritons will walk you through an important step of your job application process—Resume,
       CV, and Cover Letter building. For resume and the CV, we will explain the differences, and then we will break down
       the specific components for all of them. Let’s start!</p>
-
-
 
     <a id="resume-vs-cv"></a>
 
@@ -23,8 +19,6 @@
       <a id="resume-components"></a>
       <h2>Resume Breakdown</h2>
 
-
-
       <div>
 
         <div id="resume-components" class="headerWithLink">
@@ -33,10 +27,9 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
               <p class ="link">Schedule Resume Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle" alt="arrow">
             </a>
           </div>
-
         </div>
 
         <div class="wrapper">
@@ -47,7 +40,7 @@
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           </div>
           <div class="one3">
-            <p><strong>Header:</strong> <br>
+            <p><span class="semi">Header:</span> <br>
             Contact Information <i>(e.g. email, phone ##, LinkedIn)</i></p>
           </div>
 
@@ -58,7 +51,7 @@
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           </div>
           <div class="two3">
-            <p><strong>Summary</strong><br>
+            <p><span class="semi">Summary</span><br>
             Summarize your greatest achievement/character traits.</p>
           </div>
 
@@ -68,18 +61,20 @@
           </div>
           <div class="three2">
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
-                 style="margin-left: 17px; margin-right: 16px; margin-top: 2px"> <br>
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 2px"> <br><br><br>
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
-                 style="margin-left: 17px; margin-right: 16px; margin-top: 118px">
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 108px">
           </div>
           <div class="three3">
-            <p class="compTitle"><strong>Skills</strong> <br>
+            <span class="semi">Skills</span>
+            <p style="line-height: 141%">
               Include any <strong class="medium">position-related</strong> soft/hard skills/languages/certification that
               can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i><br>
               <i>See more examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
             </p>
+            <br><br><br>
+            <span class="semi">Experience</span>
             <p style="line-height: 141%">
-              <br> <strong>Experience</strong><br>
               Include any professional experience that can <strong class="medium">prove your qualifications</strong> for
               the position you are applying for. Start with the <strong class="medium">most relevant</strong> one. If
               you want to include projects, you can start another section by following the same template.
@@ -90,12 +85,18 @@
             <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
           </div>
           <div class="four2">
-            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 2px"> <br>
+            <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
+                 style="margin-left: 17px; margin-right: 16px; margin-top: 70px">
           </div>
           <div class="four3">
-            <p><strong>Education</strong><br>
+            <p><span class="semi">Education</span><br>
               Include school name/majors & minors/expected graduation date/awards or honors; include
-              <strong class="medium"> GPA only if ≥ 3.5  </strong>. </p>
+              <strong class="medium"> GPA only if ≥ 3.5</strong>. </p>
+            <p>
+              <br> <span class="semi">Activities (Optional):</span> only add if relevant to the position.
+            </p>
           </div>
         </div>
 
@@ -151,7 +152,7 @@
 
       <h3>Resume Essentials</h3>
 
-      <img src="../assets/resumeEssentials.svg"  style="margin-bottom: 60px">
+      <img src="../assets/resumeEssentials.svg"  style="margin-bottom: 60px" alt="resumeEssentials">
 <!--      <img src="../assets/resumeFormatTip.svg" width="" style="margin-top: 40px">-->
       <div style="position: relative; display: inline-block">
         <div style="background-color: rgba(244,206,113,0.21); border-radius: 1rem;border: 3px dashed #F4CE71; width:625px;
@@ -162,13 +163,14 @@
             </a>
             friendly.
           </p>
-          <ul style="margin-left: 4vw; margin-right: 0px;padding-bottom: 10px; color: #1E4460">
+          <ul style="margin-left: 4vw; margin-right: 0;padding-bottom: 10px; color: #1E4460">
             <li>Fonts should be simple & readable</li>
             <li>Sections should be easily identified</li>
             <li>Titles and bodies should be distinguished with different weights</li>
           </ul>
         </div>
-        <img style="position: absolute; top: -28px; left: 570px; z-index: 2; display: inline" src="../assets/light-bulb.svg" >
+        <img style="position: absolute; top: -28px; left: 570px; z-index: 2; display: inline" src="../assets/light-bulb.svg"
+        alt="light-bulb">
       </div>
 
       <a id="sample-resumes-anchor" style="display: inline"></a>
@@ -214,14 +216,14 @@
         <a href="//zety.com/resume-examples" target="_blank">
           <p class ="link">See Samples for More Fields</p>
           &nbsp;
-          <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+          <img src="../assets/arrow.png" width=22px style="vertical-align: middle" alt="arrow">
         </a>
       </div>
 
       <div >
         <h3 style="margin-top: 80px">Polish Your Resume</h3>
         <p class="inlinePara" style="text-align: left">Carefully select a
-          <storng class="semi">strong Action Verbs</storng> per bullet point to demonstrate your accomplishments & skills.
+          <strong class="semi">strong Action Verbs</strong> per bullet point to demonstrate your accomplishments & skills.
           <br> &nbsp; &nbsp; <b style="font-weight: 900">•</b> e.g. <i class="semi">managed</i> the cross-functional team
         </p>
         <div id="polishVerbs">
@@ -465,7 +467,7 @@
 
         <p class="inlinePara" style="text-align: left">Make sure you have <strong class="semi">Impact Statements</strong>
           to show your accomplishments:</p>
-        <img src="../assets/impactStatement.svg" width="80%">
+        <img src="../assets/impactStatement.svg" width="80%" alt="impactStatement">
 
 
         <p class="ulTitle" style="margin-top: 50px">Example:</p>
@@ -501,7 +503,7 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
               <p class ="link">Schedule CV Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle" alt="arrow">
             </a>
           </div>
 
@@ -509,79 +511,102 @@
         <h3 class="resumecomp" style="margin-bottom: 20px">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
-          <img src="../assets/cvHeader.png" width="483px" alt="------>">
+          <img src="../assets/cvHeader.png" width="483px" alt="cvHeader">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <div style="text-align: left">
+          <div style="text-align: left; width: 545px">
             <b class="semi">Header</b>
-            <p style="line-height: 22px">Besides your contact information, you can include your website or profile if you have one.</p>
+            <p class="components">Besides your contact information, you can include your
+              website or profile if you have one.</p>
           </div>
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvEducation.png" width="483px" alt="------>">
+          <img src="../assets/cvEducation.png" width="483px" alt="cvEducation">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <div style="text-align: left">
-            <b class="semi">Education</b>
-            <p style="line-height: 22px">Besides any general information, you can include the title and the names of your thesis advisers if you are writing a department thesis. </p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Education</span>
+            <p class="components">Besides any general information, you can include the title
+              and the names of your thesis advisers if you are writing a department thesis. </p>
           </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchInterests.png" width="483px" alt="------>">
+          <img src="../assets/cvResearchInterests.png" width="483px" alt="cvResearchInterests">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong class="semi">Research Interest</strong><br>
-            Briefly elaborate on your research interest/goal.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Research Interest</span><br>
+            <p class="components">Briefly elaborate on your research interest/goal.</p>
+          </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchAppointments.png" width="483px" alt="------>">
+          <img src="../assets/cvResearchAppointments.png" width="483px" alt="cvResearchAppointments">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <div style="text-align: left">
-            <b>Research Appointments</b>
-            <p style="line-height: 22px">Include the time, the position you held, the name of the lab/department/ <br>institution/director, and the location.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Research Appointments</span>
+            <p class="components">Include the time, the position you held, the name of the lab/department/
+              institution/director, and the location.</p>
           </div>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvScholarships.png" width="483px" alt="------>">
+          <img src="../assets/cvScholarships.png" width="483px" alt="cvScholarships">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Grants/Awards/Academic Honors/Scholarships</strong><br>
-            Include the award name, award-granting institution, and year of the award.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Grants/Awards/Academic Honors/Scholarships</span>
+            <p class="components">Include the award name, award-granting institution, and year of the award.</p>
+          </div>
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvPopularArticles.png" width="483px" alt="------>">
+          <img src="../assets/cvPopularArticles.png" width="483px" alt="cvPopularArticles">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Popular Articles or Publications</strong><br>
-            Include scholarly publications such as journal articles & book chapters. Include publication status—e.g., in preparation, under review, forthcoming.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Popular Articles or Publications</span>
+            <p class="components">Include scholarly publications such as journal articles & book chapters. Include
+              publication status—e.g., in preparation, under review, forthcoming.</p>
+          </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchSkills.png" width="483px" alt="------>">
+          <img src="../assets/cvResearchSkills.png" width="483px" alt="cvResearchSkills">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Research Skills/Experience</strong><br>
-            Briefly describe your role, the primary methods used, and key findings.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Research Skills/Experience</span>
+            <p class="components">
+              Briefly describe your role, the primary methods used, and key findings.</p>
+          </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvService.png" width="483px" alt="------>">
+          <img src="../assets/cvService.png" width="483px" alt="cvService">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Leadership/Activities/Service/Volunteer</strong><br>
-            Briefly describe your role and accomplishments. Include the organization, your position title, the location, and the timeline.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Leadership/Activities/Service/Volunteer</span>
+            <p class="components">
+              Briefly describe your role and accomplishments. Include the organization, your position title, the location,
+              and the timeline.</p>
+          </div>
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvImportantCoursesTaken.png" width="483px" alt="------>">
+          <img src="../assets/cvImportantCoursesTaken.png" width="483px" alt="cvImportantCoursesTaken">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Courses Taken</strong><br>
-            Include relevant coursework and your GPA if ≥ 3.5.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Courses Taken</span>
+            <p class="components">
+              Include relevant coursework and your GPA if ≥ 3.5.</p>
+          </div>
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvReferences.png" width="483px" alt="------>">
+          <img src="../assets/cvReferences.png" width="483px" alt="cvReferences">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
-          <p><strong>Reference</strong><br>
-            Include relevant references, their name, title, institution, and contact information.</p>
+          <div style="text-align: left; width: 545px">
+            <span class="semi">Reference</span>
+            <p class="components">
+              Include relevant references, their name, title, institution, and contact information.</p>
+          </div>
         </div>
 
         <p class="ulTitle" style="margin-top: 50px">More Sections to Include (if you have one & relevant to your
@@ -621,12 +646,12 @@
             <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank">
               <p class ="link">Schedule Cover Letter Edit Appointment</p>
               &nbsp;
-              <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
+              <img src="../assets/arrow.png" width=22px style="vertical-align: middle" alt="arrow">
             </a>
           </div>
 
         </div>
-        <img src="../assets/coverLetter.svg" width="890px">
+        <img src="../assets/coverLetter.svg" width="890px" alt="coverLetter">
 
         <div class="buttondiv">
           <a href="src/assets/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
@@ -640,7 +665,7 @@
     <div >
       <h2>More Resources</h2>
 
-      <p class="ulTitle" style="font-weight: 400">Resume:</p>
+      <p class="moreResTitle">Resume:</p>
       <ul>
         <li> Free Online Resume Builder:
           <ul style="margin-left: 23px">
@@ -661,21 +686,21 @@
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">CV:</p>
+      <p class="moreResTitle" style="margin-top: 20px">CV:</p>
       <ul>
         <li>More examples for CV formatting: <a href="//resumegenius.com/blog/cv-help/cv-format#conferences" target="_blank">
           <p class="moreRes" style="display: inline">Curriculum Vitae (CV) Format: Samples & Formatting Tips</p></a>
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">Cover Letter:</p>
+      <p class="moreResTitle" style="margin-top: 20px">Cover Letter:</p>
       <ul>
         <li>Paraphrasing Tool: <a href="//quillbot.com/" target="_blank">
           <p class="moreRes" style="display: inline">Paraphrasing Tool</p></a>
         </li>
       </ul>
 
-      <p class="ulTitle" style="margin-top: 20px;font-weight: 400">More Articles for tips:</p>
+      <p class="moreResTitle" style="margin-top: 20px">More Articles for tips:</p>
       <ul>
         <li><a href="//www.themuse.com/advice/how-to-quantify-your-resume-bullets-when-you-dont-work-with-numbers" target="_blank">
           <p class="moreRes" style="display: inline">Tips on quantifying your accomplishments</p></a>
@@ -700,17 +725,23 @@ export default {
 @font-face { font-family: work-sans;
   src: url('../assets/WorkSans/WorkSans-Bold.woff');
 }
-.scrollbar-demo-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-  color: var(--el-color-primary);
+.semi {
+  font-weight: 600;
 }
+.medium {
+  font-weight: 500;
+}
+/*.scrollbar-demo-item {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  height: 50px;*/
+/*  margin: 10px;*/
+/*  text-align: center;*/
+/*  border-radius: 4px;*/
+/*  background: var(--el-color-primary-light-9);*/
+/*  color: var(--el-color-primary);*/
+/*}*/
 .downloadTemplate{
   font-style: normal;
   font-weight: 600;
@@ -801,18 +832,6 @@ h1,h2,h3{
   text-align: left;
   margin-bottom: 7px;
 }
-/*.resumecomp > p{*/
-/*  padding-top: 1rem;*/
-/*}*/
-/*.resumecomp > pre{*/
-/*  padding-top: 1rem;*/
-/*}*/
-h3{
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  font-style: normal;
-}
 h1{
   margin-bottom: 100px;
   color: #1E4460;
@@ -833,17 +852,14 @@ h2{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+h3{
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
 #sample-resumes a{
   margin-right: 50px;
-}
-ul{
-  text-align: left;
-  margin-right: 12vw;
-  margin-left: 12vw;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 141%;    /* list里的行间宽度为141%，其他为default */
 }
 #opening{
   font-size: 16px;
@@ -859,9 +875,26 @@ ul{
   margin-top: 50px;
   padding-left: 3.6vw;
 }
+ul{
+  text-align: left;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 141%;    /* list里的行间宽度为141%，其他为default */
+}
 .ulTitle{
   font-size: 16px;
   font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  margin-left: 10vw;
+  margin-bottom: 0;
+}
+.moreResTitle{
+  font-size: 16px;
+  font-weight: 500;
   font-style: normal;
   text-align: left;
   margin-left: 10vw;
@@ -898,6 +931,9 @@ ul{
 .resumeTemplate{
   grid-row: 2;
 }
+.components {
+  line-height: 141%;
+}
 #resumeComponentHeader{
   grid-column-start: 1;
   grid-column-end: span 4;
@@ -909,7 +945,6 @@ ul{
   font-style: normal;
   border-radius: 1rem;
   border: 1px solid black;
-  width: auto;
   margin: auto;
   width: 185px;
   background-color: #1E4460;
@@ -937,23 +972,11 @@ ul{
   padding-left: 2px;
   font-size: 12px;
 }
-.semi {
-  font-weight: 600;
-}
-.medium {
-  font-weight: 500;
-}
 
-.top {
-  position: absolute;
-  left: 75%;
-  top: 29.5%;
-  z-index: 1;
-}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0px;
+  gap: 0;
   height: fit-content;
   width: min-content;
 }
