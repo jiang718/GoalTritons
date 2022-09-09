@@ -49,7 +49,7 @@
         <div>
           <div>
             <div style="text-align: left; margin-left: 10vw">
-              <p class="DYp">Point 1</p>
+              <p class="DYp" >Point 1</p>
               <span class="DYspan"><strong>Research about the company/position</strong></span>
             </div>
 
@@ -119,9 +119,9 @@
         <h3>Behavioral Questions</h3>
         <p id="BQp">Bevaioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
           the real workplace so that they can anticipate your performance. These are usually about <strong>soft skills</strong>
-          (e.g. leadership) and <strong>personal attributes</strong> (e.g. persistency).</p>
+          (<em>e.g. leadership</em>) and <strong>personal attributes</strong> (<em>e.g. persistency</em>).</p>
 
-        <img src="../assets/behaviorQ.svg" style="margin-bottom: 50px">
+        <img src="../assets/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
 
         <div style="text-align: right; margin-bottom: 82px">
             <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
@@ -138,13 +138,13 @@
           potential to contribute to this specific position. </p>
         <img src="../assets/sampleQ2.svg">
         <div>
-          <h3 style="margin-left: 4rem">Tips:</h3>
+          <h3 id="TQtipsTitle">Tips:</h3>
           <div id="TQtips">
             <p class="DYp">Point 1</p>
 
             <span>Search online or read some interview guides for your <span style="font-weight: 500">specific professions</span>.</span>
 
-            <ul><li>E.g. For software engineers, enter “software engineers interview cheat sheet”.</li></ul>
+            <ul><li><em>E.g. For software engineers, enter “software engineers interview cheat sheet”</em>.</li></ul>
             <br>
             <p class="DYp">Point 2</p>
             <span>Search for interview tips <span style="font-weight: 500">specific to the company</span> you have applied.</span>
@@ -205,7 +205,7 @@
 <!--          <p></p>-->
         </div>
       </div>
-      <img id="ITimg" src="../assets/interview/interviewSteps.png">
+      <img id="ITSimg" src="../assets/interview/interviewSteps.svg">
     </div>
 
 
@@ -236,17 +236,17 @@
                   <li>MEMORIZE your stories/answers</li>
                 </ul>
               </li>
-              <li>Click to see <a href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; font-weight: 500">common questions</a>.</li>
+              <li>Click to see <a class="moreRes" href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; font-weight: 500">common questions</a>.</li>
             </ul>
 
             <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Prepare a brief self-introduction</p>
-            <ul><li>Click to see <a href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
+            <ul><li>Click to see <a class="moreRes" href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
                                     target="_blank" style="color: #0467B0; font-weight: 500">tips</a>.</li></ul>
 
             <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Practice, practice, and practice!</p>
-            <ul><li>Find peers to do mock interviews using the <a href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; font-weight: 500">Big Interview</a>.</li></ul>
+            <ul><li>Find peers to do mock interviews using the <a class="moreRes" href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; font-weight: 500">Big Interview</a>.</li></ul>
           </div>
 
 
@@ -287,13 +287,16 @@
           <img src="../assets/interview/questionEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Ask questions at the end</p>
           <ul>
-            <li>Click to see <a href="//www.betterup.com/blog/questions-to-ask-hiring-manager" target="_blank" style="color: #0467B0; font-weight: 500">sample questions to ask employers or hiring managers</a>.</li>
+            <li>Click to see
+              <a class="moreRes" id="longMoreRes"  href="//www.betterup.com/blog/questions-to-ask-hiring-manager" target="_blank">
+                sample questions</a> to ask employers or hiring managers.
+            </li>
           </ul>
 
           <img src="../assets/interview/emailEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Send a thank you note/email within 24 hours.</p>
           <ul>
-            <li>Click to see <a href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
+            <li>Click to see <a class="moreRes" href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
                                 target="_blank" style="color: #0467B0; font-weight: 500">sample thank you emails</a>.</li>
           </ul>
         </div>
@@ -451,14 +454,13 @@ export default {
   }
 
   #opening, #BQp, #TQp{
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 141%;
     text-align: left;
-    margin-right: 13vw;
-    margin-left: 13vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
 
   }
 
@@ -546,6 +548,7 @@ export default {
     color: black;
     margin-right: 10px;
     padding: 3px 10px;
+    font-weight: 600;
 
   }
 
@@ -563,6 +566,7 @@ export default {
   .DYulTitle{
 
     text-align: left;
+    font-style: italic;
 
   }
   .DYul{
@@ -570,9 +574,16 @@ export default {
     margin-left: 2rem;
   }
 
+  #TQtipsTitle{
+    margin-left: 8vw;
+    margin-bottom: 20px;
+  }
+
   #TQtips{
     text-align: left;
-    margin: 20px 10vw;
+
+    margin-left: 10vw;
+
   }
 
   #TQtips ul{
@@ -582,7 +593,12 @@ export default {
   }
 
   .ITimg{
-    width: 10vw;
+    width: 7vw;
+  }
+
+  #ITSimg{
+    width: 70vw;
+    margin-top: 3rem;
   }
 
   #ITdiv{
@@ -727,5 +743,9 @@ export default {
   }
   .moreRes:hover::before {
     width: 100%;
+  }
+
+  #longMoreRes{
+    display: inline;
   }
 </style>
