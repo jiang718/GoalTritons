@@ -309,45 +309,45 @@
       <h2>More Resources</h2>
 
 
-      <p>“Define Yourself” Q&A: 10 Common Job Interview Questions and How to Answer Them</p>
+      <p>“Define Yourself” Q&A: <a href="//hbr.org/2021/11/10-common-job-interview-questions-and-how-to-answer-them"
+                                   target="_blank">10 Common Job Interview Questions and How to Answer Them</a>
+      </p>
 
       <br>
 
       <p>Behavioral Q&A:</p>
       <ul>
-        <li>Situational Q&A: 20+ Top Situational Interview Questions and Answers</li>
-        <li>Hypothetical Q&A: 7 Hypothetical Interview Questions & Answers</li>
+        <li>Situational Q&A: <a href="//zety.com/blog/situational-interview-questions" target="_blank">
+          20+ Top Situational Interview Questions and Answers</a>
+        </li>
+        <li>Hypothetical Q&A:
+          <a href="//www.how2become.com/blog/7-hypothetical-interview-questions/#:~:text=Examples%20of%20hypothetical%20interview%20questions,see%20your%20point%20of%20view%3F"
+                                 target="_blank">7 Hypothetical Interview Questions & Answers</a></li>
       </ul>
 
       <br>
 
-      <p>Behavioral Q&A:</p>
-      <ul>
-        <li>Situational Q&A: 20+ Top Situational Interview Questions and Answers</li>
-        <li>Hypothetical Q&A: 7 Hypothetical Interview Questions & Answers</li>
-      </ul>
 
-      <br>
 
       <p>Common Interview Q&A:</p>
       <ul>
-        <li>12 Tough Interview Questions and Answers</li>
-        <li>35+ Interview Questions and Answer</li>
+        <li><a href="//www.indeed.com/career-advice/interviewing/tough-interview-questions-and-answers?from=careeradvice-US" target="_blank">12 Tough Interview Questions and Answers</a></li>
+        <li><a href="//novoresume.com/career-blog/interview-questions-and-best-answers-guide" target="_blank">35+ Interview Questions and Answer</a></li>
       </ul>
 
       <br>
 
       <p>Career Center Resources:</p>
       <ul>
-        <li>Interview Tips</li>
-        <li>Sample Interview Questions</li>
-        <li>Sample Questions to Ask Employers</li>
-        <li>Mock Interview: Big Interview for hands-on interview practice</li>
+        <li><a href="//career.ucsd.edu/succeed-search/interview-tips/index.html" target="_blank">Interview Tips</a></li>
+        <li><a href="//career.ucsd.edu/undergraduates/find-a-job/interviewing/jobs-internships/interview%20questions.html" target="_blank">Sample Interview Questions</a></li>
+        <li><a href="//career.ucsd.edu/undergraduates/find-a-job/interviewing/jobs-internships/sample-questions-for-employers.html" target="_blank">Sample Questions to Ask Employers</a></li>
+        <li><a href="//ucsd.biginterview.com/" target="_blank">Mock Interview: Big Interview for hands-on interview practice</a></li>
       </ul>
 
       <br>
 
-      <p>Sample Questions Based on Competency: Interview Template</p>
+      <p>Sample Questions Based on Competency: <a href="//blink.ucsd.edu/HR/employment/_files/interview_questions.xlsx" target="_blank">Interview Template</a></p>
 
     </div>
 
