@@ -10,7 +10,7 @@
     <div>
       <h2>Resume vs. CV</h2>
 
-      <img src="../assets/resumeVScv.svg" alt="resume VS. CV">
+      <img src="../assets/resume/resumeVScv.svg" alt="resume VS. CV">
 
       <a id="resume-breakdown"></a>
     </div>
@@ -34,7 +34,7 @@
 
         <div class="wrapper">
           <div class="one1">
-            <img src="../assets/resumeCompHeader.png" width="493px" alt="header">
+            <img src="../assets/resume/resumeCompHeader.png" width="493px" alt="header">
           </div>
           <div class="one2">
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
@@ -45,7 +45,7 @@
           </div>
 
           <div class="two1">
-            <img src="../assets/resumeCompSummary.png" width="493px" alt="summary">
+            <img src="../assets/resume/resumeCompSummary.png" width="493px" alt="summary">
           </div>
           <div class="two2">
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
@@ -56,8 +56,8 @@
           </div>
 
           <div class="three1">
-            <img src="../assets/resumeCompSkill.png" width="493px" alt="skill"> <br>
-            <img src="../assets/resumeCompExperience.png" width="493px"  alt="experience">
+            <img src="../assets/resume/resumeCompSkill.png" width="493px" alt="skill"> <br>
+            <img src="../assets/resume/resumeCompExperience.png" width="493px" alt="experience">
           </div>
           <div class="three2">
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
@@ -82,7 +82,7 @@
           </div>
 
           <div class="four1">
-            <img src="../assets/resumeCompEducation.png" width="493px" alt="education">
+            <img src="../assets/resume/resumeCompEducation.png" width="493px" alt="education">
           </div>
           <div class="four2">
             <img src="../assets/needle.svg" width="66px" height="20px" alt="------>"
@@ -145,14 +145,14 @@
 
         <div class="buttondiv">
           <a id="resume-essentials"></a>
-          <a href="src/assets/resumetemplate.docx" download=""><button class="downloadTemplate">Download Template</button></a>
+          <a href="../assets/resume/resumetemplate.docx" download=""><button class="downloadTemplate">Download Template</button></a>
         </div>
 
       </div>
 
       <h3>Resume Essentials</h3>
 
-      <img src="../assets/resumeEssentials.svg"  style="margin-bottom: 60px" alt="resumeEssentials">
+      <img src="../assets/resume/resumeEssentials.svg" style="margin-bottom: 60px" alt="resumeEssentials">
 <!--      <img src="../assets/resumeFormatTip.svg" width="" style="margin-top: 40px">-->
       <div style="position: relative; display: inline-block">
         <div style="background-color: rgba(244,206,113,0.21); border-radius: 1rem;border: 3px dashed #F4CE71; width:625px;
@@ -181,30 +181,30 @@
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Econ/Business</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/business-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
+            <img src="../assets/resume/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
+            <img src="../assets/resume/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
 
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Info Tech (IT)</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/information-technology-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
+            <img src="../assets/resume/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
+            <img src="../assets/resume/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle">Engineering</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/engineering-resumes?from=careeradvice-US" target="_blank" style="margin-top: 5px">
-            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px">
+            <img src="../assets/resume/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
+            <img src="../assets/resume/hoverImage.png" class="img-top" alt="click to view" height="255px">
           </a>
         </div>
         <div class="resumeTemplate">
           <p class="sampleResumeTitle" >Art/Design</p>
           <a class="card" href="//www.indeed.com/career-advice/resume-samples/arts-resumes" target="_blank" style="margin-top: 5px" >
-            <img src="../assets/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
-            <img src="../assets/hoverImage.png" class="img-top" alt="click to view" height="255px" >
+            <img src="../assets/resume/resumeTemplateView.png" class="img-bot" alt="resume template" height="255px">
+            <img src="../assets/resume/hoverImage.png" class="img-top" alt="click to view" height="255px" >
             <p id="polish-resume" style="display:inline;"></p>
           </a>
 
@@ -467,7 +467,7 @@
 
         <p class="inlinePara" style="text-align: left">Make sure you have <strong class="semi">Impact Statements</strong>
           to show your accomplishments:</p>
-        <img src="../assets/impactStatement.svg" width="80%" alt="impactStatement">
+        <img src="../assets/resume/impactStatement.svg" width="80%" alt="impactStatement">
 
 
         <p class="ulTitle" style="margin-top: 50px">Example:</p>
@@ -511,7 +511,7 @@
         <h3 class="resumecomp" style="margin-bottom: 20px">Appendix 1: Example Undergraduate <br>Curriculum Vitae</h3>
 
         <div class="resumecomp">
-          <img src="../assets/cvHeader.png" width="483px" alt="cvHeader">
+          <img src="../assets/resume/cvHeader.png" width="483px" alt="cvHeader">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <b class="semi">Header</b>
@@ -521,7 +521,7 @@
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvEducation.png" width="483px" alt="cvEducation">
+          <img src="../assets/resume/cvEducation.png" width="483px" alt="cvEducation">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Education</span>
@@ -531,7 +531,7 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchInterests.png" width="483px" alt="cvResearchInterests">
+          <img src="../assets/resume/cvResearchInterests.png" width="483px" alt="cvResearchInterests">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Research Interest</span><br>
@@ -540,7 +540,7 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchAppointments.png" width="483px" alt="cvResearchAppointments">
+          <img src="../assets/resume/cvResearchAppointments.png" width="483px" alt="cvResearchAppointments">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Research Appointments</span>
@@ -550,7 +550,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvScholarships.png" width="483px" alt="cvScholarships">
+          <img src="../assets/resume/cvScholarships.png" width="483px" alt="cvScholarships">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Grants/Awards/Academic Honors/Scholarships</span>
@@ -559,7 +559,7 @@
         </div>
 
         <div class="resumecomp" >
-          <img src="../assets/cvPopularArticles.png" width="483px" alt="cvPopularArticles">
+          <img src="../assets/resume/cvPopularArticles.png" width="483px" alt="cvPopularArticles">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Popular Articles or Publications</span>
@@ -569,7 +569,7 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvResearchSkills.png" width="483px" alt="cvResearchSkills">
+          <img src="../assets/resume/cvResearchSkills.png" width="483px" alt="cvResearchSkills">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Research Skills/Experience</span>
@@ -579,7 +579,7 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvService.png" width="483px" alt="cvService">
+          <img src="../assets/resume/cvService.png" width="483px" alt="cvService">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Leadership/Activities/Service/Volunteer</span>
@@ -590,7 +590,7 @@
         </div>
 
         <div class="resumecomp" style="margin-bottom: 10px">
-          <img src="../assets/cvImportantCoursesTaken.png" width="483px" alt="cvImportantCoursesTaken">
+          <img src="../assets/resume/cvImportantCoursesTaken.png" width="483px" alt="cvImportantCoursesTaken">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Courses Taken</span>
@@ -600,7 +600,7 @@
         </div>
 
         <div class="resumecomp">
-          <img src="../assets/cvReferences.png" width="483px" alt="cvReferences">
+          <img src="../assets/resume/cvReferences.png" width="483px" alt="cvReferences">
           <img src="../assets/needle.svg" width="66px" height="20px" alt="------>" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">
           <div style="text-align: left; width: 545px">
             <span class="semi">Reference</span>
@@ -628,7 +628,7 @@
         </p>
 
         <div class="buttondiv">
-          <a href="src/assets/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
+          <a href="../assets/resume/cvTemplate.pdf" download=""><button class="downloadTemplate">Download Template</button></a>
           <a id="cover-letter"></a>
         </div>
 
@@ -651,10 +651,10 @@
           </div>
 
         </div>
-        <img src="../assets/coverLetter.svg" width="890px" alt="coverLetter">
+        <img src="../assets/resume/coverLetter.svg" width="890px" alt="coverLetter">
 
         <div class="buttondiv">
-          <a href="src/assets/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
+          <a href="../assets/resume/coverLetterTemplate.pdf" download><button class="downloadTemplate">Download Template</button></a>
           <a id="more-resources"></a>
         </div>
 

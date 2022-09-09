@@ -5,7 +5,7 @@
       <div class="wrapper">
         <div class="one1">
           <div style="display: flex; flex-direction: row; padding-left: 20px">
-            <img src="../assets/GT-logo.svg" width="70px" alt="logo" style="vertical-align: middle">
+            <img src="../assets/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
             <h1 style="margin-top: 25px; margin-left: 15px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
           </div>
 
