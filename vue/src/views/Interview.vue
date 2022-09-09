@@ -312,13 +312,13 @@
       <h2>More Resources</h2>
 
 
-      <p>“Define Yourself” Q&A: <a class="moreRes"  href="//hbr.org/2021/11/10-common-job-interview-questions-and-how-to-answer-them"
+      <p><span style="font-weight: 600">“Define Yourself” Q&A:</span> <a class="moreRes"  href="//hbr.org/2021/11/10-common-job-interview-questions-and-how-to-answer-them"
                                    target="_blank">10 Common Job Interview Questions and How to Answer Them</a>
       </p>
 
       <br>
 
-      <p>Behavioral Q&A:</p>
+      <p><span style="font-weight: 600">Behavioral Q&A:</span></p>
       <ul>
         <li>Situational Q&A: <a class="moreRes" href="//zety.com/blog/situational-interview-questions" target="_blank">
           20+ Top Situational Interview Questions and Answers</a>
@@ -333,7 +333,7 @@
 
 
 
-      <p>Common Interview Q&A:</p>
+      <p><span style="font-weight: 600">Common Interview Q&A:</span></p>
       <ul>
         <li><a class="moreRes" href="//www.indeed.com/career-advice/interviewing/tough-interview-questions-and-answers?from=careeradvice-US" target="_blank">12 Tough Interview Questions and Answers</a></li>
         <li><a class="moreRes" href="//novoresume.com/career-blog/interview-questions-and-best-answers-guide" target="_blank">35+ Interview Questions and Answer</a></li>
@@ -341,7 +341,7 @@
 
       <br>
 
-      <p>Career Center Resources:</p>
+      <p><span style="font-weight: 600">Career Center Resources:</span></p>
       <ul>
         <li><a class="moreRes" href="//career.ucsd.edu/succeed-search/interview-tips/index.html" target="_blank">Interview Tips</a></li>
         <li><a class="moreRes" href="//career.ucsd.edu/undergraduates/find-a-job/interviewing/jobs-internships/interview%20questions.html" target="_blank">Sample Interview Questions</a></li>
@@ -351,7 +351,6 @@
 
       <br>
 
-      <p>Sample Questions Based on Competency: <a href="//blink.ucsd.edu/HR/employment/_files/interview_questions.xlsx" target="_blank">Interview Template</a></p>
 
     </div>
 
