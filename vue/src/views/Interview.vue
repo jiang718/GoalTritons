@@ -109,7 +109,7 @@
         </div>
 
         <div style="text-align: right; margin-bottom: 82px">
-          <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
         </div>
       </div>
 
@@ -124,7 +124,7 @@
         <img src="../assets/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
 
         <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
         </div>
       </div>
 
@@ -215,7 +215,7 @@
 
       <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
         <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-          <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Interview Prep Appointment</p>
+          <p class ="link" style="display: inline;">Schedule an Interview Prep Appointment</p>
           &nbsp;
           <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
         </a>
@@ -308,7 +308,7 @@
 
     </div>
     <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
-      <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
     </div>
 
     <div id="more-resources">
