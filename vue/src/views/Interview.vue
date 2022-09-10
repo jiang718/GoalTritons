@@ -131,7 +131,7 @@
 
 
       <div>
-        <h3 style="margin-bottom: 100px">Technical Questions:</h3>
+        <h3 style="margin-bottom: 3rem">Technical Questions:</h3>
 
         <p id="TQp">This part can vary a lot by different professions. Technical questions are usually <strong>specific to the topics
           in your fields</strong>. They help the company to evaluate your ability, skillset, professional level, and your
@@ -457,7 +457,7 @@ export default {
     line-height: 141%;    /* list里的行间宽度为141%，其他为default */
   }
 
-  #opening, #BQp, #TQp{
+  #opening{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -468,12 +468,22 @@ export default {
 
   }
 
+  #BQp, #TQp{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 141%;
+    text-align: left;
+    margin-right: 4vw;
+    margin-left: 4vw;
+  }
+
   #TQp{
     margin-bottom: 2rem;
   }
 
   #BQp{
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
   }
 
   #question-type{
