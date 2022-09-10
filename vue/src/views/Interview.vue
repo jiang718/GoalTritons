@@ -81,9 +81,9 @@
               <span class="DYspan"><strong>Practice on pitching yourself</strong></span>
             </div>
 
-            <div  class="DYdiv">
+            <div  class="DYdiv"  style="align-items: center">
               <div>
-                <img class="DYimg" src="../assets/speachEmoji.png">
+                <img class="DYimg" src="../assets/speachEmoji.png" style="vertical-align: middle">
               </div>
 
 
@@ -488,7 +488,7 @@ export default {
     padding-top: 13px;
     padding-bottom: 13px;
 
-    font-family: "Work Sans";
+    font-family: work-sans;
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
