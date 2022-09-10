@@ -108,7 +108,7 @@
 
         </div>
 
-        <div style="text-align: right; margin-bottom: 82px">
+        <div style="text-align: right; margin-bottom: 82px; margin-top: 2rem">
           <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
         </div>
       </div>
