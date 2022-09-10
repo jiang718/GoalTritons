@@ -368,6 +368,9 @@ export default {
 
 <style scoped>
 
+  @font-face { font-family: work-sans;
+    src: url('../assets/WorkSans/WorkSans-Bold.woff');
+  }
 
   a{
     text-decoration: none;
@@ -397,6 +400,7 @@ export default {
 
   }
   h1, h2, h3{
+    font-family: work-sans;
     text-align: left;
   }
 
