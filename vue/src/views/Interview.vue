@@ -369,7 +369,7 @@ export default {
 <style scoped>
 
   @font-face { font-family: work-sans;
-    src: url('../assets/WorkSans/WorkSans-Bold.woff');
+    src: url('src/assets/WorkSans/WorkSans-Bold.woff');
   }
 
   a{
@@ -415,7 +415,7 @@ export default {
 
   h3{
     margin-bottom: 50px;
-    font-family: Inter;
+
     font-weight: 700;
     font-size: 16px;
     font-style: normal;
@@ -425,11 +425,11 @@ export default {
     color: #1E4460;
     font-weight: 700;
     font-size: 26px;
-    font-family: "Work Sans";
+
   }
 
   h2{
-    font-family: "Work Sans";
+
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
