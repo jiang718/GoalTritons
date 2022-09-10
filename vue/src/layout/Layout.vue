@@ -1,26 +1,31 @@
 <template>
-  <div>
+  <div class="common-layout">
       <!--    头部-->
-      <Header :user="user"/>
-
+      <Header :user="user" style="position: fixed; width: 100vw; z-index: 20; height: 7%; background-color: #1E4460"/>
       <!--    主体-->
-      <div style="display: flex">
+      <el-container style="display: flex" class="wrapper">
         <!--      侧边栏-->
-        <Aside style="width: 200px; margin-left: 20px; margin-right: 20px"/>
+        <Aside class="wrapper__aside"/>
         <!--      内容区域-->
-        <router-view style="flex: 1"/>
-      </div>
+        <el-container>
+          <router-view class="wrapper__body"/>
+          <el-footer style="padding-left: 0px">
+            <Footer/>
+          </el-footer>
+        </el-container>
+      </el-container>
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
-import request from "../utils/request";
 import Aside from "../components/Aside.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "Layout",
   components: {
+    Footer,
     Header,
     Aside
   },
@@ -33,5 +38,32 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+  position: relative;
+  background-color: #F9F9F9;
+}
+.wrapper__aside {
+  position: fixed;
+  width: 240px;
+  margin-left: 0.5%;
+  padding-top: 5%;
+  overflow-y: auto;
+  height: auto;
+  max-height: 100vh;
+  background-color: white;
+}
+
+.wrapper__body {
+  flex: 1;
+  margin-left: 19%;
+  padding-left: 1%;
+  width: auto;
+  /*margin-left: 275px;*/
+  /*padding-left: 26px;*/
+  max-width: 77%;
+  padding-top: 5%;
+  margin-bottom: 12%;
+}
+
 
 </style>
