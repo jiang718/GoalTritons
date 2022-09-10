@@ -236,17 +236,17 @@
                   <li>MEMORIZE your stories/answers</li>
                 </ul>
               </li>
-              <li>Click to see <a class="moreRes" href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; font-weight: 500">common questions</a>.</li>
+              <li>Click to see <a class="moreRes" href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; ">common questions</a>.</li>
             </ul>
 
             <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Prepare a brief self-introduction</p>
             <ul><li>Click to see <a class="moreRes" href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
-                                    target="_blank" style="color: #0467B0; font-weight: 500">tips</a>.</li></ul>
+                                    target="_blank" style="color: #0467B0; ">tips</a>.</li></ul>
 
             <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Practice, practice, and practice!</p>
-            <ul><li>Find peers to do mock interviews using the <a class="moreRes" href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; font-weight: 500">Big Interview</a>.</li></ul>
+            <ul><li>Find peers to do mock interviews using the <a class="moreRes" href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; ">Big Interview</a>.</li></ul>
           </div>
 
 
@@ -297,7 +297,7 @@
           <p>Send a thank you note/email within 24 hours.</p>
           <ul>
             <li>Click to see <a class="moreRes" href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
-                                target="_blank" style="color: #0467B0; font-weight: 500">sample thank you emails</a>.</li>
+                                target="_blank" style="color: #0467B0;">sample thank you emails</a>.</li>
           </ul>
         </div>
       </div>
