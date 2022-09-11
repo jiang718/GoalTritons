@@ -90,16 +90,16 @@
             <el-menu-item index="6-1" class="sub1" @click="$router.push('/interview#whyInterview')" >Why Interview</el-menu-item>
           </el-menu-item-group>
           <el-sub-menu index="6-2">
-            <template #title><span class="sub1">Interview Questions</span></template>
-            <el-menu-item index="6-2-1" class="sub2">Define Yourself</el-menu-item>
-            <el-menu-item index="6-2-2" class="sub2">Behavioral</el-menu-item>
-            <el-menu-item index="6-2-3" class="sub2">Technical</el-menu-item>
+            <template #title><span class="sub1" @click="$router.push('/interview#interviewQuestions')">Interview Questions</span></template>
+            <el-menu-item index="6-2-1" class="sub2" @click="$router.push('/interview#defineYourself')">Define Yourself</el-menu-item>
+            <el-menu-item index="6-2-2" class="sub2" @click="$router.push('/interview#BehavioralQuestions')">Behavioral</el-menu-item>
+            <el-menu-item index="6-2-3" class="sub2" @click="$router.push('/interview#TechnicalQuestions')">Technical</el-menu-item>
           </el-sub-menu>
           <el-menu-item-group>
-            <el-menu-item index="6-3" class="sub1">Interview Steps</el-menu-item>
+            <el-menu-item index="6-3" class="sub1" @click="$router.push('/interview#interviewSteps')">Interview Steps</el-menu-item>
           </el-menu-item-group>
           <el-menu-item-group>
-            <el-menu-item index="6-4" class="sub1">How to Master</el-menu-item>
+            <el-menu-item index="6-4" class="sub1" @click="$router.push('/interview#howToMasterAnInterview')">How to Master Interview</el-menu-item>
           </el-menu-item-group>
         </el-sub-menu>
         <el-menu-item index="7">

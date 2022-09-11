@@ -15,7 +15,9 @@
 
 
 
-      <img src="../assets/whyInterview.svg" alt="Why Interview?">
+      <img src="../assets/interview/whyInterview.svg" alt="Why Interview?">
+
+      <a id="interviewQuestions"></a>
 
     </div>
 
@@ -31,6 +33,7 @@
           <p id="QTspan1">Define Yourself</p>
           <p id="QTspan2">Behavioral</p>
           <p id="QTspan3">Technical</p>
+          <a id="defineYourself"></a>
         </div>
 
 
@@ -43,7 +46,7 @@
 
         <p style="margin-bottom: 50px; text-align: left; margin-left: 5rem">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
 
-        <img src="../assets/sampleQ1.svg">
+        <img src="../assets/interview/sampleQ1.svg">
 
         <h3 style="margin-top: 3rem; margin-left: 8vw; margin-bottom: 1.5vh">Tips:</h3>
         <div>
@@ -55,7 +58,7 @@
 
             <div class="DYdiv">
               <div>
-                <img class="DYimg" src="../assets/researchEmoji.png">
+                <img class="DYimg" src="../assets/interview/researchEmoji.png">
               </div>
 
               <div >
@@ -83,7 +86,7 @@
 
             <div  class="DYdiv"  style="align-items: center">
               <div>
-                <img class="DYimg" src="../assets/speachEmoji.png" style="vertical-align: middle">
+                <img class="DYimg" src="../assets/interview/speechEmoji.png" style="vertical-align: middle">
               </div>
 
 
@@ -110,14 +113,16 @@
 
         <div style="text-align: right; margin-bottom: 82px; margin-top: 2rem">
           <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+          <a id="BehavioralQuestions"></a>
         </div>
+
       </div>
 
 
 
       <div>
         <h3>Behavioral Questions</h3>
-        <p id="BQp">Bevaioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
+        <p id="BQp">Behavioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
           the real workplace so that they can anticipate your performance. These are usually about <strong>soft skills</strong>
           (<em>e.g. leadership</em>) and <strong>personal attributes</strong> (<em>e.g. persistency</em>).</p>
 
@@ -125,6 +130,7 @@
 
         <div style="text-align: right; margin-bottom: 82px">
             <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <a id="TechnicalQuestions"></a>
         </div>
       </div>
 
@@ -136,7 +142,7 @@
         <p id="TQp">This part can vary a lot by different professions. Technical questions are usually <strong>specific to the topics
           in your fields</strong>. They help the company to evaluate your ability, skillset, professional level, and your
           potential to contribute to this specific position. </p>
-        <img src="../assets/sampleQ2.svg">
+        <img src="../assets/interview/sampleQ2.svg">
         <div>
           <h3 id="TQtipsTitle">Tips:</h3>
           <div id="TQtips">
@@ -154,7 +160,7 @@
       </div>
     </div>
 
-
+    <a id="interviewSteps"></a>
     <div>
       <h2>Interview Steps</h2>
 
@@ -209,7 +215,7 @@
     </div>
 
 
-
+    <a id="howToMasterAnInterview"></a>
     <div>
       <h2>How to Master an Interview?</h2>
 
