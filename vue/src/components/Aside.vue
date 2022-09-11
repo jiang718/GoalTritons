@@ -87,7 +87,7 @@
             <span class="mod" @click="$router.push('/interview')">Interview Prep</span>
           </template>
           <el-menu-item-group>
-            <el-menu-item index="6-1" class="sub1">Why Interview</el-menu-item>
+            <el-menu-item index="6-1" class="sub1" @click="$router.push('/interview#whyInterview')" >Why Interview</el-menu-item>
           </el-menu-item-group>
           <el-sub-menu index="6-2">
             <template #title><span class="sub1">Interview Questions</span></template>

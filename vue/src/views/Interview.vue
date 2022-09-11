@@ -9,7 +9,7 @@
 
 
 
-
+    <a id="whyInterview"></a>
     <div>
       <h2>Why Interview?</h2>
 
@@ -41,7 +41,7 @@
       <div>
         <h3>Define Yourself</h3>
 
-        <p style="margin-bottom: 50px">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
+        <p style="margin-bottom: 50px; text-align: left; margin-left: 5rem">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
 
         <img src="../assets/sampleQ1.svg">
 
