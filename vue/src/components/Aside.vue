@@ -84,7 +84,7 @@
         <el-sub-menu index="5">
           <template #title>
             <!--            <el-icon><location /></el-icon>-->
-            <span class="mod" @click="$router.push('/interview#opening')">Interview Prep</span>
+            <span class="mod" @click="$router.push('/interview')">Interview Prep</span>
           </template>
           <el-menu-item-group>
             <el-menu-item index="5-1" class="sub1" @click="$router.push('/interview#whyInterview')" >Why Interview</el-menu-item>
