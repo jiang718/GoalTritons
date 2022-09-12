@@ -10,21 +10,9 @@
           @open="handleOpen"
           @close="handleClose"
       >
-<!--        <el-sub-menu index="1">-->
-<!--          <template #title>-->
-<!--            &lt;!&ndash;            <el-icon><location /></el-icon>&ndash;&gt;-->
-<!--            <span class="mod">Being F-1 Student</span>-->
-<!--          </template>-->
-<!--          <el-menu-item-group>-->
-<!--            <el-menu-item index="1-1" class="sub1">F-1 Visa Limitation</el-menu-item>-->
-<!--          </el-menu-item-group>-->
-<!--          <el-menu-item-group>-->
-<!--            <el-menu-item index="1-2" class="sub1">After Graduation</el-menu-item>-->
-<!--          </el-menu-item-group>-->
-<!--        </el-sub-menu>-->
+
         <el-sub-menu index="1">
           <template #title>
-            <!--            <el-icon><location /></el-icon>-->
             <span class="mod">Learn about Careers</span>
           </template>
           <el-menu-item-group>
@@ -36,7 +24,6 @@
         </el-sub-menu>
         <el-sub-menu index="2">
           <template #title>
-<!--            <el-icon><location /></el-icon>-->
             <span class="mod">Networking</span>
           </template>
           <el-menu-item-group>
@@ -53,12 +40,10 @@
           </el-menu-item-group>
         </el-sub-menu>
         <el-menu-item index="3">
-<!--          <el-icon><setting /></el-icon>-->
           <span class="mod">Internship & Jobs</span>
         </el-menu-item>
         <el-sub-menu index="4">
           <template #title>
-            <!--            <el-icon><location /></el-icon>-->
             <span class="mod" @click="$router.push('/resume#resumeTop')">Resume/CV & Cover Letter</span>
           </template>
           <el-menu-item-group>
@@ -83,7 +68,6 @@
         </el-sub-menu>
         <el-sub-menu index="5">
           <template #title>
-            <!--            <el-icon><location /></el-icon>-->
             <span class="mod" @click="$router.push('/interview#opening')">Interview Prep</span>
           </template>
           <el-menu-item-group>
@@ -99,7 +83,7 @@
             <el-menu-item index="5-3" class="sub1" @click="$router.push('/interview#interviewSteps')">Interview Steps</el-menu-item>
           </el-menu-item-group>
           <el-menu-item-group>
-            <el-menu-item index="5-4" class="sub1" @click="$router.push('/interview#howToMasterAnInterview')">How to Master Interview</el-menu-item>
+            <el-menu-item index="5git push -u origin Interview-4" class="sub1" @click="$router.push('/interview#howToMasterAnInterview')">How to Master Interview</el-menu-item>
           </el-menu-item-group>
         </el-sub-menu>
       </el-menu>
@@ -114,13 +98,15 @@ export default {
   data() {
     return {
     }
-  }
-}
-const handleOpen = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath)
-}
-const handleClose = (key: string, keyPath: string[]) => {
-  console.log(key, keyPath)
+  },
+  methods: {
+    handleOpen (key: string, keyPath: string[]) {
+      console.log(key, keyPath)
+    },
+    handleClose (key: string, keyPath: string[]) {
+      console.log(key, keyPath)
+    }
+  },
 }
 </script>
 
@@ -137,9 +123,9 @@ const handleClose = (key: string, keyPath: string[]) => {
   font-size: 12px;
   color: #1E4460;
 }
-.el-menu-item{
-  text-align: left;
-}
+/*.el-menu-item{*/
+/*  text-align: left;*/
+/*}*/
 .el-sub-menu__title{
   text-size: 12px;
 }
