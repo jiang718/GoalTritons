@@ -1,18 +1,22 @@
 <template>
-  <div style="height: 50px; line-height: 50px; border-bottom: 1px solid #ccc; display: flex">
-    <div style="flex: 2; padding-left: 20.8%; padding-top: 8px"><h1>Go Triton</h1></div>
-    <div style="width: 450px">
+  <div style="height: 60px; line-height: 60px; border-bottom: 1px solid #ccc; display: flex">
+    <div style="flex: 2; padding-left: 21%; display: flex; flex-direction: row">
+      <img src="../assets/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
+      <h1 style="margin-left: 15px; align-self: center;"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
+    </div>
+    <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
       <el-autocomplete
-          placeholder="Please input"
-          style="margin-right: 15px; width: 260px"
+          placeholder=""
+          style="margin-top: -5px; margin-right: 15px; width: 260px"
       />
+      <h2 style="margin-right: 15px">About Us</h2>
       <el-popover
           placement="bottom"
           trigger="click"
           width="415px"
       >
         <template #reference>
-          <el-avatar :size="30" style="position: relative; top: 10px; background-color: transparent; margin-right: 40px" shape="square">
+          <el-avatar :size="35" style="position: relative; background-color: transparent; margin-right: 17px" shape="square">
             <img src="../assets/calendar.svg" alt="calendar"/>
           </el-avatar>
         </template>
@@ -93,11 +97,18 @@ export default {
   src: url('../assets/WorkSans/WorkSans-Bold.woff');
 }
 h1{
-  color: #F4CE71;
+  color: white;
   font-weight: 700;
   font-size: 26px;
   font-family: work-sans;
-  line-height: 32px;
+  line-height: 141%;
+}
+h2{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: work-sans;
+  line-height: 141%;
 }
 .el-input--small {
   height: 30px;

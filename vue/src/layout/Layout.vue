@@ -46,7 +46,7 @@ export default {
   position: fixed;
   width: 240px;
   margin-left: 0.5%;
-  padding-top: 5%;
+  padding-top: 6%;
   overflow-y: auto;
   height: auto;
   max-height: 100vh;
@@ -61,7 +61,7 @@ export default {
   /*margin-left: 275px;*/
   /*padding-left: 26px;*/
   max-width: 77%;
-  padding-top: 5%;
+  padding-top: 6.3%;
   margin-bottom: 12%;
 }
 

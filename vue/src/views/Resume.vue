@@ -68,7 +68,7 @@
           <div class="three3">
             <span class="semi">Skills</span>
             <p style="line-height: 141%">
-              Include any <strong class="medium">position-related</strong> soft/hard skills/languages/certification that
+              Include any <strong class="medium">position-related</strong> soft/hard skills/languages/certifications that
               can add to your competencies. <i>(e.g. front-end developer—“CSS, C++, Javascript, Problem Solving”.) </i><br>
               <i>See more examples under </i><i class="moreResLink" @click="$router.push('/resume#more-resources')">More Resources</i>.
             </p>
@@ -484,7 +484,7 @@
           <li>Developed xxx in xxx, helped/raised/changed xxx.</li>
           <li>Analyzed xxx and created xxx to present to xxx at weekly meetings.</li>
           <li>Launched xxx in xxx, resulting in xxx.</li>
-          <li>Implemented a new xxx system that streamlined the xxx and allowed xxx more efficiently.</li>
+          <li>Implemented a new xxx system that streamlined the xxx and allowed xxx to be more efficient.</li>
           <li>Coordinated with the xxx team to form a xxx group for xxx that resulted in xxx.</li>
         </ul>
 

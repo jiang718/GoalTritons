@@ -1,7 +1,9 @@
 <template class="el-footer">
   <div style="background-color: #2D5878; color: white; height: 380px; width: 84%; margin-left: 240px">
     <div style="margin-left: 10%; padding-top: 3%; height: 320px">
-      <h1 style="font-size: 26px">Your bright and clear professional future is what we strive for.</h1>
+      <h1 style="font-size: 26px">Your <span style="color: #F4CE71">bright</span> and
+        <span style="color: #F4CE71">successful</span> professional future is what we strive for.
+      </h1>
       <div class="wrapper">
         <div class="one1">
           <div style="display: flex; flex-direction: row; padding-left: 20px">
@@ -9,8 +11,10 @@
             <h1 style="margin-top: 25px; margin-left: 15px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
           </div>
 
-          <p style="font-weight: 600; margin-top: 25px"> We aim to provide UCSD’s Undergraduate <br>a fantastic journey in developing their <br>professional path and
-            approaching their <br>career goal. </p>
+          <p style="font-weight: 600; margin-top: 25px"> We aim to provide UCSD’s Undergraduate a
+            <br>smooth experience in developing their
+            <br>professional path and approaching their
+            <br>career goal.</p>
         </div>
 <!--        <div class="one2">-->
 <!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
