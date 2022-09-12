@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div id="opening">
     <h1>Interview Prep</h1>
-    <p id="opening">In this page, Go Tritons will walk you through how to prepare for the interview—the most
+    <p id="openingPara">In this page, Go Tritons will walk you through how to prepare for the interview—the most
       nerve-racking part of job application. You will learn various interview questions, answer structures, and the
       entire interview process. You will also receive a wealth of advices and materials on how to master an interview.
       Let’s get started!</p>
@@ -463,7 +463,7 @@ export default {
     line-height: 141%;    /* list里的行间宽度为141%，其他为default */
   }
 
-  #opening{
+  #openingPara{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
