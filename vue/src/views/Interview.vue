@@ -9,13 +9,15 @@
 
 
 
-
+    <a id="whyInterview"></a>
     <div>
       <h2>Why Interview?</h2>
 
 
 
-      <img src="../assets/whyInterview.svg" alt="Why Interview?">
+      <img src="../assets/interview/whyInterview.svg" alt="Why Interview?">
+
+      <a id="interviewQuestions"></a>
 
     </div>
 
@@ -31,6 +33,7 @@
           <p id="QTspan1">Define Yourself</p>
           <p id="QTspan2">Behavioral</p>
           <p id="QTspan3">Technical</p>
+          <a id="defineYourself"></a>
         </div>
 
 
@@ -41,21 +44,21 @@
       <div>
         <h3>Define Yourself</h3>
 
-        <p style="margin-bottom: 50px">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
+        <p style="margin-bottom: 50px; text-align: left; margin-left: 5rem">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
 
-        <img src="../assets/sampleQ1.svg">
+        <img src="../assets/interview/sampleQ1.svg">
 
-        <h3 style="margin-top: 3rem; margin-left: 4rem">Tips</h3>
+        <h3 style="margin-top: 3rem; margin-left: 8vw; margin-bottom: 1.5vh">Tips:</h3>
         <div>
           <div>
             <div style="text-align: left; margin-left: 10vw">
-              <p class="DYp">Point 1</p>
+              <p class="DYp" >Point 1</p>
               <span class="DYspan"><strong>Research about the company/position</strong></span>
             </div>
 
             <div class="DYdiv">
               <div>
-                <img class="DYimg" src="../assets/researchEmoji.png">
+                <img class="DYimg" src="../assets/interview/researchEmoji.png">
               </div>
 
               <div >
@@ -81,9 +84,9 @@
               <span class="DYspan"><strong>Practice on pitching yourself</strong></span>
             </div>
 
-            <div  class="DYdiv">
+            <div  class="DYdiv"  style="align-items: center">
               <div>
-                <img class="DYimg" src="../assets/speachEmoji.png">
+                <img class="DYimg" src="../assets/interview/speechEmoji.png" style="vertical-align: middle">
               </div>
 
 
@@ -108,43 +111,46 @@
 
         </div>
 
-        <div style="text-align: right; margin-bottom: 82px">
-          <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+        <div style="text-align: right; margin-bottom: 82px; margin-top: 2rem">
+          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+          <a id="BehavioralQuestions"></a>
         </div>
+
       </div>
 
 
 
       <div>
         <h3>Behavioral Questions</h3>
-        <p id="BQp">Bevaioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
+        <p id="BQp">Behavioral questions help the company to learn about how you would <strong>behave</strong> and <strong>deal with tough situations</strong> in
           the real workplace so that they can anticipate your performance. These are usually about <strong>soft skills</strong>
-          (e.g. leadership) and <strong>personal attributes</strong> (e.g. persistency).</p>
+          (<em>e.g. leadership</em>) and <strong>personal attributes</strong> (<em>e.g. persistency</em>).</p>
 
-        <img src="../assets/behaviorQ.svg" style="margin-bottom: 50px">
+        <img src="../assets/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
 
         <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <a id="TechnicalQuestions"></a>
         </div>
       </div>
 
 
 
       <div>
-        <h3 style="margin-bottom: 100px">Technical Questions:</h3>
+        <h3 style="margin-bottom: 3rem">Technical Questions:</h3>
 
         <p id="TQp">This part can vary a lot by different professions. Technical questions are usually <strong>specific to the topics
           in your fields</strong>. They help the company to evaluate your ability, skillset, professional level, and your
           potential to contribute to this specific position. </p>
-        <img src="../assets/sampleQ2.svg">
+        <img src="../assets/interview/sampleQ2.svg">
         <div>
-          <h3 style="margin-left: 4rem">Tips:</h3>
+          <h3 id="TQtipsTitle">Tips:</h3>
           <div id="TQtips">
             <p class="DYp">Point 1</p>
 
             <span>Search online or read some interview guides for your <span style="font-weight: 500">specific professions</span>.</span>
 
-            <ul><li>E.g. For software engineers, enter “software engineers interview cheat sheet”.</li></ul>
+            <ul><li><em>E.g. For software engineers, enter “software engineers interview cheat sheet”</em>.</li></ul>
             <br>
             <p class="DYp">Point 2</p>
             <span>Search for interview tips <span style="font-weight: 500">specific to the company</span> you have applied.</span>
@@ -154,7 +160,7 @@
       </div>
     </div>
 
-
+    <a id="interviewSteps"></a>
     <div>
       <h2>Interview Steps</h2>
 
@@ -205,17 +211,17 @@
 <!--          <p></p>-->
         </div>
       </div>
-      <img id="ITimg" src="../assets/interview/interviewSteps.png">
+      <img id="ITSimg" src="../assets/interview/interviewSteps.svg">
     </div>
 
 
-
+    <a id="howToMasterAnInterview"></a>
     <div>
       <h2>How to Master an Interview?</h2>
 
       <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
         <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-          <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Interview Prep Appointment</p>
+          <p class ="link" style="display: inline;">Schedule an Interview Prep Appointment</p>
           &nbsp;
           <img src="../assets/arrow.png" width=22px style="vertical-align: middle">
         </a>
@@ -236,17 +242,17 @@
                   <li>MEMORIZE your stories/answers</li>
                 </ul>
               </li>
-              <li>Click to see <a href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; font-weight: 500">common questions</a>.</li>
+              <li>Click to see <a class="moreRes" href="src/assets/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; ">common questions</a>.</li>
             </ul>
 
             <img src="../assets/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Prepare a brief self-introduction</p>
-            <ul><li>Click to see <a href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
-                                    target="_blank" style="color: #0467B0; font-weight: 500">tips</a>.</li></ul>
+            <ul><li>Click to see <a class="moreRes" href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
+                                    target="_blank" style="color: #0467B0; ">tips</a>.</li></ul>
 
             <img src="../assets/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Practice, practice, and practice!</p>
-            <ul><li>Find peers to do mock interviews using the <a href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; font-weight: 500">Big Interview</a>.</li></ul>
+            <ul><li>Find peers to do mock interviews using the <a class="moreRes" href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; ">Big Interview</a>.</li></ul>
           </div>
 
 
@@ -287,14 +293,17 @@
           <img src="../assets/interview/questionEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Ask questions at the end</p>
           <ul>
-            <li>Click to see <a href="//www.betterup.com/blog/questions-to-ask-hiring-manager" target="_blank" style="color: #0467B0; font-weight: 500">sample questions to ask employers or hiring managers</a>.</li>
+            <li>Click to see
+              <a class="moreRes" id="longMoreRes"  href="//www.betterup.com/blog/questions-to-ask-hiring-manager" target="_blank">
+                sample questions</a> to ask employers or hiring managers.
+            </li>
           </ul>
 
           <img src="../assets/interview/emailEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Send a thank you note/email within 24 hours.</p>
           <ul>
-            <li>Click to see <a href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
-                                target="_blank" style="color: #0467B0; font-weight: 500">sample thank you emails</a>.</li>
+            <li>Click to see <a class="moreRes" href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
+                                target="_blank" style="color: #0467B0;">sample thank you emails</a>.</li>
           </ul>
         </div>
       </div>
@@ -305,7 +314,7 @@
 
     </div>
     <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
-      <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
     </div>
 
     <div id="more-resources">
@@ -365,6 +374,9 @@ export default {
 
 <style scoped>
 
+  @font-face { font-family: work-sans;
+    src: url('src/assets/WorkSans/WorkSans-Bold.woff');
+  }
 
   a{
     text-decoration: none;
@@ -394,6 +406,7 @@ export default {
 
   }
   h1, h2, h3{
+    font-family: work-sans;
     text-align: left;
   }
 
@@ -408,7 +421,7 @@ export default {
 
   h3{
     margin-bottom: 50px;
-    font-family: Inter;
+
     font-weight: 700;
     font-size: 16px;
     font-style: normal;
@@ -418,11 +431,11 @@ export default {
     color: #1E4460;
     font-weight: 700;
     font-size: 26px;
-    font-family: "Work Sans";
+
   }
 
   h2{
-    font-family: "Work Sans";
+
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
@@ -450,16 +463,25 @@ export default {
     line-height: 141%;    /* list里的行间宽度为141%，其他为default */
   }
 
-  #opening, #BQp, #TQp{
-    font-family: Inter;
+  #opening{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 141%;
     text-align: left;
-    margin-right: 13vw;
-    margin-left: 13vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
 
+  }
+
+  #BQp, #TQp{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 141%;
+    text-align: left;
+    margin-right: 4vw;
+    margin-left: 4vw;
   }
 
   #TQp{
@@ -467,7 +489,7 @@ export default {
   }
 
   #BQp{
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
   }
 
   #question-type{
@@ -482,7 +504,7 @@ export default {
     padding-top: 13px;
     padding-bottom: 13px;
 
-    font-family: "Work Sans";
+    font-family: work-sans;
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
@@ -546,6 +568,7 @@ export default {
     color: black;
     margin-right: 10px;
     padding: 3px 10px;
+    font-weight: 600;
 
   }
 
@@ -563,6 +586,7 @@ export default {
   .DYulTitle{
 
     text-align: left;
+    font-style: italic;
 
   }
   .DYul{
@@ -570,9 +594,16 @@ export default {
     margin-left: 2rem;
   }
 
+  #TQtipsTitle{
+    margin-left: 8vw;
+    margin-bottom: 20px;
+  }
+
   #TQtips{
     text-align: left;
-    margin: 20px 10vw;
+
+    margin-left: 10vw;
+
   }
 
   #TQtips ul{
@@ -582,7 +613,12 @@ export default {
   }
 
   .ITimg{
-    width: 10vw;
+    width: 7vw;
+  }
+
+  #ITSimg{
+    width: 70vw;
+    margin-top: 3rem;
   }
 
   #ITdiv{
@@ -727,5 +763,9 @@ export default {
   }
   .moreRes:hover::before {
     width: 100%;
+  }
+
+  #longMoreRes{
+    display: inline;
   }
 </style>
