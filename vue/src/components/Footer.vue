@@ -7,12 +7,12 @@
       <div class="wrapper">
         <div class="one1">
           <div style="display: flex; flex-direction: row; padding-left: 20px">
-            <img src="../assets/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
+            <img src="../../public/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
             <h1 style="margin-top: 25px; margin-left: 15px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
           </div>
 
-          <p style="font-weight: 600; margin-top: 25px"> We aim to provide UCSD’s Undergraduate a
-            <br>smooth experience in developing their
+          <p style="font-weight: 600; margin-top: 25px"> We aim to provide UCSD’s Undergraduate
+            <br>a smooth experience in developing their
             <br>professional path and approaching their
             <br>career goal.</p>
         </div>
@@ -27,12 +27,12 @@
                 <input type="text" id="input1" placeholder="Your Email Address" v-model="form.email" style="color: #1E4460"/>
               </el-form-item>
             </el-form>
-            <el-button type="primary" @click="subscribe" style="font-size: 16px; font-weight: 600; border-radius: 30px;
-          background-color: #F4CE71; width: 150px; height:45px; margin-left: 15px; color:#1E4460">Subscribe</el-button>
+            <el-button type="primary" @click="subscribe">Subscribe</el-button>
           </div>
         </div>
         <div class="two2">
-          <h2 style="text-align: right">About Us</h2>
+          <h2>About Us</h2>
+          <h2 style="margin-left: 55px">Contact Us</h2>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 @font-face { font-family: work-sans;
-  src: url('../assets/WorkSans/WorkSans-Bold.woff');
+  src: url('../../public/WorkSans/WorkSans-Bold.woff');
 }
 .flex {
   display: flex;
@@ -100,6 +100,24 @@ export default {
   grid-template-columns: 1fr 1fr;
   text-align: right;
   padding-left: 0px;
+}
+.el-button {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #F4CE71;
+  width: 150px;
+  height:45px;
+  margin-left: 15px;
+  color:#1E4460;
+  border: hidden;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
+}
+.el-button:hover {
+  background-color: #1E4460;
+  color: white;
+  /*border: solid 2px;*/
+  border-color: #F4CE71;
 }
 h1{
   font-family: work-sans;
@@ -117,7 +135,7 @@ h2{
   font-weight: 700;
 }
 #input1 {
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
   padding: 20px;
   width: 300px;
@@ -144,6 +162,9 @@ h2{
 .two2 {
   grid-column: 2;
   grid-row: 2;
-  width: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 190px;
 }
 </style>

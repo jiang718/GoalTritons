@@ -1,7 +1,7 @@
 <template>
   <div style="height: 60px; line-height: 60px; border-bottom: 1px solid #ccc; display: flex">
     <div style="flex: 2; padding-left: 21%; display: flex; flex-direction: row">
-      <img src="../assets/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
+      <img src="../../public/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
       <h1 style="margin-left: 15px; align-self: center;"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
@@ -12,15 +12,16 @@
       <h2 style="margin-right: 15px">About Us</h2>
       <el-popover
           placement="bottom"
-          trigger="click"
+          trigger="hover"
           width="415px"
       >
         <template #reference>
           <el-avatar :size="35" style="position: relative; background-color: transparent; margin-right: 17px" shape="square">
-            <img src="../assets/calendar.svg" alt="calendar"/>
+            <img src="../../public/calendar.svg" alt="calendar"/>
           </el-avatar>
         </template>
         <template #default>
+          <span style="font-weight: 600; color: #1e4460">UCSD Career and Networking Fairs</span>
           <Calendar />
         </template>
       </el-popover>
@@ -94,7 +95,7 @@ export default {
 
 <style>
 @font-face { font-family: work-sans;
-  src: url('../assets/WorkSans/WorkSans-Bold.woff');
+  src: url('../../public/WorkSans/WorkSans-Bold.woff');
 }
 h1{
   color: white;
