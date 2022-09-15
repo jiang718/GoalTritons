@@ -1,8 +1,8 @@
 <template>
   <div style="height: 60px; line-height: 60px; border-bottom: 1px solid #ccc; display: flex">
     <div style="flex: 2; padding-left: 21%; display: flex; flex-direction: row">
-      <img src="../../public/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
-      <h1 style="margin-left: 15px; align-self: center;"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
+      <img src="../../public/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" @click="$router.push('/')"/>
+      <h1 style="margin-left: 15px; align-self: center;" @click="$router.push('/')"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
       <el-autocomplete
@@ -17,7 +17,7 @@
       >
         <template #reference>
           <el-avatar :size="35" style="position: relative; background-color: transparent; margin-right: 17px" shape="square">
-            <img src="../../public/calendar.svg" alt="calendar"/>
+            <img src="/calendar.svg" alt="calendar"/>
           </el-avatar>
         </template>
         <template #default>
@@ -67,7 +67,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Calendar from "../views/Calendar.vue";
 import request from "../utils/request";
 
