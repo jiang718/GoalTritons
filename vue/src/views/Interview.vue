@@ -112,7 +112,7 @@
         </div>
 
         <div style="text-align: right; margin-bottom: 82px; margin-top: 2rem">
-          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
           <a id="BehavioralQuestions"></a>
         </div>
 
@@ -129,7 +129,7 @@
         <img src="../assets/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
 
         <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
             <a id="TechnicalQuestions"></a>
         </div>
       </div>
@@ -314,7 +314,8 @@
 
     </div>
     <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
-      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
+      <a id="moreResources"></a>
     </div>
 
     <div id="more-resources">
