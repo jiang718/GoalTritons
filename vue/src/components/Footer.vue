@@ -1,46 +1,41 @@
 <template class="el-footer">
-  <div style="background-color: #2D5878; color: white; height: 380px; width: 84%; margin-left: 240px">
-    <div style="margin-left: 10%; padding-top: 3%; height: 320px">
-      <h1 style="font-size: 26px">Your <span style="color: #F4CE71">bright</span> and
-        <span style="color: #F4CE71">successful</span> professional future is what we strive for.
-      </h1>
-      <div class="wrapper">
-        <div class="one1">
-          <div style="display: flex; flex-direction: row; padding-left: 20px">
-            <img src="../../public/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
-            <h1 style="margin-top: 25px; margin-left: 15px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
-          </div>
+  <div style="background-color: #2D5878; color: white; height: 380px; width: 100%">
+    <div style="padding-top: 3%; height: 320px; text-align: center">
+      <h1 style="font-size: 26px">Your <span style="color: #F4CE71">bright</span> and <span style="color: #F4CE71">successful</span> professional future is what we strive for.</h1>
 
-          <p style="font-weight: 600; margin-top: 25px"> We aim to provide UCSD’s Undergraduate
-            <br>a smooth experience in developing their
-            <br>professional path and approaching their
-            <br>career goal.</p>
+
+      <!--        <div class="one2">-->
+      <!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+      <!--        </div>-->
+      <div>
+        <h1 style="padding-top: 30px; font-size: 20px">Stay updated on more career information</h1>
+        <div class="flex">
+          <el-form ref="form" :model="form" style="width: 300px; align-items: center">
+            <el-form-item prop="email">
+              <input type="text" id="input1" placeholder="Enter Your Email Address" v-model="form.email" style="color: #1E4460"/>
+            </el-form-item>
+          </el-form>
+          <el-button class="subscribe" type="primary" @click="subscribe">Subscribe</el-button>
         </div>
-<!--        <div class="one2">-->
-<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
-<!--        </div>-->
-        <div class="two1">
-          <h2 style="padding-top: 20px; padding-left: 20px">Keep updated on more career information</h2>
-          <div class="flex">
-            <el-form ref="form" :model="form" size="normal" style="width: 300px">
-              <el-form-item prop="email">
-                <input type="text" id="input1" placeholder="Your Email Address" v-model="form.email" style="color: #1E4460"/>
-              </el-form-item>
-            </el-form>
-            <el-button type="primary" @click="subscribe">Subscribe</el-button>
-          </div>
-        </div>
-        <div class="two2">
+        <p style="font-weight: 600; margin-top: 10px; font-size: 16px; line-height: 141%">We aim to provide UCSD
+          students a smooth experience in developing their professional paths and approaching their career goal
+        </p>
+        <p style="font-weight: 700; margin-top: 20px; font-size: 16px; font-weight: 700; line-height: 141%">Copyright:
+          2022 by Goal Tritons</p>
+      </div>
+
+    </div>
+    <div style="height: 75px; background-color: #1E4460">
+      <div style="display: flex">
+        <div style="display: flex; flex: 2; flex-direction: row; text-align: left; padding-top: 24px; margin-left: 6%">
           <h2>About Us</h2>
-          <h2 style="margin-left: 55px">Contact Us</h2>
+          <h2 style="margin-left: 36px">Contact Us</h2>
+        </div>
+        <div style="display: flex; flex-direction: row; text-align: right; margin-right: 6%">
+          <h1 style="margin-right: 15px; padding-top: 20px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
+          <img src="/logo.svg" width="40px" alt="logo" style="padding-top: 15px">
         </div>
       </div>
-    </div>
-    <div class="container" style="height: 75px; background-color: #1E4460">
-      <h2 style="text-align: left; margin-left: 20%; margin-top: 4%">Copyright: 2022 by Goal Tritons</h2>
-<!--      <div style="text-align: right; margin-top: 5%; margin-right: 15%">-->
-<!--        <h2>Contact Us</h2>-->
-<!--      </div>-->
     </div>
   </div>
 </template>
@@ -90,10 +85,14 @@ export default {
 @font-face { font-family: work-sans;
   src: url('../../public/WorkSans/WorkSans-Bold.woff');
 }
+@font-face { font-family: work-sans-semi;
+  src: url('../../public/WorkSans/WorkSans-Semibold.woff');
+}
 .flex {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 15px;
+  justify-content: center;
 }
 .container {
   display: grid;
@@ -101,19 +100,19 @@ export default {
   text-align: right;
   padding-left: 0px;
 }
-.el-button {
+.subscribe {
   font-size: 16px;
   font-weight: 600;
   border-radius: 10px;
   background-color: #F4CE71;
   width: 150px;
-  height:45px;
+  height:40px;
   margin-left: 15px;
   color:#1E4460;
   border: hidden;
   box-shadow: 0 4px 4px rgb(0 0 0 / 0.25);
 }
-.el-button:hover {
+.subscribe:hover {
   background-color: #1E4460;
   color: white;
   /*border: solid 2px;*/
@@ -128,10 +127,10 @@ h1{
 }
 
 h2{
-  font-family: work-sans;
+  font-family: work-sans-semi;
   font-style: normal;
   font-size: 20px;
-  line-height: 23.46px;
+  line-height: 141%;
   font-weight: 700;
 }
 #input1 {
@@ -139,32 +138,7 @@ h2{
   border: none;
   padding: 20px;
   width: 300px;
-  height: 45px;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0px;
-  height: fit-content;
-  width: fit-content;
-  margin-top: 30px;
-}
-.one1 {
-  grid-column: 1;
-  grid-row: 1/3;
-  width: 550px;
+  height: 35px;
 }
 
-.two1 {
-  grid-column: 2;
-  grid-row: 1;
-}
-.two2 {
-  grid-column: 2;
-  grid-row: 2;
-  width: 300px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 190px;
-}
 </style>

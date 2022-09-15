@@ -1,7 +1,7 @@
 <template>
   <div class="common-layout">
       <!--    头部-->
-      <Header style="position: fixed; width: 100vw; z-index: 20; height: 7%; background-color: #1E4460"/>
+      <Header style="position: fixed; width: 100vw; z-index: 20; background-color: #1E4460"/>
       <!--    主体-->
       <el-container style="display: flex" class="wrapper">
         <!--      侧边栏-->
@@ -9,7 +9,7 @@
         <!--      内容区域-->
         <el-container>
           <router-view class="wrapper__body"/>
-          <el-footer style="padding-left: 0px">
+          <el-footer style="margin-left: 240px">
             <Footer/>
           </el-footer>
         </el-container>

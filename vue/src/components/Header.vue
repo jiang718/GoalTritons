@@ -1,6 +1,6 @@
 <template>
-  <div style="height: 60px; line-height: 60px; border-bottom: 1px solid #ccc; display: flex">
-    <div style="flex: 2; padding-left: 21%; display: flex; flex-direction: row">
+  <div style="height: 60px; line-height: 70px; border-bottom: 1px solid #ccc; display: flex">
+    <div style="flex: 2; padding-left: 11%; display: flex; flex-direction: row">
       <img src="../../public/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" @click="$router.push('/')"/>
       <h1 style="margin-left: 15px; align-self: center;" @click="$router.push('/')"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
     </div>
@@ -9,22 +9,29 @@
           placeholder=""
           style="margin-top: -5px; margin-right: 15px; width: 260px"
       />
-      <h2 style="margin-right: 15px">About Us</h2>
       <el-popover
           placement="bottom"
           trigger="hover"
           width="415px"
       >
         <template #reference>
-          <el-avatar :size="35" style="position: relative; background-color: transparent; margin-right: 17px" shape="square">
-            <img src="/calendar.svg" alt="calendar"/>
-          </el-avatar>
+          <div style="position: relative; display: inline-block">
+            <p style="font-size: 16px; font-weight: 600; color: black; z-index: 2; position: relative; margin-left: 7px; padding-top: 5px">
+              {{ getDate() }}
+            </p>
+<!--            <el-avatar :size="30" style="position: absolute; top: 10px; left: 10px; z-index: 1; display: inline;-->
+<!--              background-color: transparent; margin-right: 17px" shape="square">-->
+            <img src="/calendar.svg" alt="calendar" style="position: absolute; top: 21px; left: 0px; z-index: 1; width: 32px; display: inline;">
+<!--            </el-avatar>-->
+          </div>
         </template>
         <template #default>
           <span style="font-weight: 600; color: #1e4460">UCSD Career and Networking Fairs</span>
           <Calendar />
         </template>
       </el-popover>
+
+      <h2 style="margin-left: 45px">About Us</h2>
 
 <!--      <el-button text @click="showDialogForm(true)" style="background-color: #F4CE71; font-family: work-sans; font-size: 14px">Subscribe</el-button>-->
 
@@ -77,7 +84,13 @@ export default {
   components: {
     Calendar
   },
-  props: ['user'],
+  methods: {
+    getDate() {
+      const today = new Date();
+      return String(today.getDate()).padStart(2, '0');
+    }
+  },
+  // props: ['user'],
   data() {
     return {
       // user: {},
@@ -97,6 +110,9 @@ export default {
 @font-face { font-family: work-sans;
   src: url('../../public/WorkSans/WorkSans-Bold.woff');
 }
+@font-face { font-family: work-sans-semi;
+  src: url('../../public/WorkSans/WorkSans-Semibold.woff');
+}
 h1{
   color: white;
   font-weight: 700;
@@ -108,8 +124,11 @@ h2{
   color: white;
   font-weight: 600;
   font-size: 20px;
-  font-family: work-sans;
+  font-family: work-sans-semi;
   line-height: 141%;
+}
+.day {
+  position: absolute;
 }
 .el-input--small {
   height: 30px;

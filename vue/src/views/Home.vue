@@ -1,8 +1,9 @@
 <template>
   <div class="common-layout">
     <!--    头部-->
-    <Header style="position: fixed; width: 100vw; z-index: 20; height: 7%; background-color: #1E4460"/>
+    <Header style="position: fixed; width: 100vw; z-index: 20; background-color: #1E4460"/>
     <!--    主体-->
+    <Aside class="wrapper__aside"/>
     <el-container style="display: flex" class="wrapper">
       <!--      内容区域-->
         <el-main class="wrapper__body">
@@ -27,7 +28,8 @@
                 confusions.
               </p>
               <div style="position: relative; display: inline-block">
-                <img src="/home/mountain.svg" alt="mountain" style="width: 90%; margin-top: -40px">
+                <span class="sun"></span>
+                <img src="/home/mountain.svg" alt="mountain" style="width: 95%; margin-top: -40px;">
                 <img id="student" src="/home/student.svg" alt="student">
               </div>
             </div>
@@ -40,15 +42,16 @@
                   width="415px"
               >
                 <template #reference>
-                    <img src="/home/homeCalendar.svg" alt="calendar" width="420">
+                  <img src="/home/homeCalendar.svg" alt="calendar" width="420">
                 </template>
                 <template #default>
                   <span style="font-weight: 600; color: #1e4460">UCSD Career and Networking Fairs</span>
                   <Calendar />
                 </template>
               </el-popover>
-              <h2 style="margin-left: 120px; width: 450px; margin-top: 100px">Check out our calendar to
-                see updated career events.</h2>
+              <h2 style="margin-left: 125px; width: 400px; margin-top:72px">Check out our calendar
+                <i style="color: #5F99B6">(in the header)</i>
+                to &nbsp;&nbsp;&nbsp;&nbsp; see updated career events.</h2>
             </div>
 
             <div style="margin-top: 150px">
@@ -109,7 +112,7 @@
             </div>
           </div>
         </el-main>
-        <el-footer style="z-index: 2; margin-top: 150px">
+        <el-footer style="z-index: 2">
           <Footer/>
         </el-footer>
     </el-container>
@@ -322,6 +325,25 @@ h2 {
   background: #F4CE71;
   filter: blur(150px);
 }
+.sun {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 100px;
+  top: -32px;
+  transition: 2s;
+  background:
+    radial-gradient(48.01% 48.01% at 49.46% 51.99%, #F4CE71 20%, rgba(244, 206, 113, 0) 100%, rgba(244, 206, 113, 0) 100%),
+    radial-gradient(48.01% 48.01% at 49.46% 51.99%, #F8CE67 20%, rgba(244, 206, 113, 0) 100%, rgba(244, 206, 113, 0) 100%);
+}
+.sun:hover {
+  filter: brightness(112%);
+  left: 85px;
+  top: -47px;
+  width: 90px;
+  height: 90px;
+}
+
 .opening {
   font-size: 16px;
   font-weight: 400;
@@ -337,27 +359,31 @@ h2 {
 
 .wrapper__body {
   flex: 1;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: clip;
   padding-top: 6.3%;
-  margin-bottom: 12%;
+  padding-bottom: 15%;
+  /*margin-bottom: 12%;*/
   z-index: 2;
 }
 
 #student {
   position: absolute;
-  top: 10px;
-  left: 130px;
+  top: 100px;
+  left: 280px;
   z-index: 1;
   border: 100px;
   display: inline;
-  width: 370px;
-  transition: 4s;
+  width: 200px;
+  /*transition: 4s;*/
 }
 
-#student:hover {
-  margin-top: -75px;
-  left: -100px;
-  filter: brightness(200%);
-}
+/*#student:hover {*/
+/*  margin-top: -75px;*/
+/*  left: -100px;*/
+/*  filter: brightness(200%);*/
+/*}*/
 .timeline {
   margin-left: calc((100vw - 976px) / 2);
   margin-top: 80px;
