@@ -93,7 +93,8 @@
                 <div class="three2">
                   <div style="position: relative; display: inline-block">
                     <img src="/home/startNetworking.svg" alt="frame">
-                    <button style="position: absolute; top: 180px; left: 110px; z-index: 2; display: inline">
+                    <button style="position: absolute; top: 180px; left: 110px; z-index: 2; display: inline"
+                            @click="$router.push('/fakeNetworking#fakeNetworkingTop')">
                       Start Networking
                     </button>
                   </div>

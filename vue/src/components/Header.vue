@@ -73,11 +73,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Calendar from "../views/Calendar.vue";
 import request from "../utils/request";
 import routePathes from "./routePathes/routePathes.json";
-import { onMounted, ref } from 'vue'
+import { onMounted, ref } from 'vue';
 
 interface InsiteRoute {
   value: string
@@ -96,12 +96,6 @@ export default {
   components: {
     Calendar
   },
-  methods: {
-    getDate() {
-      const today = new Date();
-      return String(today.getDate()).padStart(2, '0');
-    }
-  },
   // props: ['user'],
   data() {
     return {
@@ -115,6 +109,10 @@ export default {
     }
   },
   methods: {
+    getDate() {
+      const today = new Date();
+      return today.getDate().toString();
+    },
     loadAll() {
       console.log("loading");
       return this.jsonData.pathes;

@@ -700,7 +700,7 @@
 
       <p class="moreResTitle">LinkedIn:</p >
       <ul>
-        <li>Summary Examples: <a href=" " target="_blank">
+        <li>Summary Examples: <a href="https://blog.hubspot.com/sales/linkedin-summary-examples" target="_blank">
           <p class="moreRes" style="display: inline">17 Best LinkedIn Summary & Bio Examples</p ></a>
         </li>
         <li>“Branding” yourself:
