@@ -1,7 +1,7 @@
 <template>
   <div style="height: 60px; line-height: 60px; border-bottom: 1px solid #ccc; display: flex">
     <div style="flex: 2; padding-left: 21%; display: flex; flex-direction: row">
-      <img src="../assets/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
+      <img src="/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" />
       <h1 style="margin-left: 15px; align-self: center;"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
@@ -14,7 +14,7 @@
         <template #reference>
           <el-avatar :size="35" style="position: relative; background-color: transparent; margin-right: 17px"
             shape="square">
-            <img src="../assets/calendar.svg" alt="calendar" />
+            <img src="/calendar.svg" alt="calendar" />
           </el-avatar>
         </template>
         <template #default>
@@ -46,7 +46,7 @@
       <!--      <el-dropdown>-->
       <!--        <span class="el-dropdown-link">-->
       <!--          <el-avatar :size="30" style="position: relative; top: 10px">-->
-      <!--            <img src="../assets/avatar.png" alt="err" />-->
+      <!--            <img src="/avatar.png" alt="err" />-->
       <!--          </el-avatar>-->
       <!--           {{ user.username }}-->
       <!--          <i class="el-icon-arrow-down el-icon&#45;&#45;right"></i>-->
@@ -151,7 +151,7 @@ export default {
 <style>
 @font-face {
   font-family: work-sans;
-  src: url('../assets/WorkSans/WorkSans-Bold.woff');
+  src: url('/WorkSans/WorkSans-Bold.woff');
 }
 
 h1 {
