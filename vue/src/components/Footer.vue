@@ -7,7 +7,7 @@
       <div class="wrapper">
         <div class="one1">
           <div style="display: flex; flex-direction: row; padding-left: 20px">
-            <img src="../../public/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
+            <img src="/logo.svg" width="70px" alt="logo" style="vertical-align: middle">
             <h1 style="margin-top: 25px; margin-left: 15px"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
           </div>
 
@@ -17,7 +17,7 @@
             <br>career goal.</p>
         </div>
 <!--        <div class="one2">-->
-<!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
+<!--          <img src="/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
 <!--        </div>-->
         <div class="two1">
           <h2 style="padding-top: 20px; padding-left: 20px">Keep updated on more career information</h2>
@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 @font-face { font-family: work-sans;
-  src: url('../../public/WorkSans/WorkSans-Bold.woff');
+  src: url('/WorkSans/WorkSans-Bold.woff');
 }
 .flex {
   display: flex;
