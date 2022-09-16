@@ -80,7 +80,7 @@
 
         <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
           <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-            <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Interview Prep Appointment</p>
+            <p class ="link" style="display: inline; opacity: 80%">Schedule LinkedIn Profile Review Appointment</p>
             &nbsp;
             <img src="/arrow.png" width=22px style="vertical-align: middle">
           </a>
@@ -121,8 +121,8 @@
 
 
       <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
-        <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
-          <p class ="link" style="display: inline; opacity: 80%">Click to Schedule an Interview Prep Appointment</p>
+        <a href="https://www.linkedin.com/groups/42184/" target="_blank" style="text-decoration: none; color: #1E4460">
+          <p class ="link" style="display: inline; opacity: 80%">Join LinkedIn UCSD Alumni Community</p>
           &nbsp;
           <img src="/arrow.png" width=22px style="vertical-align: middle">
         </a>
@@ -192,7 +192,7 @@
 
 
         <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
-          <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
+          <a href="https://www.youtube.com/watch?v=5hbQZhav7Q4" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See Tritons Connect Video Tour</p>
             &nbsp;
             <img src="/arrow.png" width=22px style="vertical-align: middle">
@@ -442,7 +442,7 @@
         </div>
 
         <div style="text-align: right; margin-top: 15px; margin-bottom: 50px">
-          <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
+          <a href="https://studentorg.ucsd.edu/" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See Full List of Student Orgs</p>
             &nbsp;
             <img src="/arrow.png" width=22px style="vertical-align: middle">
@@ -489,7 +489,7 @@
         </div>
 
         <div style="text-align: right; margin-top: 15px; margin-bottom: 50px">
-          <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
+          <a href="https://vcsa.ucsd.edu/_files/Mentorship-Programs-Guide-20211014.pdf" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See All Mentorship Programs at UCSD</p>
             &nbsp;
             <img src="/arrow.png" width=22px style="vertical-align: middle">
@@ -700,7 +700,7 @@
 
       <p class="moreResTitle">LinkedIn:</p >
       <ul>
-        <li>Summary Examples: <a href=" " target="_blank">
+        <li>Summary Examples: <a href="https://blog.hubspot.com/sales/linkedin-summary-examples" target="_blank">
           <p class="moreRes" style="display: inline">17 Best LinkedIn Summary & Bio Examples</p ></a>
         </li>
         <li>“Branding” yourself:
