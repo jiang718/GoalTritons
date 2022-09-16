@@ -5,10 +5,9 @@
       <h1 style="margin-left: 15px; align-self: center;" @click="$router.push('/')"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
-      <el-autocomplete
-          placeholder=""
-          style="margin-top: -5px; margin-right: 15px; width: 260px"
-      />
+      <el-autocomplete placeholder="" style="margin-top: -5px; margin-right: 15px; width: 260px" v-model="state1"
+        :fetch-suggestions="querySearch" :trigger-on-focus="false" clearable class="inline-input w-50"
+        @select="handleSelect" />
       <el-popover
           placement="bottom"
           trigger="hover"
@@ -26,7 +25,6 @@
           </div>
         </template>
         <template #default>
-          <span style="font-weight: 600; color: #1e4460">UCSD Career and Networking Fairs</span>
           <Calendar />
         </template>
       </el-popover>
@@ -70,6 +68,7 @@
 <!--          </el-dropdown-menu>-->
 <!--        </template>-->
 <!--      </el-dropdown>-->
+
     </div>
   </div>
 </template>
@@ -77,6 +76,19 @@
 <script>
 import Calendar from "../views/Calendar.vue";
 import request from "../utils/request";
+import routePathes from "./routePathes/routePathes.json";
+import { onMounted, ref } from 'vue'
+
+interface InsiteRoute {
+  value: string
+  link: string
+  prompt: string
+}
+
+const state1 = ref('')
+
+let siteRoutes = ref<InsiteRoute[]>([])
+
 
 
 export default {
@@ -96,19 +108,66 @@ export default {
       // user: {},
       // dialogFormVisible: false,
       // form: {}
+      state1: '',
+      siteRoutes: [] as InsiteRoute[],
+      jsonData: routePathes,
+
     }
+  },
+  methods: {
+    loadAll() {
+      console.log("loading");
+      return this.jsonData.pathes;
+    },
+    querySearch(queryString: string, cb: any) {
+      const noResultPrompt = `No results for \" ${queryString} \": Search from all UCSD sites`;
+      const googleSearchPrompt = `Search ${queryString} from all UCSD sites`;
+
+      const filter_results = this.siteRoutes.value.filter(this.createFilter(queryString));
+      filter_results.push({ value: googleSearchPrompt, link: '', prompt: queryString });
+      const results = filter_results.length !== 0 ? filter_results : [{ value: noResultPrompt, link: '', prompt: queryString }];
+
+      // call callback function to return suggestions
+      console.log("results: ", results);
+      cb(results)
+    },
+    createFilter(queryString: string) {
+      console.log("here: ", queryString);
+      return (route: InsiteRoute) => {
+        return (
+          route.value.toLowerCase().indexOf(queryString.toLowerCase()) !== -1
+        )
+      }
+    },
+    handleSelect(item: InsiteRoute) {
+      if (item.link === '') {
+        window.open(`https://www.google.com/search?q=site%3Aucsd.edu+${item.prompt}`);
+      } else {
+        this.$router.push(item.link);
+        console.log(item);
+      }
+
+    }
+
+  },
+  mounted() {
+    this.siteRoutes.value = this.loadAll();
+    console.log("routes: ", this.siteRoutes.value);
+    console.log(this.jsonData.pathes[0]);
   }
   // created() {
   //   let str = sessionStorage.getItem("user") || "{}"
   //   this.user = JSON.parse(str)
   // }
 
+
 }
 </script>
 
 <style>
-@font-face { font-family: work-sans;
-  src: url('../../public/WorkSans/WorkSans-Bold.woff');
+@font-face {
+  font-family: work-sans;
+  src: url('/WorkSans/WorkSans-Bold.woff');
 }
 @font-face { font-family: work-sans-semi;
   src: url('../../public/WorkSans/WorkSans-Semibold.woff');
@@ -120,16 +179,19 @@ h1{
   font-family: work-sans;
   line-height: 141%;
 }
-h2{
+
+h2 {
   color: white;
   font-weight: 600;
   font-size: 20px;
   font-family: work-sans-semi;
   line-height: 141%;
 }
+
 .day {
   position: absolute;
 }
+
 .el-input--small {
   height: 30px;
   font-size: 5px;

@@ -2,8 +2,6 @@
   <div style="background-color: #2D5878; color: white; height: 380px; width: 100%">
     <div style="padding-top: 3%; height: 320px; text-align: center">
       <h1 style="font-size: 26px">Your <span style="color: #F4CE71">bright</span> and <span style="color: #F4CE71">successful</span> professional future is what we strive for.</h1>
-
-
       <!--        <div class="one2">-->
       <!--          <img src="../assets/needle.svg" width="66px" height="20px" alt="&#45;&#45;&#45;&#45;&ndash;&gt;" style="margin-left: 17px; margin-right: 16px; margin-top: 2px">-->
       <!--        </div>-->
@@ -83,7 +81,7 @@ export default {
 
 <style scoped>
 @font-face { font-family: work-sans;
-  src: url('../../public/WorkSans/WorkSans-Bold.woff');
+  src: url('/WorkSans/WorkSans-Bold.woff');
 }
 @font-face { font-family: work-sans-semi;
   src: url('../../public/WorkSans/WorkSans-Semibold.woff');

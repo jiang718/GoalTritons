@@ -15,7 +15,7 @@
 
 
 
-      <img src="../../public/interview/whyInterview.svg" alt="Why Interview?">
+      <img src="/interview/whyInterview.svg" alt="Why Interview?">
 
       <a id="interviewQuestions"></a>
 
@@ -46,7 +46,7 @@
 
         <p style="margin-bottom: 50px; text-align: left; margin-left: 5rem">“Define Yourself” type of questions helps the company to evaluate whether you are a <strong>good fit</strong> through learning about <strong>YOU</strong>.</p>
 
-        <img src="../../public/interview/sampleQ1.svg">
+        <img src="/interview/sampleQ1.svg">
 
         <h3 style="margin-top: 3rem; margin-left: 8vw; margin-bottom: 1.5vh">Tips:</h3>
         <div>
@@ -58,7 +58,7 @@
 
             <div class="DYdiv">
               <div>
-                <img class="DYimg" src="../../public/interview/researchEmoji.png">
+                <img class="DYimg" src="/interview/researchEmoji.png">
               </div>
 
               <div >
@@ -86,7 +86,7 @@
 
             <div  class="DYdiv"  style="align-items: center">
               <div>
-                <img class="DYimg" src="../../public/interview/speechEmoji.png" style="vertical-align: middle">
+                <img class="DYimg" src="/interview/speechEmoji.png" style="vertical-align: middle">
               </div>
 
 
@@ -112,7 +112,7 @@
         </div>
 
         <div style="text-align: right; margin-bottom: 82px; margin-top: 2rem">
-          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+          <p style="display: inline;"><i style="color: #1E4460; font-weight: 500">See “Define Yourself” Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
           <a id="BehavioralQuestions"></a>
         </div>
 
@@ -126,10 +126,10 @@
           the real workplace so that they can anticipate your performance. These are usually about <strong>soft skills</strong>
           (<em>e.g. leadership</em>) and <strong>personal attributes</strong> (<em>e.g. persistency</em>).</p>
 
-        <img src="../../public/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
+        <img src="/interview/behaviorQuetion.svg" style="margin-bottom: 50px">
 
         <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+            <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Behavioral Sample Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
             <a id="TechnicalQuestions"></a>
         </div>
       </div>
@@ -142,7 +142,7 @@
         <p id="TQp">This part can vary a lot by different professions. Technical questions are usually <strong>specific to the topics
           in your fields</strong>. They help the company to evaluate your ability, skillset, professional level, and your
           potential to contribute to this specific position. </p>
-        <img src="../../public/interview/sampleQ2.svg">
+        <img src="/interview/sampleQ2.svg">
         <div>
           <h3 id="TQtipsTitle">Tips:</h3>
           <div id="TQtips">
@@ -168,7 +168,7 @@
         <div>
           <p id="ITstep1" style="font-weight: 650">Step 1</p>
           <p style="font-weight: 650;margin-top: 5px; margin-bottom: 5px">Initial Screening</p>
-          <img class="ITimg" src="../../public/interview/initialScreening.png">
+          <img class="ITimg" src="/interview/initialScreening.png">
 
 <!--          <ul>-->
 <!--            <li>Purpose: to evaluate your qualifications/skills in order to narrow the pool of applicants</li>-->
@@ -181,7 +181,7 @@
         <div>
           <p id="ITstep2" style="font-weight: 650">Step 2</p>
           <p style="font-weight: 650;margin-top: 5px; margin-bottom: 5px">Official Interview</p>
-          <img class="ITimg" src="../../public/interview/officialInterview.png">
+          <img class="ITimg" src="/interview/officialInterview.png">
 <!--          <ul>-->
 <!--            <li>Purpose: an in-depth examination of your skills/experience/work history/availability</li>-->
 <!--            <li>Form: typically 2-4 rounds; in-person or video conferencing; one-on-one or group interview</li>-->
@@ -200,7 +200,7 @@
         <div>
           <p id="ITstep3" style="font-weight: 650">Step 3</p>
           <p style="font-weight: 650;margin-top: 5px; margin-bottom: 5px">Final Decision</p>
-          <img class="ITimg" src="../../public/interview/finalDecision.png">
+          <img class="ITimg" src="/interview/finalDecision.png">
 <!--          <ul>-->
 <!--            <li>Form: hiring committee reviews all the feedback from the official interviews-->
 <!--              <br>-->
@@ -211,7 +211,7 @@
 <!--          <p></p>-->
         </div>
       </div>
-      <img id="ITSimg" src="../../public/interview/interviewSteps.svg">
+      <img id="ITSimg" src="/interview/interviewSteps.svg">
     </div>
 
 
@@ -223,16 +223,16 @@
         <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
           <p class ="link" style="display: inline;">Schedule an Interview Prep Appointment</p>
           &nbsp;
-          <img src="../../public/arrow.png" width=22px style="vertical-align: middle">
+          <img src="/arrow.png" width=22px style="vertical-align: middle">
         </a>
       </div>
 
       <div id="HTMAIdiv">
         <div>
-          <img src="../../public/interview/beforeTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+          <img src="/interview/beforeTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
 
           <div class="HTMAIsubdiv" style="margin-right: 20px; padding-right: 4px">
-            <img src="../../public/interview/reportEmoji.svg" class="HTMAIemoji" >
+            <img src="/interview/reportEmoji.svg" class="HTMAIemoji" >
             <p >Prepare for common Q&A</p>
             <ul>
               <li>Have a list of common qs & answer them by yourself.
@@ -242,15 +242,15 @@
                   <li>MEMORIZE your stories/answers</li>
                 </ul>
               </li>
-              <li>Click to see <a class="moreRes" href="../../public/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; ">common questions</a>.</li>
+              <li>Click to see <a class="moreRes" href="/interview/commonInterviewQuestions.pdf" download="" style="color: #0467B0; ">common questions</a>.</li>
             </ul>
 
-            <img src="../../public/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <img src="/interview/speakerEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Prepare a brief self-introduction</p>
             <ul><li>Click to see <a class="moreRes" href="//leverageedu.com/blog/self-introduction-in-interview/#:~:text=First%2C%20greet%20the%20interviewer%20with,and%20nod%20at%20appropriate%20times"
                                     target="_blank" style="color: #0467B0; ">tips</a>.</li></ul>
 
-            <img src="../../public/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <img src="/interview/arrowEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Practice, practice, and practice!</p>
             <ul><li>Find peers to do mock interviews using the <a class="moreRes" href="//ucsd.biginterview.com/" target="_blank" style="color: #0467B0; ">Big Interview</a>.</li></ul>
           </div>
@@ -259,24 +259,24 @@
         </div>
 
         <div >
-          <img src="../../public/interview/atTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+          <img src="/interview/atTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
 
           <div class="HTMAIsubdiv" style="margin-right: 20px; padding-right: 5px">
-            <img src="../../public/interview/smileEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <img src="/interview/smileEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Be open, polite, and honest</p>
             <ul>
               <li>Make a good first impression by providing big smile, handshake, and proper greetings, etc.</li>
               <li>Click to see common questions.</li>
             </ul>
 
-            <img src="../../public/interview/clothesEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <img src="/interview/clothesEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Dress appropriately</p>
             <ul>
               <li>Dress by company culture</li>
               <li>Dress comfortably</li>
             </ul>
 
-            <img src="../../public/interview/eyeEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+            <img src="/interview/eyeEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
             <p>Express confidence through body language.</p>
             <ul>
               <li>Maintain eye-contacts with your interviewers.</li>
@@ -288,9 +288,9 @@
         </div>
 
         <div>
-          <img src="../../public/interview/afterTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
+          <img src="/interview/afterTheInterview.svg" class="HTMAIimg" style="margin-bottom: 20px">
 
-          <img src="../../public/interview/questionEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <img src="/interview/questionEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Ask questions at the end</p>
           <ul>
             <li>Click to see
@@ -299,7 +299,7 @@
             </li>
           </ul>
 
-          <img src="../../public/interview/emailEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
+          <img src="/interview/emailEmoji.svg" class="HTMAIemoji" style="margin-right: 0.5rem">
           <p>Send a thank you note/email within 24 hours.</p>
           <ul>
             <li>Click to see <a class="moreRes" href="//www.themuse.com/advice/how-to-write-an-interview-thankyou-note-an-email-template"
@@ -314,7 +314,8 @@
 
     </div>
     <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
-      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#more-resources')">More Resources</i></p>
+      <p style="display: inline; "><i style="color: #1E4460; font-weight: 500">See More Common Q&A under</i> <i class="moreResLink" @click="$router.push('/interview#moreResources')">More Resources</i></p>
+      <a id="moreResources"></a>
     </div>
 
     <div id="more-resources">
@@ -375,7 +376,7 @@ export default {
 <style scoped>
 
   @font-face { font-family: work-sans;
-    src: url('../../public/WorkSans/WorkSans-Bold.woff');
+    src: url('/WorkSans/WorkSans-Bold.woff');
   }
 
   a{
