@@ -95,11 +95,123 @@
           attention of industry insiders, particularly recruiters. They will stay longer on your profile, to be more
           impressed with you, and learn more about your professional side, thus providing job opportunities for you.
           Go Tritons will walk you through each part in building an attracting LinkedIn Profile.</p>
-        <img src="/networking/r1s1reminder.svg">
 
-        <img id="andyp1" src="/networking/andyP1.png">
-        <img id="andyp2" src="/networking/andyP2.png">
-        <img id="andyp3" src="/networking/andyP3.png">
+        <div style="position: relative; display: inline-block">
+          <div style="border-radius: 1rem; border: 3px solid #D9EAEF; width:504px;">
+            <p style="padding-top: 10px; font-size: 16px">
+              <span style="font-weight: 600; color:#1E4460"> Reminder</span>: don’t overwhelm people with a ton of
+              information—focus on <span style="font-weight: 500">what makes you stand out</span> from a huge
+              pool of competitors.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="one1">
+            <p class="profileHeader" style="width:240px">Part 2: Customize Your Profile</p>
+            <div style="width: 260px; line-height: 141%">
+              <ul>
+                <li><span class="medium">Open to work:</span> edit your job preferences for recruiters to see here.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="one2">
+            <img src="/networking/profileInfo.svg" alt="profile_info" style="padding-left: 50px">
+            <br> <img src="/networking/profileStatus.svg" alt="profile_status">
+          </div>
+          <div class="one3">
+            <p class="profileHeader" style="width:240px">
+              Part 1: Provide Your Basic Info
+            </p>
+            <div style="width: 308px; line-height: 141%">
+              <ul>
+                <li><span class="medium">Profile Picture:</span> choose a clear front- facing profile picture,
+                  preferably smiling.
+                </li>
+                <li><span class="medium">Professional Headline:</span> describe your current roles; specify your
+                  <span class="medium">career goal</span> or focus using “|”.
+                  <ul>
+                    <li>e.g. “Student studying xxx @xxx | Seeking xxx internship”.</li>
+                  </ul>
+                </li>
+                <li><span class="medium">Education & Location:</span> provide your desired location since recruiters may
+                  limit their searches by location.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="two1">
+            <p class="profileHeader" style="width:250px">Part 4: Polish Your Experiences</p>
+            <div style="width: 260px; line-height: 141%">
+              <ul>
+                <li>Use <span class="moreResLink" style="color: #b27224" @click="$router.push('/resume#impactStatements')">
+                  Impact Statements</span> to describe what you did.
+                </li>
+                <li>Add <span class="medium">featured media</span> to showcase works you are proud of.</li>
+                <li>Choose relevant <span class="medium">skill tags</span> as recruiters will do searches based on skills.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="two2">
+            <img src="/networking/profileAbout.svg" alt="profile_about" style="padding-left: 50px">
+            <br> <img src="/networking/profileExperience.svg" alt="profile_experience">
+          </div>
+          <div class="two3">
+            <p class="profileHeader" style="width:260px">
+              Part 3: Summarize Your highlights
+            </p>
+            <div style="width: 308px; line-height: 141%">
+              <ul>
+                <li><span class="medium">About:</span> Share your background/<br>
+                  mission/ motivation/attributes/key achievements (you can use bullet points).
+                  <ul>
+                    <li>include keywords or phrases related to your desired position to increase the likelihood of your
+                      profile appearing in recruiters' search results.</li>
+                  </ul>
+                </li>
+              </ul>
+              <div style="text-align: left; padding-left: 12px">
+                <i>See LinkedIn summary examples under </i>
+                <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i>.
+              </div>
+
+            </div>
+          </div>
+
+          <div class="three2">
+            <img src="/networking/profileEducation.svg" alt="profile_others" style="padding-left: 50px">
+          </div>
+          <div class="three3">
+            <p class="profileHeader" style="width:130px;">
+              Part 5: Others
+            </p>
+            <div style="width: 308px; line-height: 141%">
+              <ul>
+                <li><span class="medium">Education:</span> include exceptional grades and awards (e.g. Grade: 3.9,
+                  President’s Award, Honors Roll).
+                </li>
+                <li><span class="medium">Licenses/Certifications:</span> include if relevant.</li>
+                <li><span class="medium">Skills/Languages:</span> you can click “Demonstrate skills” and take
+                  <span class="medium">Skill Assessments</span> (They earn you skill badges!)
+                  <ul>
+                    <li><a class="link" href="https://www.linkedin.com/help/linkedin/answer/a566100/endorse-someone-s-skills?lang=en" target="_blank" style="color: #0467B0">
+                      Endorsement</a>: people can endorse you for certain skills by hitting an “endorse” button.
+                    </li>
+                  </ul>
+                </li>
+                <li><span class="medium">Volunteer:</span> include if relevant.</li>
+                <li><span class="medium">Recommendation:</span> you can
+                  <a class="link" href="https://www.linkedin.com/help/linkedin/answer/a546682" target="_blank" style="color: #0467B0">
+                    request Recommendation</a> from your connections
+                  (e.g. teammates, co-worker) as they add validity to your online personal brand.
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
 
         <img src="/networking/r1s1Tip.svg" style="margin-top: 50px">
         <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
@@ -759,9 +871,14 @@ export default {
 
 
 <style scoped>
-
+a {
+  text-decoration: none;
+}
 div{
   text-align: center;
+}
+.medium {
+  font-weight: 500;
 }
 h1, h2, h3, h4{
   text-align: left;
@@ -994,6 +1111,16 @@ p.online{
   margin-bottom: 20px;
 }
 
+.profileHeader {
+  background-color: #D9EAEF;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  height: 28px;
+  padding-top: 2px;
+}
+
 ul{
   text-align: left;
   margin-left: 2rem;
@@ -1101,6 +1228,16 @@ ul{
   margin-left: 0.5rem;
 
 }
+.link {
+  display: inline;
+  text-decoration: none;
+  color: #1E4460;
+  font-weight: 500;
+}
+.link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
 #more-resources{
   text-align: left;
 }
@@ -1178,5 +1315,60 @@ ul{
   text-align: left;
   margin-left: 10vw;
   margin-bottom: 0;
+}
+
+.wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  height: fit-content;
+  width: min-content;
+}
+.one1 {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: right;
+  align-self: flex-end;
+  margin-right: -25px;
+  padding-left: 60px;
+}
+.one2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.one3 {
+  grid-column: 3;
+  grid-row: 1;
+  padding-left: 10px
+  /*width: calc(77vw - 600px);*/
+}
+.two1 {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: right;
+  align-self: flex-end;
+  margin-right: -25px;
+  padding-left: 60px;
+}
+.two2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.two3 {
+  grid-column: 3;
+  grid-row: 2;
+  padding-left: 10px
+  /*width: calc(77vw - 600px);*/
+}
+.three2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.three3 {
+  grid-column: 3;
+  grid-row: 3;
+  padding-left: 10px
+  /*width: calc(77vw - 600px);*/
 }
 </style>
