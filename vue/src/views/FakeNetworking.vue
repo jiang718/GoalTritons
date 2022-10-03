@@ -11,10 +11,11 @@
       <div>
         <img class="whyNetworkingImg" src="/networking/whyNetworking.svg" alt="Why Networking">
         <p id="opening">Networking is an important part of the career-finding process. To be brief, it is the process of
-          connecting with industry professionals, alumnis, or people around you to receive career-related information,
-          expert help, and more opportunities, which are all critical to your career success. However, many of you might
-          be intimidated by the concept of networking, or find it difficult to talk to people. Don’t worry, we will walk
-          you through the process by offering various networking routes. Let’s get started!</p>
+          connecting with industry professionals, alumni, or people around you to receive <span class="semi">
+          career-related information, expert help, and more opportunities</span>, which are all critical to your
+          career success. However, many of you might be intimidated by the concept of networking, or find it difficult
+          to talk to people. Don’t worry, we will walk you through the process by offering various networking routes.
+          Let’s get started!</p>
       </div>
 
     </div>
@@ -28,7 +29,9 @@
       <div>
 
         <h3>Why use online platforms?</h3><img src="/networking/whyOnlinePlatforms.svg" alt="why Online Platform">
-        <p class="online">2022 Job Seeker Nation reported that 42% say they find out about job openings through social media platforms.</p>
+        <p class="online"><a class="intextLink" href="https://www.jobvite.com/wp-content/uploads/2020/05/FINAL-Jobvite-JobSeekerNation-Report1_5-11.pdf" target="_blank">
+          2022 Job Seeker Nation</a> reported that 42% say they find out about job openings through social media platforms.
+        </p>
 
       </div>
 
@@ -39,7 +42,7 @@
 
           <p id="questionType">Question Types</p>
 
-          <div style="margin-bottom: 82px">
+          <div style="margin-bottom: 42px">
             <p id="QTspan1">LinkedIn</p>
             <p id="QTspan2">Tritons Connect</p>
             <p id="QTspan3">Other Social Media</p>
@@ -60,7 +63,7 @@
 
           <div class="onlinePlatformDescription">
             <p>LinkedIn is the world’s largest professional networking platform with over 300 million users and growing.
-              Employers, professors, alumnis, and job-seekers like you are all active on the platform. </p>
+              Employers, professors, alumni, and job-seekers like you are all active on the platform. </p>
             <br>
             <p>On LinkedIn, you can:</p>
             <ul>
@@ -75,18 +78,18 @@
         </div>
       </div>
 
-      <div style="text-align: left;display: flex">
-        <img src="/networking/r1Step1.svg" style="text-align: left; vertical-align: middle; padding-right: 25vw">
-
-        <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
+      <div class="headerWithLink">
+        <div style="display: flex; flex-direction: row; text-align: left;">
+          <p class="step" style="width:65px">Step 1</p>
+          <p class="stepTitle">Build a Professional & Attracting Profile</p>
+        </div>
+        <div style="text-align: right">
           <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">Schedule LinkedIn Profile Review Appointment</p>
             &nbsp;
             <img src="/arrow.png" width=22px style="vertical-align: middle">
           </a>
         </div>
-
-
       </div>
 
       <div>
@@ -97,7 +100,7 @@
           Go Tritons will walk you through each part in building an attracting LinkedIn Profile.</p>
 
         <div style="position: relative; display: inline-block">
-          <div style="border-radius: 1rem; border: 3px solid #D9EAEF; width:504px;">
+          <div style="border: 3px solid #D9EAEF; border-radius: 20px; width:554px; padding:10px 18px">
             <p style="padding-top: 10px; font-size: 16px">
               <span style="font-weight: 600; color:#1E4460"> Reminder</span>: don’t overwhelm people with a ton of
               information—focus on <span style="font-weight: 500">what makes you stand out</span> from a huge
@@ -196,14 +199,14 @@
                 <li><span class="medium">Skills/Languages:</span> you can click “Demonstrate skills” and take
                   <span class="medium">Skill Assessments</span> (They earn you skill badges!)
                   <ul>
-                    <li><a class="link" href="https://www.linkedin.com/help/linkedin/answer/a566100/endorse-someone-s-skills?lang=en" target="_blank" style="color: #0467B0">
+                    <li><a class="intextLink" href="https://www.linkedin.com/help/linkedin/answer/a566100/endorse-someone-s-skills?lang=en" target="_blank">
                       Endorsement</a>: people can endorse you for certain skills by hitting an “endorse” button.
                     </li>
                   </ul>
                 </li>
                 <li><span class="medium">Volunteer:</span> include if relevant.</li>
                 <li><span class="medium">Recommendation:</span> you can
-                  <a class="link" href="https://www.linkedin.com/help/linkedin/answer/a546682" target="_blank" style="color: #0467B0">
+                  <a class="intextLink" href="https://www.linkedin.com/help/linkedin/answer/a546682" target="_blank">
                     request Recommendation</a> from your connections
                   (e.g. teammates, co-worker) as they add validity to your online personal brand.
                 </li>
@@ -213,8 +216,26 @@
           </div>
         </div>
 
-        <img src="/networking/r1s1Tip.svg" style="margin-top: 50px">
-        <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
+        <div class="profileFooter">
+          <p class="semi">Learn from others:</p>
+          <ul>
+            <li>Browse <span class="medium">other people's profile pages</span> for inspiration, such as those who
+              have worked in your favorite company and held similar employment as you.
+            </li>
+            <li>
+              Use the <a class="intextLink" href="" target="_blank">LinkedIn Alumni tool</a> to check
+              out the data of your alumni—where they work and live, especially people who are in the same industry as you.
+            </li>
+          </ul>
+          <p class="semi">Be yourself:</p>
+          <ul>
+            <li>Avoid words like “specialized”, “passionate”, and “experienced” since they're overused on LinkedIn.
+              Think about how you stand out and use words that <span class="medium">characterize you</span>.
+            </li>
+          </ul>
+        </div>
+
+        <div style="text-align: right; margin-bottom: 42px; margin-top: 42px">
           <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">Learn “Branding” Yourself on LinkedIn under</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i></p>
         </div>
 
@@ -880,6 +901,9 @@ div{
 .medium {
   font-weight: 500;
 }
+.semi {
+  font-weight: 600;
+}
 h1, h2, h3, h4{
   text-align: left;
 }
@@ -890,6 +914,7 @@ h3{
   font-weight: 700;
   font-size: 16px;
   font-style: normal;
+  padding-top: 30px;
 }
 h1{
   margin-bottom: 2rem;
@@ -904,7 +929,7 @@ h2{
   font-size: 18px;
   font-weight: 700;
   color: #182B49;
-  margin-bottom: 82px;
+  margin-bottom: 42px;
   margin-top: 95px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -920,11 +945,11 @@ h2{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 141%;
   text-align: left;
-  margin-right: 13vw;
-  margin-left: 13vw;
-  padding: 30px;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  padding: 40px 35px 0px 35px;
 }
 #Maintain{
   width:300px;
@@ -950,11 +975,13 @@ p.online{
   background-color: #D9EAEF;
   border-radius: 2rem;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
+  color: #1e4460;
+  font-size: 15px;
+  line-height: 141%;
 }
 
 
@@ -1111,6 +1138,20 @@ p.online{
   margin-bottom: 20px;
 }
 
+.profileFooter {
+  margin-left: 12vw;
+  margin-right:12vw;
+  margin-top: 50px;
+  padding: 10px 18px;
+  text-align: left;
+  width: 70%;
+  max-width: 800px;
+  background: rgba(244, 206, 113, 0.21);
+  border: 3px dashed #F4CE71;
+  color: #1e4460;
+  border-radius: 20px;
+  font-size: 15px;
+}
 .profileHeader {
   background-color: #D9EAEF;
   border-radius: 20px;
@@ -1176,7 +1217,7 @@ ul{
 #highlight{
   background-color: #F4CE71;
   border-radius: 2rem;
-  width: 5vw;
+  width: 95px;
   padding: 10px;
   font-weight: 600;
   margin-left: 10vw;
@@ -1216,22 +1257,34 @@ ul{
   padding: 1rem;
   margin-bottom: 20px;
 }
+.headerWithLink{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: right;
+  margin: 50px 0px 50px 20px;
+}
 .HTNWFdiv{
   display: flex;
   margin-left: 2vw;
-
-
-
 }
 .HTNWFsubdiv p{
   display: inline-block;
   margin-left: 0.5rem;
 
 }
+.intextLink {
+  color: #0467B0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.intextLink:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
 .link {
   display: inline;
   text-decoration: none;
-  color: #1E4460;
+  color: #1e4460;
   font-weight: 500;
 }
 .link:hover {
@@ -1315,6 +1368,21 @@ ul{
   text-align: left;
   margin-left: 10vw;
   margin-bottom: 0;
+}
+
+.step {
+  background-color: #F8EFDA;
+  border-radius: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.stepTitle {
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .wrapper {
