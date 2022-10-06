@@ -28,7 +28,7 @@
 
       <div>
 
-        <h3>Why use online platforms?</h3><img src="/networking/whyOnlinePlatforms.svg" alt="why Online Platform">
+        <h3>Why use online platforms?</h3><img src="/networking/whyOnlinePlatforms.svg" alt="why Online Platform" width="800">
         <p class="online"><a class="intextLink" href="https://www.jobvite.com/wp-content/uploads/2020/05/FINAL-Jobvite-JobSeekerNation-Report1_5-11.pdf" target="_blank">
           2022 Job Seeker Nation</a> reported that 42% say they find out about job openings through social media platforms.
         </p>
@@ -149,7 +149,7 @@
             <p class="profileHeader" style="width:250px">Part 4: Polish Your Experiences</p>
             <div style="width: 260px; line-height: 141%">
               <ul>
-                <li>Use <span class="moreResLink" style="color: #b27224" @click="$router.push('/resume#impactStatements')">
+                <li>Use <span class="moreResLink" @click="$router.push('/resume#impactStatements')">
                   Impact Statements</span> to describe what you did.
                 </li>
                 <li>Add <span class="medium">featured media</span> to showcase works you are proud of.</li>
@@ -223,8 +223,9 @@
               have worked in your favorite company and held similar employment as you.
             </li>
             <li>
-              Use the <a class="intextLink" href="" target="_blank">LinkedIn Alumni tool</a> to check
-              out the data of your alumni—where they work and live, especially people who are in the same industry as you.
+              Use the <a class="intextLink" href="https://www.linkedin.com/school/ucsandiego/people/" target="_blank">
+              LinkedIn Alumni tool</a> to check out the data of your alumni—where they work and live, especially people
+              who are in the same industry as you.
             </li>
           </ul>
           <p class="semi">Be yourself:</p>
@@ -242,18 +243,22 @@
       </div>
 
       <div>
-        <img src="/networking/r1Step2.svg">
-        <img class="step2Img" src="/networking/step2P1.png">
+        <div style="display: flex; flex-direction: row; text-align: left; margin-bottom: 40px">
+          <p class="step" style="width:65px">Step 2</p>
+          <p class="stepTitle">Expand Your Professional Network</p>
+        </div>
+        <img class="step2Img" src="/networking/step2P1.png" style="margin-bottom: 30px">
 
         <p class="middleP">
-          However, since recruiters evaluate your connections based on their quality & relevancy, your focus when expanding
-          your network should be on the people that can add to your professional value.
+          However, since recruiters evaluate your connections based on their <span class="semi">quality & relevancy</span>,
+          your focus when expanding your network should be on the people that can <span class="semi">add to your
+          professional value</span>.
         </p>
         <img class="step2Img" src="/networking/step2P2.svg">
       </div>
 
 
-      <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
+      <div style="text-align: right; margin-top: 40px; margin-bottom: 30px">
         <a href="https://www.linkedin.com/groups/42184/" target="_blank" style="text-decoration: none; color: #1E4460">
           <p class ="link" style="display: inline; opacity: 80%">Join LinkedIn UCSD Alumni Community</p>
           &nbsp;
@@ -262,11 +267,11 @@
       </div>
 
       <div>
-        <h3 style="margin-left: 12rem; margin-bottom: 20px">Tips:</h3>
+        <h3 style="margin-left: 10rem; margin-bottom: 20px">Tips:</h3>
         <div class="s2Tips">
           <p class="DYp">Point 1</p>
-          <span>Reach out with a personal note.</span>
-          <ul>
+          <span>Reach out with a <span class="semi">personal note</span>. </span>
+          <ul style="padding-left: 55px; margin-right: 10vw; font-size: 15px">
             <li><em>e.g. “Hey (Name), I came across your profile and saw you work in xxx. I am really interested in
               connecting with like-minded individuals. Would be happy to make your acquaintance!”</em></li>
           </ul>
@@ -274,16 +279,19 @@
 
         <div class="s2Tips">
           <p class="DYp">Point 2</p>
-          <span>Explore LinkedIn using direct search.</span>
-          <ul>
-            <li><em>Search for people by keywords and filters, e.g. Human Resources in San Diego, PhD in UCSD</em></li>
+          <span>Explore LinkedIn using <span class="semi">direct search</span>.</span>
+          <ul style="padding-left: 55px; margin-right: 10vw; font-size: 15px">
+            <li>Search for people by keywords and filters, <em>e.g. Human Resources in San Diego, PhD in UCSD</em></li>
           </ul>
           <img id="s2t2img" src="/networking/step2P3.jpg">
         </div>
 
         <div class="s2Tips">
           <p class="DYp">Point 3</p>
-          <span>Pay attention to people you should develop further relationships with, learn How to Maintain Networks.</span>
+          <span>Pay attention to people you should develop further relationships with, learn
+            <span class="moreResLink" @click="$router.push('/fakeNetworking#maintainNetwork')">
+              How to Maintain Networks</span>.
+          </span>
 
         </div>
 
@@ -305,14 +313,14 @@
           <img class="onlinePlatformImg" src="/networking/tritonConnect1.svg" alt="linkedIn">
 
           <div class="onlinePlatformDescription">
-            <p>Tritons Connect is UCSD's equivalent of LinkedIn, but it offers a smaller and more concentrated network
-              from which you could benefit directly as a UCSD student.  </p>
+            <p>Tritons Connect is UCSD's equivalent of LinkedIn, but it offers a <span class="medium">smaller and more
+              concentrated</span> network from which you could benefit directly as a UCSD student.  </p>
             <br>
             <p>On Tritons Connect, you can:</p>
             <ul>
               <li>Write a post on “Feed” to interact within the UCSD Network (e.g. ask for referrals).</li>
-              <li>Connect with UCSD classmates, professors, staff, and alumni. </li>
-              <li>Find mentors (e.g. alumni, faculty) in various job functions and industries. </li>
+              <li>Connect with UCSD classmates, professors, staff, and <span class="medium">alumni</span>. </li>
+              <li>Find mentors <i class="medium">(e.g. alumni, faculty)</i> in various job functions and industries. </li>
               <li>Check out events that might interest you. You can also post an event.</li>
             </ul>
 
@@ -320,11 +328,11 @@
 
         </div>
         <p id="highlight">Highlight</p>
-        <img src="/networking/tritonsConnect2.svg">
-        <img src="/networking/mentoringOptions.svg">
+        <img src="/networking/tritonsConnect2.svg" alt="tritonsConnectHighlight" width="900" style="padding-left: 5%">
+        <img src="/networking/mentoringOptions.svg" alt="mentoringOptions" style="margin-top: 40px">
 
 
-        <div style="text-align: right; margin-top: 82px; margin-bottom: 50px">
+        <div style="text-align: right; margin-top: 72px; margin-bottom: 50px">
           <a href="https://www.youtube.com/watch?v=5hbQZhav7Q4" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See Tritons Connect Video Tour</p>
             &nbsp;
@@ -340,8 +348,8 @@
         <h3>Other Social Media</h3>
         <p class="middleP">
           In addition to LinkedIn and Tritons Connect, Go Triton Career recommends using some other social media
-          platforms to network with people. There are a handful of useful ones, such as WeChat, Discord, Facebook,
-          and Reddit, each with its ways to network.
+          platforms to network with people. There are a handful of useful ones, such as
+          <span class="semi">WeChat, Discord, Facebook,and Reddit,</span> each with its ways to network.
         </p>
 
 
@@ -355,15 +363,15 @@
 
 
           <div class="onlinePlatformDescription">
-            <p>WeChat is a free messaging App for both casual and business uses, which is widely used amongst Chinese
-              International Students. </p>
+            <p>WeChat is a free messaging App for both casual and business uses, which is widely used amongst
+              <span class="medium">Chinese International Students</span>. </p>
             <br>
             <p>On WeChat, you could network by:</p>
             <ul>
               <li>Adding classmates and chatting with them.</li>
               <li>Joining classmate/major/social group chats. </li>
               <li>Following public official accounts of organizations to join groups & receive updates
-                (e.g. UCSD CSSA, CU UCSD, UCSD TritonTalk).
+                <i>(e.g. UCSD CSSA, CU UCSD, UCSD TritonTalk)</i>.
               </li>
             </ul>
 
@@ -385,8 +393,8 @@
             <br>
             <p>On Discord, you could network by:</p>
             <ul>
-              <li>Joining major-specific servers and accessing class channels (e.g. UCSD Communication #comm-10).</li>
-              <li>Joining organizations’ servers (e.g. CSSA at UCSD, Design Co).</li>
+              <li>Joining major-specific servers and accessing class channels <i>(e.g. UCSD Communication #comm-10)</i>.</li>
+              <li>Joining organizations’ servers <i>(e.g. CSSA at UCSD, Design Co)</i>.</li>
               <li>Adding individuals and reaching out through Direct Message.</li>
               <li>Joining text, voice, and video channels to connect with group members.</li>
             </ul>
@@ -405,11 +413,13 @@
 
 
           <div class="onlinePlatformDescription">
-            <p>Facebook, with 2.7 billion monthly active users, hosts your peers, faculty/staffs, and organizations.</p>
+            <p>Facebook, with <a class="intextLink" href="https://investor.fb.com/investor-news/press-release-details/2020/Facebook-Reports-Second-Quarter-2020-Results/default.aspx" target="_blank">
+              2.7 billion monthly active users</a>, hosts your peers, faculty/staffs, and organizations.</p>
             <br>
             <p>On Facebook, you could network by:</p>
             <ul>
-              <li>Searching for and joining interested FB groups (e.g. UCSD Class of 2025).</li>
+              <li>Searching for and joining interested FB groups (e.g.<a class="intextLink" href="https://www.facebook.com/groups/461162515080141" target="_blank" style="font-style: italic">
+                UCSD Class of 2025</a>).</li>
               <li>Finding your interested events under the“Events” section of the group you joined.</li>
               <li>Following people in the group and reaching out through “Messenger”.</li>
             </ul>
@@ -429,12 +439,16 @@
 
 
           <div class="onlinePlatformDescription">
-            <p>Reddit serves as a forum for a wide range of communities.</p>
+            <p>Reddit serves as a <span class="medium">forum</span> for a wide range of communities.</p>
             <br>
             <p>On Reddit, you could network by:</p>
             <ul>
-              <li>Joining interested communities to ask questions, have discussions, see & send posts (e.g. r/UCSD,
-                r/humanresources).</li>
+              <li>Joining interested communities to ask questions, have discussions, see & send posts
+                <i>(e.g. <a class="intextLink" href="https://www.reddit.com/r/UCSD/" target="_blank">
+                  r/UCSD</a>, <a class="intextLink" href="https://www.reddit.com/r/UCSD/" target="_blank">
+                  r/humanresources</a>)
+                </i>.
+              </li>
               <li>Following “hot” and “new” posts to receive most updated answers.</li>
               <li>Filtering by flair (e.g. “Career development”) to receive more relevant posts. <a id="HowToNetworkOnline"></a></li>
               <li>Following individuals and messaging them.     </li>
@@ -1133,9 +1147,10 @@ p.online{
   border-radius: 2rem;
   border: 2px dashed #5F99B6;
   text-align: left;
-  width: 50%;
+  width: 66%;
   padding: 1rem;
   margin-bottom: 20px;
+  line-height: 141%;
 }
 
 .profileFooter {
@@ -1165,7 +1180,7 @@ p.online{
 ul{
   text-align: left;
   margin-left: 2rem;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
   line-height: 141%;    /* list里的行间宽度为141%，其他为default */
@@ -1308,14 +1323,15 @@ ul{
   text-decoration: none;
 }
 .middleP{
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 141%;
   text-align: left;
   margin-right: 11vw;
   margin-left: 11vw;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  max-width: 900px;
 }
 
 .moreResLink {
