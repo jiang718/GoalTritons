@@ -80,14 +80,14 @@
 
       <div class="headerWithLink">
         <div style="display: flex; flex-direction: row; text-align: left;">
-          <p class="step" style="width:65px">Step 1</p>
+          <p class="step step1Color" style="width:65px">Step 1</p>
           <p class="stepTitle">Build a Professional & Attracting Profile</p>
         </div>
         <div style="text-align: right">
           <a href="//ucsd.joinhandshake.com/stu/appointments/new" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">Schedule LinkedIn Profile Review Appointment</p>
             &nbsp;
-            <img src="/arrow.png" width=22px style="vertical-align: middle">
+            <img src="/arrow.png" alt="arrow" width=22px style="vertical-align: middle">
           </a>
         </div>
       </div>
@@ -244,17 +244,17 @@
 
       <div>
         <div style="display: flex; flex-direction: row; text-align: left; margin-bottom: 40px">
-          <p class="step" style="width:65px">Step 2</p>
+          <p class="step step2Color" style="width:65px">Step 2</p>
           <p class="stepTitle">Expand Your Professional Network</p>
         </div>
-        <img class="step2Img" src="/networking/step2P1.png" style="margin-bottom: 30px">
+        <img class="step2Img" src="/networking/step2P1.png" alt="expandNetwork" style="margin-bottom: 30px">
 
         <p class="middleP">
           However, since recruiters evaluate your connections based on their <span class="semi">quality & relevancy</span>,
           your focus when expanding your network should be on the people that can <span class="semi">add to your
           professional value</span>.
         </p>
-        <img class="step2Img" src="/networking/step2P2.svg">
+        <img class="step2Img" alt="connectWith" src="/networking/step2P2.svg" style="margin-top: 10px">
       </div>
 
 
@@ -295,8 +295,8 @@
 
         </div>
 
-        <div style="text-align: right; margin-bottom: 82px; margin-top: 82px">
-          <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More LinkedIn Connect Templates under</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i></p>
+        <div style="text-align: right; margin-bottom: 50px; margin-top: 40px">
+          <i>See More LinkedIn Connect Templates under</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i>
           <a id="tritonConnect"></a>
         </div>
 
@@ -329,10 +329,10 @@
         </div>
         <p id="highlight">Highlight</p>
         <img src="/networking/tritonsConnect2.svg" alt="tritonsConnectHighlight" width="900" style="padding-left: 5%">
-        <img src="/networking/mentoringOptions.svg" alt="mentoringOptions" style="margin-top: 40px">
+        <img src="/networking/mentoringOptions.svg" alt="mentoringOptions" style="margin-top: 50px">
 
 
-        <div style="text-align: right; margin-top: 72px; margin-bottom: 50px">
+        <div style="text-align: right; margin-top: 50px; margin-bottom: 50px">
           <a href="https://www.youtube.com/watch?v=5hbQZhav7Q4" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See Tritons Connect Video Tour</p>
             &nbsp;
@@ -349,7 +349,7 @@
         <p class="middleP">
           In addition to LinkedIn and Tritons Connect, Go Triton Career recommends using some other social media
           platforms to network with people. There are a handful of useful ones, such as
-          <span class="semi">WeChat, Discord, Facebook,and Reddit,</span> each with its ways to network.
+          <span class="semi">WeChat, Discord, Facebook, and Reddit,</span> each with its ways to network.
         </p>
 
 
@@ -469,62 +469,61 @@
 
         <p>It can be frustrating to reach out. But don't worry. We’ve broken down every step of online networking for you.</p>
         <div>
-          <img style="margin: 4vh" src="/networking/howToNetworkOnlineS1.svg">
-          <img src="/networking/howToNetworkOnlineS11.svg">
+          <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 40px 40px">
+            <p class="NOstep step1Color" style="width:65px">Step 1</p>
+            <p class="stepTitle">Send an Outreach Email</p>
+          </div>
+          <img src="/networking/howToNetworkOnlineS11.svg" alt="outreachMain" width="960">
         </div>
 
         <div>
-          <img src="/networking/howToNetworkOnlineS2.svg">
-          <p class="middleP">Informational interview allows you to learn more deeply about career-related topics, such as career path,
-            industry, or a specific firm, by speaking directly with an experienced individual who has expertise and
-            knowledge in your desired field.
+          <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 40px 40px">
+            <p class="NOstep step2Color" style="width:65px">Step 2</p>
+            <p class="stepTitle">Conduct Informational Interview</p>
+          </div>
+          <p class="middleP">Informational interview allows you to learn more deeply about career-related topics, such
+            as career path, industry, or a specific firm, by <span class="medium">speaking directly</span> with an
+            experienced individual who has <span class="medium">expertise and knowledge in your desired field</span>.
           </p>
-          <img src="/networking/howToNetworkOnlineS21.svg">
+          <img src="/networking/howToNetworkOnlineS21.svg" alt="sampleQs" width="830">
 
-          <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See More Qs to Ask through Info Interview under</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i></p>
+          <div style="text-align: right; margin-top: 40px">
+            <i>See More Qs to Ask through Info Interview under</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#moreResources')">More Resources</i>
           </div>
         </div>
 
         <div>
-          <img src="/networking/howToNetworkOnlineS3.svg">
-          <p class="middleP">You just had a terrific interview—the person was pleased to meet you, answered all your questions, and
-            learned about you as a person. Now send a thank-you message to appreciate them for meeting with you and to
-            leave a strong & positive impression so they'll consider you when future opportunities arise. You can also
-            recap your abilities and expertise or share your highlighted work in this follow-up letter.</p>
-          <img src="/networking/howToNetworkOnlineS31.svg">
+          <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 40px 40px">
+            <p class="NOstep step3Color" style="width:65px">Step 3</p>
+            <p class="stepTitle">Follow-up with a Thank-you Note</p>
+          </div>
+          <p class="middleP">You just had a terrific interview—the person was pleased to meet you, answered all your
+            questions, and learned about you as a person. Now send a thank-you message to <span class="medium">
+              appreciate them for meeting with you</span> and to <span class="medium">leave a strong & positive
+              impression</span> so they'll consider you <span class="medium">when future opportunities arise</span>.
+            You can also recap your abilities and expertise or share your highlighted work in this follow-up letter.</p>
+          <img src="/networking/howToNetworkOnlineS31.svg" alt="thankYouLetter" width="577">
         </div>
 
         <div>
-          <img src="/networking/howToNetworkOnlineS4.svg">
-          <p class="middleP">If you don't keep in touch with the person you asked for help online, you may lose this connection.
-            Therefore, it is critical to maintain contact in order to forge a stable relationship that can lead to
-            more opportunities. </p>
-          <img src="/networking/howToNetworkOnlineS41.svg">
-          <div style="text-align: right; margin-bottom: 82px">
-            <p style="display: inline; opacity: 80%"><i style="color: #1E4460; font-weight: 500">See</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#maintainNetwork')">How to Maintain Networks</i></p>
+          <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 40px 40px">
+            <p class="NOstep step4Color" style="width:65px">Step 4</p>
+            <p class="stepTitle">Stay in Contact</p>
+          </div>
+          <p class="middleP">If you don't keep in touch with the person you asked for help online, you may lose this
+            connection. Therefore, it is critical to maintain contact in order to forge a stable relationship that can
+            <span class="medium">lead to more opportunities</span>.</p>
+          <img src="/networking/howToNetworkOnlineS41.svg" alt="reminder" width="570">
+
+          <div style="text-align: right; margin-top: 40px">
+            <i>See</i> <i class="moreResLink" @click="$router.push('/fakeNetworking#maintainNetwork')">How to Maintain Networks</i>
             <a id="networkOnCampus"></a>
           </div>
         </div>
 
       </div>
 
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <div>
@@ -532,19 +531,17 @@
 
       <div>
         <h3>Why networking on campus?</h3>
-        <p class="middleP" style="margin-bottom: 60px">College is where you may make lifetime friends and shape your early professional path. As a
-          UCSD student, you have access to a plethora of networking opportunities. Professional organizations, social
-          sororities & fraternities, on-campus jobs, and career events and many other opportunities allow you to
-          interact with not only your peers, but also guest speakers, faculty advisers, and mentors.</p>
+        <p class="middleP" style="margin-bottom: 60px">College is where you may make lifetime friends and shape your <span class="semi">
+          early professional path</span>. As a UCSD student, you have access to a plethora of networking opportunities.
+          Professional organizations, social sororities & fraternities, on-campus jobs, and career events and many other
+          opportunities allow you to interact with not only your <span class="semi">peers</span>, but also
+          <span class="semi">guest speakers, faculty advisers, and mentors</span>.</p>
       </div>
 
-
       <div>
-
         <h3 >Where to network on campus?</h3>
 
         <div>
-
           <p id="NetworkingOnCampus">Networking on Campus</p>
 
           <div style="margin-bottom: 82px">
@@ -564,31 +561,26 @@
         <div class="onlinePlatformDiv">
 
           <div class="otherMediaIcon">
-
             <img class="NOCimg" src="/networking/studentOrg1.svg" alt="Student Organization">
           </div>
 
           <div class="networkingOnCampusDescription">
             <p>Student Organization provides the easiest access to campus’ communities. UCSD hosts a handful of student
-              orgs where you can not meet peers who share your interests, but also further your career path by joining
-              career-related organizations.</p>
+              orgs where you can not meet peers who share your interests, but also <span class="medium">further your
+                career path</span> by joining career-related organizations.</p>
             <br>
             <p>To join the orgs you are interested in, you can:</p>
             <ul>
-              <li>Walk by the Library Walk’s Info tables at the start of the quarter.</li>
-              <li>Pay close attention to posters/pamplets around the campus.</li>
+              <li>Walk by the <span class="medium">Library Walk’s</span> Info tables at the start of the quarter.</li>
+              <li>Pay close attention to <span class="medium">posters/pamplets</span> around the campus.</li>
             </ul>
-
-
-
-
           </div>
 
 
 
         </div>
 
-        <div style="text-align: right; margin-top: 15px; margin-bottom: 50px">
+        <div style="text-align: right; margin-top: 15px; margin-bottom: 20px">
           <a href="https://studentorg.ucsd.edu/" target="_blank" style="text-decoration: none; color: #1E4460">
             <p class ="link" style="display: inline; opacity: 80%">See Full List of Student Orgs</p>
             &nbsp;
@@ -604,11 +596,8 @@
         <div class="onlinePlatformDiv">
 
           <div class="otherMediaIcon">
-
             <img class="NOCimg" src="/networking/mentorshipProgram.svg" alt="Student Organization">
           </div>
-
-
 
           <div class="networkingOnCampusDescription">
             <p>UCSD offers a variety of mentorship programs to assist students with different needs, including
@@ -617,13 +606,17 @@
             <br>
             <p>You can find your mentor here:</p>
             <ul>
-              <li>Mentor Collective: a professional mentorship organization that partners with UCSD.</li>
-              <li>International Peer Coaching Program: a 1-1 mentorship program that pairs international
+              <li><a class="intextLink" href="https://app.mentorcollective.org/participant_dashboard/" target="_blank">
+                Mentor Collective</a>: a professional mentorship organization that partners with UCSD.</li>
+              <li><a class="intextLink" href="https://ispo.ucsd.edu/programs-workshops/programs-events/intl-peer-coaching.html" target="_blank">
+                International Peer Coaching Program</a>: a 1-1 mentorship program that pairs international
                 students with international peer coaches.</li>
 
-              <li>Faculty Mentor Program (FMP): an open-to-all-majors program that assists students in developing
-                valuable relationships with faculty mentors while taking an independent study course (99 or 199) for
-                building their research skills and post-graduate career paths.</li>
+              <li><a class="intextLink" href="https://ugresearch.ucsd.edu/research-programs/fmp/index.html" target="_blank">
+                Faculty Mentor Program (FMP)</a>: an <span class="medium">open-to-all-majors</span> program that assists
+                students in developing valuable relationships with <span class="medium">faculty mentors</span> while
+                taking an independent study course (99 or 199) for building their research skills and post-graduate
+                career paths.</li>
             </ul>
 
             <br>
@@ -651,28 +644,39 @@
         <div class="onlinePlatformDiv">
 
           <div class="otherMediaIcon">
-
             <img class="NOCimg" src="/networking/careerFair.svg" alt="Student Organization">
           </div>
-
-
 
           <div class="networkingOnCampusDescription">
             <p>UCSD offers a variety of networking events for career development, such as Career Fairs and virtual
               workshops. By interacting with industry professionals and upperclassmen in the same field, they allow
-              students to broaden their career expertise and industry knowledge, practice presentation and interpersonal
-              skills, and increase their chances of being hired by their desired company.</p>
+              students to broaden their <span class="medium">career expertise and industry knowledge</span>, practice
+              <span class="medium">presentation and interpersonal skills</span>, and increase their chances of
+              <span class="medium">being hired</span> by their desired company.</p>
             <br>
             <p>To attend events in your field, you can: </p>
             <ul>
-              <li>View Events at Handshake</li>
+              <li>View Events at <a class="intextLink" href="https://ucsd.joinhandshake.com/stu" target="_blank">
+                Handshake</a></li>
               <li>Walk by the info tables on Library Walk</li>
-              <li>*View our mini calendar on the header for the most up-to-date information about UCSD career events! <a id="labs"></a></li>
-
+              <li><span class="medium">*View our <el-popover
+                     placement="bottom"
+                     offset="50"
+                     trigger="hover"
+                     width="415px"
+                 >
+                <template #reference>
+                  <span style="color: #b27224">mini calendar</span>
+                </template>
+                <template #default>
+                  <span style="font-weight: 600; color: #b27224">UCSD Career and Networking Fairs</span>
+                  <Calendar />
+                </template>
+              </el-popover>
+                on the header for the most up-to-date information about UCSD career events!</span>
+                <a id="labs"></a>
+              </li>
             </ul>
-
-
-
 
           </div>
         </div>
@@ -684,11 +688,8 @@
         <div class="onlinePlatformDiv">
 
           <div class="otherMediaIcon">
-
             <img class="NOCimg" src="/networking/labs.svg" alt="Student Organization">
           </div>
-
-
 
           <div class="networkingOnCampusDescription">
             <p>Labs are great resources for in-depth exploration of your professional fields by interacting with
@@ -697,27 +698,22 @@
             <br>
             <p>To join your interested labs, you can:</p>
             <ul>
-              <li>Search for and join your interested research labs using the REAL Portal.</li>
-              <li>View labs exclusive to your deparment, such as:
+              <li>Search for and join your interested research labs using the
+                <a class="intextLink" href="https://real.ucsd.edu/" target="_blank">REAL Portal</a>.</li>
+              <li>View labs exclusive to your department, such as:
                 <ul>
-                  <li>Cog Sci Research Labs</li>
-                  <li>The Design Lab UCSD</li>
+                  <li><a class="intextLink" href="https://cogsci.ucsd.edu/research/research-labs.html" target="_blank">Cog Sci Research Labs</a></li>
+                  <li><a class="intextLink" href="https://designlab.ucsd.edu/" target="_blank">The Design Lab UCSD</a></li>
                 </ul>
               </li>
             </ul>
-
 
           </div>
 
         </div>
       </div>
 
-      <img src="/networking/r2tips.svg">
-
-
-
-
-
+      <img src="/networking/r2tips.svg" alt="tip" width="700" style="margin-top: 20px; margin-left: 15vw;margin-right: 10vw">
 
 
     </div>
@@ -725,8 +721,6 @@
     <a id="everydayRoutine"></a>
     <div>
       <h2>Route Three: Networking in Everyday Routine <a id="whoToNetworkWith"></a></h2>
-
-
       <div>
         <h3>Who can you network with everyday?</h3>
 
@@ -734,7 +728,7 @@
 
           <p id="NetworkingOnCampus">Everyday Networking</p>
 
-          <div style="margin-bottom: 82px">
+          <div style="margin-bottom: 50px">
             <p id="NCspan1">Faculty</p>
             <p id="NCspan2">Peers</p>
             <a id="faculty"></a>
@@ -755,14 +749,17 @@
           <h4>How to Network with the Faculty?</h4>
 
 
-          <div style="text-align: left">
-            <img style="margin-left: 5vw; margin-top: 5vh; margin-bottom: 3vh" src="/networking/HTNWTFs1.svg">
+          <div style="text-align: left; margin-left: 50px">
+            <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 20px 30px">
+              <p class="step step1Color" style="width:65px">Step 1</p>
+              <p class="stepTitle">Research & learn about your interested professors</p>
+            </div>
 
             <p style="margin-left: 7vw; font-weight: 600; margin-bottom: 1vh">Methods:</p>
             <div class="HTNWFdiv">
               <div class="HTNWFsubdiv">
                 <img src="/networking/ptag1.svg" style="vertical-align: middle">
-                <p>Direct search on your department’s website</p>
+                <p>Direct search on your <span class="medium">department’s website</span></p>
                 <ul style="margin-left: 7rem; padding-left: 2rem"><li>e.g. department >> Faculty >> interested professors </li></ul>
               </div>
 
@@ -770,38 +767,44 @@
                 <img src="/networking/ptag2.svg" style="vertical-align: middle">
                 <p>Deep exploration through:</p>
                 <ul style="padding-left: 4rem">
-                  <li>UCSD’s faculty profile</li>
+                  <li><a class="intextLink" href="https://hwsph.ucsd.edu/people/faculty/faculty-directory.html#A-D" target="_blank">
+                    UCSD’s faculty profile</a></li>
                   <li>professors’ personal website</li>
                 </ul>
               </div>
 
             </div>
-            <img src="/networking/HTNWTFs11.jpg" width="20%" style="margin-left: 9vw; margin-top: 0">
+            <img src="/networking/HTNWTFs11.jpg" width="20%" style="margin-left: 14vw; margin-top: 0">
           </div>
 
-          <div style="text-align: left">
-            <img style="margin-left: 5vw; margin-top: 5vh; margin-bottom: 3vh" src="/networking/HTNWTFs2.svg">
+          <div style="text-align: left; margin-left: 50px">
+            <div style="display: flex; flex-direction: row; text-align: left; margin: 50px 0px 20px 30px">
+              <p class="step step2Color" style="width:65px">Step 2</p>
+              <p class="stepTitle">Connect with them</p>
+            </div>
 
             <p style="margin-left: 7vw; font-weight: 600; margin-bottom: 1vh">Methods:</p>
             <div class="HTNWFdiv">
               <div class="HTNWFsubdiv" style="margin-left: 6.5rem; margin-right: 11rem">
                 <img src="/networking/ptag1.svg" style="vertical-align: middle">
-                <p>Bring specific qestions to office </p>
-                <p style="display: block; text-align: left; margin-left: 1.8rem">hour or afterclass</p>
+                <p>Bring specific qestions to <span class="medium">office</span></p>
+                <p style="display: block; text-align: left; margin-left: 1.8rem"><span class="medium">hour</span> or
+                  afterclass</p>
               </div>
 
               <div class="HTNWFsubdiv">
                 <img src="/networking/ptag2.svg" style="vertical-align: middle">
                 <p>Send an email to introduce </p>
-                <p style="display: block;text-align: left; margin-left: 4.3rem">yourself & ask for info. interview</p>
+                <p style="display: block;text-align: left; margin-left: 4.3rem">yourself & ask for
+                  <a class="intextLink" href="https://career.berkeley.edu/Info/InfoInterview" target="_blank">
+                    info. interview</a></p>
               </div>
 
             </div>
-            <img src="/networking/HTNWTFs21.svg" width="60%" style="margin-left: 9vw; margin-top: 40px">
+            <img src="/networking/HTNWTFs21.svg" width="75%" style="margin-left: 9vw; margin-top: 40px">
 
-            <img id="peers" src="/networking/HTNWTFs22.svg" width="40%" style="display: block;margin-left: 17vw;margin-bottom: 50px">
-
-
+            <img id="peers" src="/networking/HTNWTFs22.svg" width="55%"
+                 style="display: block;margin-left: 15vw;margin-top:15px;margin-bottom: 50px">
           </div>
 
         </div>
@@ -810,12 +813,12 @@
 
       <div>
         <h3>Peers</h3>
-        <p class="middleP">Networking with peers might seem absurd to some. However, amongst all people, your peers are the most
-          accessible contacts that can potentially become your academic & career buddies to accompany your career
-          development.
+        <p class="middleP">Networking with peers might seem absurd to some. However, amongst all people, your peers are
+          the <span class="semi">most accessible contacts</span>that can potentially become your academic & career
+          buddies to <span class="semi">accompany your career development</span>.
         </p>
 
-        <img src="/networking/peers.svg" width="50%">
+        <img src="/networking/peers.svg" alt="tip" width="50%">
       </div>
 
       <a id="maintainNetwork" style="display: inline"></a>
@@ -824,7 +827,7 @@
     <div>
 
       <h2>How to Maintain Networks?</h2>
-      <img src="/networking/HTMN1.svg">
+      <img src="/networking/HTMN1.svg" alt="maintainNetworks" style="margin-top: 20px; margin-bottom: 40px">
       <img src="/networking/HTMN2.svg">
     </div>
     <a id="networkingRouteSummary"></a>
@@ -832,11 +835,11 @@
       <h2>Networking platforms Summary</h2>
 
       <div style="margin-bottom: 20px">
-        <img src="/networking/NRS1.svg" width="11%">
+        <img src="/networking/NRS1.svg" alt="summary"  width="11%" style="margin-top: 20px; margin-bottom: 20px">
       </div>
 
       <div>
-        <img src="/networking/NRS2.svg">
+        <img src="/networking/NRS2.svg" alt="summary">
       </div>
 
     <a id="something"></a>
@@ -898,8 +901,12 @@
 </template>
 
 <script>
+import Calendar from "./Calendar.vue"
 export default {
-  name: "FakeNetworking"
+  name: "FakeNetworking",
+  components: {
+    Calendar
+  }
 }
 </script>
 
@@ -949,6 +956,10 @@ h2{
   border-bottom: 1px solid black;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+h4{
+  padding-left: 30px;
+  margin-bottom: 20px;
 }
 
 .whyNetworkingImg{
@@ -1188,19 +1199,18 @@ ul{
 
 .step2Img{
   width: 60%;
-
 }
 #s2t2img{
   width: 40%;
 }
 
-#andyp1, #andyp2, #andyp3{
-  width: 80%;
-}
+/*#andyp1, #andyp2, #andyp3{*/
+/*  width: 80%;*/
+/*}*/
 
-#andyp3{
-  padding-left: 20px;
-}
+/*#andyp3{*/
+/*  padding-left: 20px;*/
+/*}*/
 
 .DYp{
   display: inline;
@@ -1214,6 +1224,7 @@ ul{
 }
 .s2Tips{
   text-align: left;
+  margin-left: 15px;
 }
 
 .s2Tips p{
@@ -1259,8 +1270,8 @@ ul{
 }
 
 .NOCimg{
-  width: 10vw;
-  margin-right: 4vw;
+  width: 168px;
+  margin-right: 3vw;
 }
 
 .networkingOnCampusDescription{
@@ -1271,6 +1282,7 @@ ul{
   width: 65%;
   padding: 1rem;
   margin-bottom: 20px;
+  line-height: 141%;
 }
 .headerWithLink{
   display: grid;
@@ -1328,8 +1340,8 @@ ul{
   font-weight: 400;
   line-height: 141%;
   text-align: left;
-  margin-right: 11vw;
-  margin-left: 11vw;
+  margin-right: 12vw;
+  margin-left: 12vw;
   margin-bottom: 30px;
   max-width: 900px;
 }
@@ -1387,18 +1399,43 @@ ul{
 }
 
 .step {
+  border-radius: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  height: 35px;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.stepTitle {
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.NOstep {
   background-color: #F8EFDA;
   border-radius: 45px;
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  height: 28px;
+  height: 35px;
   margin-right: 5px;
+  padding-top: 5px;
+}
+.step1Color {
+  background-color: #F8EFDA;
 }
 
-.stepTitle {
-  font-weight: 600;
-  font-size: 15px;
+.step2Color {
+  background-color: #FEECC0;
+}
+
+.step3Color {
+  background-color: #FADC92;
+}
+
+.step4Color {
+  background-color: #F4CE71;
 }
 
 .wrapper {
