@@ -49,6 +49,7 @@ export default {
   height: auto;
   max-height: 100vh;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .wrapper__body {
