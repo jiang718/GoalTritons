@@ -1,8 +1,12 @@
 <template>
   <div style="height: 60px; line-height: 70px; border-bottom: 1px solid #ccc; display: flex">
     <div style="flex: 2; padding-left: 11%; display: flex; flex-direction: row">
-      <img src="../../public/logo.svg" alt="logo" style="width: 40px; margin-top: -4px" @click="$router.push('/')"/>
-      <h1 style="margin-left: 15px; align-self: center;" @click="$router.push('/')"> Go<span style="opacity: 50%">al</span> Tritons</h1><br>
+      <a href="http://goaltritonscareer.com" style="margin-top: 5px">
+        <img src="../../public/logo.svg" alt="logo" style="width: 40px"/>
+      </a>
+      <a href="http://goaltritonscareer.com" style="margin-top: 10px; text-decoration: none">
+        <h1 style="margin-left: 15px; align-self: center;text-decoration: none;">Go<span style="opacity: 50%">al</span> Tritons</h1><br>
+      </a>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
       <el-autocomplete placeholder="" style="margin-top: -5px; margin-right: 15px; width: 260px" v-model="state1"

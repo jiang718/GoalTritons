@@ -57,23 +57,24 @@ export default {
         })
         return
       }
-      this.$refs['form'].validate((valid) => {
-        if (valid) {
-          request.post("/user/subscribe", this.form).then(res => {
-            if (res.code === '0') {
-              this.$message({
-                type: "success",
-                message: "success"
-              })
-            } else {
-              this.$message({
-                type: "error",
-                message: res.msg
-              })
-            }
-          })
-        }
-      })
+
+      // this.$refs['form'].validate((valid) => {
+      //   if (valid) {
+      //     request.post("/user/subscribe", this.form).then(res => {
+      //       if (res.code === '0') {
+      //         this.$message({
+      //           type: "success",
+      //           message: "success"
+      //         })
+      //       } else {
+      //         this.$message({
+      //           type: "error",
+      //           message: res.msg
+      //         })
+      //       }
+      //     })
+      //   }
+      // })
     }
   }
 }
