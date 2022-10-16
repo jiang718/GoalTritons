@@ -1,7 +1,7 @@
 <template>
   <div style="height: 60px; line-height: 70px; border-bottom: 1px solid #ccc; display: flex">
     <div style="flex: 2; padding-left: 11%; display: flex; flex-direction: row">
-      <a href="http://goaltritonscareer.com" style="margin-top: 5px">
+      <a href="/" style="margin-top: 5px">
         <img src="../../public/logo.svg" alt="logo" style="width: 40px"/>
       </a>
       <a href="http://goaltritonscareer.com" style="margin-top: 10px; text-decoration: none">
@@ -9,7 +9,9 @@
       </a>
     </div>
     <div style="width: 500px; display: flex; flex-direction: row; align-items: center;">
-      <el-autocomplete placeholder="" style="margin-top: -5px; margin-right: 15px; width: 260px" v-model="state1"
+      <el-autocomplete placeholder="Search The Site" style="margin-top: -5px;
+      margin-right:
+       15px; width: 260px" v-model="state1"
         :fetch-suggestions="querySearch" :trigger-on-focus="false" clearable class="inline-input w-50"
         @select="handleSelect" />
       <el-popover

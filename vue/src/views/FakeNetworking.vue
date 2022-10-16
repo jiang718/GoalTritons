@@ -10,12 +10,7 @@
 
       <div>
         <img class="whyNetworkingImg" src="/networking/whyNetworking.svg" alt="Why Networking">
-        <p id="opening">Networking is an important part of the career-finding process. To be brief, it is the process of
-          connecting with industry professionals, alumni, or people around you to receive <span class="semi">
-          career-related information, expert help, and more opportunities</span>, which are all critical to your
-          career success. However, many of you might be intimidated by the concept of networking, or find it difficult
-          to talk to people. Don’t worry, we will walk you through the process by offering various networking routes.
-          Let’s get started!</p>
+
       </div>
 
     </div>
@@ -97,7 +92,8 @@
         <p class="middleP">A professional profile not only attracts your peers for easier network expansion, but it also draws the
           attention of industry insiders, particularly recruiters. They will stay longer on your profile, to be more
           impressed with you, and learn more about your professional side, thus providing job opportunities for you.
-          Go Tritons will walk you through each part in building an attracting LinkedIn Profile.</p>
+          Goal Tritons will walk you through each part in building an
+          attracting LinkedIn Profile.</p>
 
         <div style="position: relative; display: inline-block">
           <div style="border: 3px solid #D9EAEF; border-radius: 20px; width:554px; padding:10px 18px">
@@ -168,7 +164,8 @@
             <div style="width: 308px; line-height: 141%">
               <ul>
                 <li><span class="medium">About:</span> Share your background/<br>
-                  mission/ motivation/attributes/key achievements (you can use bullet points).
+                  mission/ motivation/attributes/key achievements <i>(you can
+                  use bullet points)</i>.
                   <ul>
                     <li>include keywords or phrases related to your desired position to increase the likelihood of your
                       profile appearing in recruiters' search results.</li>
@@ -192,12 +189,14 @@
             </p>
             <div style="width: 308px; line-height: 141%">
               <ul>
-                <li><span class="medium">Education:</span> include exceptional grades and awards (e.g. Grade: 3.9,
-                  President’s Award, Honors Roll).
+                <li><span class="medium">Education:</span> include
+                  exceptional grades and awards <i>(e.g. Grade: 3.9,
+                  President’s Award, Honors Roll)</i>.
                 </li>
                 <li><span class="medium">Licenses/Certifications:</span> include if relevant.</li>
                 <li><span class="medium">Skills/Languages:</span> you can click “Demonstrate skills” and take
-                  <span class="medium">Skill Assessments</span> (They earn you skill badges!)
+                  <span class="medium">Skill Assessments</span> <i>(They earn
+                    you skill badges!)</i>
                   <ul>
                     <li><a class="intextLink" href="https://www.linkedin.com/help/linkedin/answer/a566100/endorse-someone-s-skills?lang=en" target="_blank">
                       Endorsement</a>: people can endorse you for certain skills by hitting an “endorse” button.
@@ -208,7 +207,8 @@
                 <li><span class="medium">Recommendation:</span> you can
                   <a class="intextLink" href="https://www.linkedin.com/help/linkedin/answer/a546682" target="_blank">
                     request Recommendation</a> from your connections
-                  (e.g. teammates, co-worker) as they add validity to your online personal brand.
+                  <i>(e.g. teammates, co-worker)</i> as they add validity to
+                  your online personal brand.
                 </li>
               </ul>
 
@@ -318,7 +318,8 @@
             <br>
             <p>On Tritons Connect, you can:</p>
             <ul>
-              <li>Write a post on “Feed” to interact within the UCSD Network (e.g. ask for referrals).</li>
+              <li>Write a post on “Feed” to interact within the UCSD Network
+                <i>(e.g. ask for referrals)</i>.</li>
               <li>Connect with UCSD classmates, professors, staff, and <span class="medium">alumni</span>. </li>
               <li>Find mentors <i class="medium">(e.g. alumni, faculty)</i> in various job functions and industries. </li>
               <li>Check out events that might interest you. You can also post an event.</li>
@@ -347,7 +348,8 @@
 
         <h3>Other Social Media</h3>
         <p class="middleP">
-          In addition to LinkedIn and Tritons Connect, Go Triton Career recommends using some other social media
+          In addition to LinkedIn and Tritons Connect, Goal Triton Career
+          recommends using some other social media
           platforms to network with people. There are a handful of useful ones, such as
           <span class="semi">WeChat, Discord, Facebook, and Reddit,</span> each with its ways to network.
         </p>
@@ -371,7 +373,8 @@
               <li>Adding classmates and chatting with them.</li>
               <li>Joining classmate/major/social group chats. </li>
               <li>Following public official accounts of organizations to join groups & receive updates
-                <i>(e.g. UCSD CSSA, CU UCSD, UCSD TritonTalk)</i>.
+                <i>(e.g. UCSD CSSA, CU UCSD, UCSD
+                  TritonTalk)</i>.
               </li>
             </ul>
 
@@ -418,8 +421,9 @@
             <br>
             <p>On Facebook, you could network by:</p>
             <ul>
-              <li>Searching for and joining interested FB groups (e.g.<a class="intextLink" href="https://www.facebook.com/groups/461162515080141" target="_blank" style="font-style: italic">
-                UCSD Class of 2025</a>).</li>
+              <li>Searching for and joining interested FB groups <i>(e.g.<a
+                  class="intextLink" href="https://www.facebook.com/groups/461162515080141" target="_blank" style="font-style: italic">
+                UCSD Class of 2025</a>)</i>>.</li>
               <li>Finding your interested events under the“Events” section of the group you joined.</li>
               <li>Following people in the group and reaching out through “Messenger”.</li>
             </ul>
@@ -450,7 +454,8 @@
                 </i>.
               </li>
               <li>Following “hot” and “new” posts to receive most updated answers.</li>
-              <li>Filtering by flair (e.g. “Career development”) to receive more relevant posts. <a id="HowToNetworkOnline"></a></li>
+              <li>Filtering by flair <i>(e.g. “Career development”)</i> to
+                receive more relevant posts. <a id="HowToNetworkOnline"></a></li>
               <li>Following individuals and messaging them.     </li>
 
             </ul>
@@ -613,9 +618,12 @@
                 students with international peer coaches.</li>
 
               <li><a class="intextLink" href="https://ugresearch.ucsd.edu/research-programs/fmp/index.html" target="_blank">
-                Faculty Mentor Program (FMP)</a>: an <span class="medium">open-to-all-majors</span> program that assists
+                Faculty Mentor Program <i>(FMP)</i></a>: an <span
+                  class="medium">
+                open-to-all-majors</span> program that assists
                 students in developing valuable relationships with <span class="medium">faculty mentors</span> while
-                taking an independent study course (99 or 199) for building their research skills and post-graduate
+                taking an independent study course <i>(99 or 199)</i> for
+                  building their research skills and post-graduate
                 career paths.</li>
             </ul>
 
