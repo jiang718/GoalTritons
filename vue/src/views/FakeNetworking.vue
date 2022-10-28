@@ -835,9 +835,11 @@
     <div>
 
       <h2>How to Maintain Networks?</h2>
-      <img src="/networking/HTMN1.svg" alt="maintainNetworks" style="margin-top: 20px; margin-bottom: 40px">
+      <img src="/networking/HTMN1.svg" alt="maintainNetworks" style="margin-top: 20px; margin-bottom: 60px">
+      <br>
       <img src="/networking/HTMN2.svg">
     </div>
+
     <a id="networkingRouteSummary"></a>
     <div>
       <h2>Networking platforms Summary</h2>
@@ -921,6 +923,9 @@ export default {
 
 
 <style scoped>
+@font-face { font-family: work-sans;
+  src: url('/WorkSans/WorkSans-Bold.woff');
+}
 a {
   text-decoration: none;
 }
@@ -939,7 +944,6 @@ h1, h2, h3, h4{
 
 h3{
   margin-bottom: 50px;
-  font-family: Inter;
   font-weight: 700;
   font-size: 16px;
   font-style: normal;
@@ -950,10 +954,10 @@ h1{
   color: #1E4460;
   font-weight: 700;
   font-size: 26px;
-  font-family: "Work Sans";
+  font-family: work-sans;
 }
 h2{
-  font-family: "Work Sans";
+  font-family: work-sans;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
@@ -974,7 +978,6 @@ h4{
   width: 60vw;
 }
 #opening{
-  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1453,6 +1456,8 @@ ul{
   gap: 0;
   height: fit-content;
   width: min-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 .one1 {
   grid-column: 1;
